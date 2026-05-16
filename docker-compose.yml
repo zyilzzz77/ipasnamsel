@@ -7,6 +7,9 @@ services:
     container_name: ${CONTAINER_NAME:-ipas-ekonomi}
     expose:
       - "3000"
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
     environment:
       NODE_ENV: production
       NEXT_TELEMETRY_DISABLED: 1
@@ -31,6 +34,9 @@ services:
     ports:
       - "80:80"
       - "443:443"
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
     environment:
       SITE_DOMAIN: ${SITE_DOMAIN:-ipasnamsel.my.id}
     volumes:
