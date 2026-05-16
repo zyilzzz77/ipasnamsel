@@ -608,8 +608,8 @@ export async function joinQuizSession(quizId: string, input: JoinQuizInput): Pro
     return session
   }
 
-  if (session.status !== 'waiting' && !participantId) {
-    throw new Error('Kuis sudah dimulai, peserta baru tidak dapat join.')
+  if (session.status === 'finished' && !participantId) {
+    throw new Error('Kuis sudah selesai, peserta baru tidak dapat join.')
   }
 
   const lowerNames = session.participants.map((participant) => participant.name.toLowerCase())

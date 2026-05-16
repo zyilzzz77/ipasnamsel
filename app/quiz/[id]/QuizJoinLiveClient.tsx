@@ -130,6 +130,7 @@ export default function QuizJoinLiveClient({ quizId, initialParticipant }: QuizJ
   const [questionLocked, setQuestionLocked] = useState(false)
   const [feedback, setFeedback] = useState<FeedbackState | null>(null)
   const [finished, setFinished] = useState(false)
+  const [joinCountdown, setJoinCountdown] = useState(0)
   const [secondsLeft, setSecondsLeft] = useState(QUESTION_DURATION_SECONDS)
   const autoAdvanceRef = useRef<number | null>(null)
   const autoSyncRef = useRef<string | null>(null)
@@ -389,6 +390,12 @@ export default function QuizJoinLiveClient({ quizId, initialParticipant }: QuizJ
     }
   }, [])
 
+  useEffect(() => {
+    if (joinCountdown <= 0) return
+    const timer = window.setTimeout(() => setJoinCountdown((c) => c - 1), 1000)
+    return () => window.clearTimeout(timer)
+  }, [joinCountdown])
+
   async function handleJoin(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault()
     setJoining(true)
@@ -415,6 +422,10 @@ export default function QuizJoinLiveClient({ quizId, initialParticipant }: QuizJ
       }
 
       setQuiz(payload.quiz)
+
+      if (payload.quiz.status === 'live' || payload.quiz.status === 'countdown') {
+        setJoinCountdown(3)
+      }
     } catch (error) {
       setNotice(error instanceof Error ? error.message : 'Gagal join quiz.')
     } finally {
@@ -505,10 +516,11 @@ export default function QuizJoinLiveClient({ quizId, initialParticipant }: QuizJ
     )
   }
 
-  if (!participant && quiz.status !== 'waiting') {
+  if (joinCountdown > 0) {
     return (
-      <div className="empty-state">
-        Quiz sudah dimulai. Peserta baru tidak bisa join lagi.
+      <div className="join-countdown-stage">
+        <div className="join-countdown-number" key={joinCountdown}>{joinCountdown}</div>
+        <p>Bersiap masuk quiz...</p>
       </div>
     )
   }
