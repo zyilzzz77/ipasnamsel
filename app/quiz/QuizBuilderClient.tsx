@@ -62,8 +62,8 @@ export default function QuizBuilderClient() {
   const [loadingRecent, setLoadingRecent] = useState(true)
   const [notice, setNotice] = useState('')
   const [questionCount, setQuestionCount] = useState(0)
-  const [questionCountText, setQuestionCountText] = useState('')
-  const [durationText, setDurationText] = useState('')
+  const [questionCountText, setQuestionCountText] = useState<string | null>(null)
+  const [durationText, setDurationText] = useState<string | null>(null)
 
   const totalSubmateri = useMemo(
     () => Object.values(materialCounts).reduce((count, value) => count + value, 0),
@@ -232,8 +232,8 @@ export default function QuizBuilderClient() {
                 type="text"
                 inputMode="numeric"
                 pattern="[0-9]*"
-                placeholder={String(totalQuestions)}
-                value={questionCountText}
+                value={questionCountText ?? String(selectedQuestionCount)}
+                onFocus={(event) => event.target.select()}
                 onChange={(event) => {
                   const raw = event.target.value.replace(/[^0-9]/g, '')
                   setQuestionCountText(raw)
@@ -245,7 +245,7 @@ export default function QuizBuilderClient() {
                   }
                 }}
               />
-              <small className="field-hint">Maksimal {totalQuestions} soal · dipilih: {selectedQuestionCount}</small>
+              <small className="field-hint">Maksimal {totalQuestions} soal</small>
             </label>
 
             <label className="field-block">
@@ -254,8 +254,8 @@ export default function QuizBuilderClient() {
                 type="text"
                 inputMode="numeric"
                 pattern="[0-9]*"
-                placeholder={String(recommendedDuration)}
-                value={durationText}
+                value={durationText ?? String(effectiveDuration)}
+                onFocus={(event) => event.target.select()}
                 onChange={(event) => {
                   const raw = event.target.value.replace(/[^0-9]/g, '')
                   setDurationText(raw)
