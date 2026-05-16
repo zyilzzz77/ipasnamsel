@@ -346,6 +346,53 @@
   ],
   "quizzes": [
     {
+      "id": "quiz-6ed30dfd",
+      "title": "Kuis Semua Materi IPAS",
+      "materialId": "all",
+      "materialTitle": "Semua Materi IPAS",
+      "status": "finished",
+      "questionCount": 1,
+      "questions": [
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Pengertian Teori Ekonomi\" adalah ...",
+          "options": [
+            "Ekonomi makro mempelajari perekonomian secara keseluruhan.",
+            "Ekonomi Makro",
+            "Masalah Pokok Ekonomi",
+            "Ringkasan umum Teori Ekonomi"
+          ],
+          "answer": -1,
+          "explanation": "Teori ekonomi menjelaskan cara individu, perusahaan, dan pemerintah mengambil keputusan saat sumber daya terbatas."
+        }
+      ],
+      "participants": [
+        {
+          "id": "participant-8a01b096",
+          "name": "zili",
+          "joinedAt": "2026-05-16T12:05:16.812Z",
+          "score": 0,
+          "answeredCount": 1,
+          "answers": [
+            {
+              "questionIndex": 0,
+              "choiceIndex": 0,
+              "isCorrect": false,
+              "answeredAt": "2026-05-16T12:08:02.082Z"
+            }
+          ],
+          "lastAnsweredAt": "2026-05-16T12:08:02.082Z",
+          "finishedAt": "2026-05-16T12:08:02.082Z"
+        }
+      ],
+      "createdAt": "2026-05-16T12:05:05.620Z",
+      "updatedAt": "2026-05-16T12:08:02.082Z",
+      "durationMinutes": 1,
+      "questionDurationSeconds": 15,
+      "endsAt": 1778933337813,
+      "liveAt": 1778933277813,
+      "finishedAt": "2026-05-16T12:08:57.813Z"
+    },
+    {
       "id": "quiz-e2ec0d0c",
       "title": "Kuis Semua Materi IPAS",
       "materialId": "all",
