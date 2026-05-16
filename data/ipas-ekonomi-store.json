@@ -1,0 +1,3161 @@
+{
+  "materials": [
+    {
+      "id": "teori",
+      "title": "Teori Ekonomi",
+      "eyebrow": "Materi 1",
+      "summary": "Dasar untuk memahami bagaimana sumber daya terbatas dialokasikan guna memenuhi kebutuhan yang tidak terbatas.",
+      "accent": "blue",
+      "submateri": [
+        {
+          "slug": "pengertian-teori-ekonomi",
+          "title": "Pengertian Teori Ekonomi",
+          "summary": "Teori ekonomi menjelaskan cara individu, perusahaan, dan pemerintah mengambil keputusan saat sumber daya terbatas.",
+          "body": "Teori ekonomi adalah kumpulan prinsip, konsep, dan hukum yang digunakan untuk memahami bagaimana kebutuhan manusia dipenuhi dengan sumber daya yang terbatas.",
+          "points": [
+            "Menjadi dasar ilmu ekonomi modern.",
+            "Membahas keputusan individu, perusahaan, dan pemerintah.",
+            "Membantu menjelaskan berbagai fenomena ekonomi."
+          ],
+          "id": "pengertian-teori-ekonomi"
+        },
+        {
+          "slug": "ekonomi-mikro",
+          "title": "Ekonomi Mikro",
+          "summary": "Ekonomi mikro mempelajari perilaku unit ekonomi individual seperti konsumen, rumah tangga, dan perusahaan.",
+          "body": "Ekonomi mikro berfokus pada keputusan di tingkat individu serta interaksi pembeli dan penjual dalam pembentukan harga pasar.",
+          "points": [
+            "Mengkaji permintaan dan penawaran.",
+            "Membahas perilaku konsumen, produksi, dan biaya.",
+            "Menganalisis struktur pasar dan penentuan harga."
+          ],
+          "id": "ekonomi-mikro"
+        },
+        {
+          "slug": "ekonomi-makro",
+          "title": "Ekonomi Makro",
+          "summary": "Ekonomi makro mempelajari perekonomian secara keseluruhan.",
+          "body": "Kajian ekonomi makro menyoroti variabel besar yang memengaruhi kondisi ekonomi suatu negara dan arah kebijakan nasional.",
+          "points": [
+            "Membahas PDB, inflasi, dan pengangguran.",
+            "Menganalisis pertumbuhan ekonomi nasional.",
+            "Berkaitan dengan kebijakan fiskal, moneter, dan perdagangan."
+          ],
+          "id": "ekonomi-makro"
+        },
+        {
+          "slug": "tokoh-penting-teori-ekonomi",
+          "title": "Tokoh Penting Teori Ekonomi",
+          "summary": "Adam Smith, John Maynard Keynes, Alfred Marshall, dan Milton Friedman berperan besar dalam perkembangan teori ekonomi.",
+          "body": "Tokoh-tokoh ini membantu kita memahami pasar bebas, peran pemerintah, elastisitas, serta pentingnya jumlah uang beredar dalam perekonomian.",
+          "points": [
+            "Adam Smith: pasar bebas dan invisible hand.",
+            "John Maynard Keynes: pentingnya peran pemerintah.",
+            "Alfred Marshall: permintaan, penawaran, dan elastisitas.",
+            "Milton Friedman: monetarisme dan uang beredar."
+          ],
+          "id": "tokoh-penting-teori-ekonomi"
+        },
+        {
+          "slug": "masalah-pokok-ekonomi",
+          "title": "Masalah Pokok Ekonomi",
+          "summary": "Masalah pokok ekonomi menjawab apa, bagaimana, dan untuk siapa barang serta jasa diproduksi.",
+          "body": "Tiga pertanyaan ini menjadi dasar pengambilan keputusan ekonomi karena sumber daya yang tersedia selalu terbatas.",
+          "points": [
+            "Apa yang harus diproduksi?",
+            "Bagaimana cara memproduksinya?",
+            "Untuk siapa barang dan jasa diproduksi?"
+          ],
+          "id": "masalah-pokok-ekonomi"
+        }
+      ]
+    },
+    {
+      "id": "motif",
+      "title": "Motif Ekonomi",
+      "eyebrow": "Materi 2",
+      "summary": "Alasan yang mendorong seseorang melakukan tindakan ekonomi, dari memenuhi kebutuhan hingga menyiapkan masa depan.",
+      "accent": "green",
+      "submateri": [
+        {
+          "slug": "pengertian-motif-ekonomi",
+          "title": "Pengertian Motif Ekonomi",
+          "summary": "Motif ekonomi adalah alasan atau dorongan yang membuat seseorang melakukan kegiatan ekonomi.",
+          "body": "Motif ekonomi menjelaskan mengapa orang bekerja, berdagang, menabung, berinvestasi, atau membantu orang lain.",
+          "points": [
+            "Tanpa motif, kegiatan ekonomi tidak berjalan.",
+            "Motif memengaruhi tujuan setiap tindakan ekonomi.",
+            "Bisa bersifat pribadi maupun sosial."
+          ],
+          "id": "pengertian-motif-ekonomi"
+        },
+        {
+          "slug": "pemenuhan-kebutuhan",
+          "title": "Pemenuhan Kebutuhan",
+          "summary": "Motif ini mendorong orang memenuhi kebutuhan pokok seperti pangan, sandang, dan papan.",
+          "body": "Motif ini paling dasar karena berkaitan dengan kebutuhan hidup sehari-hari, termasuk kesehatan, pendidikan, dan keamanan.",
+          "points": [
+            "Motif paling dasar dalam kehidupan ekonomi.",
+            "Berkaitan dengan kebutuhan hidup sehari-hari.",
+            "Mencakup pangan, sandang, papan, dan kebutuhan penting lain."
+          ],
+          "id": "pemenuhan-kebutuhan"
+        },
+        {
+          "slug": "memperoleh-keuntungan",
+          "title": "Memperoleh Keuntungan",
+          "summary": "Motif keuntungan mendorong pelaku ekonomi mencari laba.",
+          "body": "Motif ini umum dalam dunia bisnis dan perdagangan karena pelaku ekonomi ingin memperoleh hasil finansial dari kegiatan usahanya.",
+          "points": [
+            "Umum dalam bisnis dan perdagangan.",
+            "Mendorong kegiatan produksi, penjualan, dan investasi.",
+            "Berorientasi pada laba atau keuntungan finansial."
+          ],
+          "id": "memperoleh-keuntungan"
+        },
+        {
+          "slug": "motif-sosial",
+          "title": "Motif Sosial",
+          "summary": "Motif sosial mendorong tindakan ekonomi untuk membantu orang lain atau masyarakat.",
+          "body": "Pada motif ini, tindakan ekonomi dilakukan untuk memberi manfaat kepada orang lain, bukan semata-mata mencari keuntungan pribadi.",
+          "points": [
+            "Bersifat peduli dan altruistik.",
+            "Tidak berfokus pada keuntungan pribadi.",
+            "Terlihat dalam donasi dan kegiatan sosial."
+          ],
+          "id": "motif-sosial"
+        },
+        {
+          "slug": "prestise-dan-kekuasaan",
+          "title": "Prestise dan Kekuasaan",
+          "summary": "Motif ini berkaitan dengan keinginan memperoleh status, pengaruh, atau pengakuan sosial.",
+          "body": "Seseorang dapat melakukan kegiatan ekonomi untuk memperkuat citra diri, menunjukkan status, atau memperluas pengaruhnya di masyarakat.",
+          "points": [
+            "Berkaitan dengan citra dan pengakuan sosial.",
+            "Sering muncul dalam keputusan konsumsi tertentu.",
+            "Mendorong pencarian pengaruh di lingkungan sekitar."
+          ],
+          "id": "prestise-dan-kekuasaan"
+        },
+        {
+          "slug": "keamanan-dan-masa-depan",
+          "title": "Keamanan dan Masa Depan",
+          "summary": "Motif ini mendorong orang menabung, berinvestasi, atau membeli asuransi.",
+          "body": "Motif ini berkaitan dengan upaya menjaga kestabilan finansial dan perlindungan keluarga pada masa depan.",
+          "points": [
+            "Berorientasi jangka panjang.",
+            "Bertujuan menjaga keamanan finansial.",
+            "Membantu menghadapi risiko masa depan."
+          ],
+          "id": "keamanan-dan-masa-depan"
+        },
+        {
+          "slug": "motif-berdasarkan-pelaku",
+          "title": "Motif Berdasarkan Pelaku",
+          "summary": "Konsumen, produsen, dan pemerintah memiliki motif ekonomi yang berbeda.",
+          "body": "Konsumen fokus pada kebutuhan dan kepuasan, produsen pada laba dan usaha, sedangkan pemerintah pada kesejahteraan dan stabilitas ekonomi.",
+          "points": [
+            "Konsumen: memenuhi kebutuhan dan kepuasan maksimal.",
+            "Produsen: keuntungan, omzet, dan keberlangsungan usaha.",
+            "Pemerintah: kesejahteraan rakyat dan lapangan kerja."
+          ],
+          "id": "motif-berdasarkan-pelaku"
+        }
+      ]
+    },
+    {
+      "id": "prinsip",
+      "title": "Prinsip Ekonomi",
+      "eyebrow": "Materi 3",
+      "summary": "Pedoman bertindak efisien agar memperoleh hasil terbaik dengan biaya, waktu, dan usaha yang tepat.",
+      "accent": "amber",
+      "submateri": [
+        {
+          "slug": "pengertian-prinsip-ekonomi",
+          "title": "Pengertian Prinsip Ekonomi",
+          "summary": "Prinsip ekonomi adalah pedoman bertindak agar hasil maksimal dicapai dengan pengorbanan minimal.",
+          "body": "Prinsip ekonomi menekankan efisiensi dalam penggunaan biaya, waktu, tenaga, dan sumber daya dalam setiap keputusan ekonomi.",
+          "points": [
+            "Lahir karena adanya kelangkaan sumber daya.",
+            "Mendorong keputusan yang rasional.",
+            "Berlaku dalam berbagai kegiatan ekonomi."
+          ],
+          "id": "pengertian-prinsip-ekonomi"
+        },
+        {
+          "slug": "rumusan-prinsip-ekonomi",
+          "title": "Rumusan Prinsip Ekonomi",
+          "summary": "Prinsip ekonomi dirumuskan sebagai hasil sebesar-besarnya dengan pengorbanan tertentu atau hasil tertentu dengan pengorbanan sekecil-kecilnya.",
+          "body": "Kedua rumusan tersebut menegaskan bahwa efisiensi adalah kunci utama dalam menentukan pilihan ekonomi.",
+          "points": [
+            "Fokus pada hasil yang optimal.",
+            "Pengorbanan dapat berupa biaya, waktu, atau tenaga.",
+            "Tujuannya memilih cara yang paling efisien."
+          ],
+          "id": "rumusan-prinsip-ekonomi"
+        },
+        {
+          "slug": "ciri-orang-yang-menerapkan-prinsip-ekonomi",
+          "title": "Ciri Orang yang Menerapkan Prinsip Ekonomi",
+          "summary": "Orang yang menerapkan prinsip ekonomi cenderung rasional, hemat, dan mampu menentukan prioritas.",
+          "body": "Mereka tidak bertindak impulsif, melainkan membuat perencanaan dan mempertimbangkan manfaat serta pengorbanan sebelum mengambil keputusan.",
+          "points": [
+            "Menyusun skala prioritas kebutuhan.",
+            "Memanfaatkan peluang yang ada.",
+            "Mempertimbangkan untung-rugi.",
+            "Hemat dan tidak boros.",
+            "Bertindak rasional."
+          ],
+          "id": "ciri-orang-yang-menerapkan-prinsip-ekonomi"
+        },
+        {
+          "slug": "penerapan-prinsip-ekonomi",
+          "title": "Penerapan Prinsip Ekonomi",
+          "summary": "Prinsip ekonomi diterapkan oleh konsumen, produsen, dan pemerintah.",
+          "body": "Konsumen membandingkan harga, produsen menekan biaya produksi, dan pemerintah menyusun anggaran secara efisien serta tepat sasaran.",
+          "points": [
+            "Konsumen: belanja sesuai daftar dan anggaran.",
+            "Produsen: kurangi pemborosan dan tingkatkan efisiensi.",
+            "Pemerintah: alokasikan anggaran pada program paling berdampak."
+          ],
+          "id": "penerapan-prinsip-ekonomi"
+        },
+        {
+          "slug": "manfaat-prinsip-ekonomi",
+          "title": "Manfaat Prinsip Ekonomi",
+          "summary": "Prinsip ekonomi membantu memenuhi kebutuhan secara optimal dan menghindari pemborosan.",
+          "body": "Penerapan prinsip ekonomi membuat kegiatan menjadi lebih efisien dan mendukung kesejahteraan yang berkelanjutan.",
+          "points": [
+            "Kebutuhan terpenuhi lebih baik.",
+            "Sumber daya tidak terbuang sia-sia.",
+            "Tujuan ekonomi tercapai lebih cepat.",
+            "Efisiensi meningkat.",
+            "Kesejahteraan lebih terjaga."
+          ],
+          "id": "manfaat-prinsip-ekonomi"
+        }
+      ]
+    },
+    {
+      "id": "contoh",
+      "title": "Contoh Nyata",
+      "eyebrow": "Penerapan",
+      "summary": "Contoh singkat penerapan teori, motif, dan prinsip ekonomi dalam kehidupan sehari-hari.",
+      "accent": "teal",
+      "submateri": [
+        {
+          "slug": "harga-turun-pembeli-naik",
+          "title": "Harga Turun, Pembeli Naik",
+          "summary": "Saat harga barang turun, jumlah pembeli biasanya bertambah.",
+          "body": "Ini contoh hukum permintaan dalam kehidupan sehari-hari.",
+          "points": [
+            "Konsep: hukum permintaan.",
+            "Harga memengaruhi keputusan pembeli.",
+            "Permintaan bisa berubah saat harga berubah."
+          ],
+          "imageSrc": "/images/contoh/harga-turun-pembeli-naik.jpg",
+          "imageAlt": "Placeholder contoh harga turun membuat pembeli bertambah",
+          "id": "harga-turun-pembeli-naik"
+        },
+        {
+          "slug": "buka-toko-untuk-laba",
+          "title": "Buka Toko untuk Laba",
+          "summary": "Pedagang membuka toko untuk memperoleh keuntungan.",
+          "body": "Ini contoh motif memperoleh laba dalam kegiatan usaha.",
+          "points": [
+            "Motif: keuntungan.",
+            "Tujuan utama: memperoleh laba.",
+            "Umum dalam kegiatan bisnis."
+          ],
+          "imageSrc": "/images/contoh/buka-toko-untuk-laba.jpg",
+          "imageAlt": "Placeholder contoh pedagang membuka toko untuk laba",
+          "id": "buka-toko-untuk-laba"
+        },
+        {
+          "slug": "donasi-untuk-sesama",
+          "title": "Donasi untuk Sesama",
+          "summary": "Sebagian penghasilan disumbangkan untuk membantu korban bencana.",
+          "body": "Ini contoh motif sosial dalam tindakan ekonomi.",
+          "points": [
+            "Motif: sosial.",
+            "Tujuan: membantu orang lain.",
+            "Tidak berorientasi laba pribadi."
+          ],
+          "imageSrc": "/images/contoh/donasi-untuk-sesama.jpg",
+          "imageAlt": "Placeholder contoh donasi untuk sesama",
+          "id": "donasi-untuk-sesama"
+        },
+        {
+          "slug": "barang-mewah-dan-status",
+          "title": "Barang Mewah dan Status",
+          "summary": "Seseorang membeli barang mewah untuk menunjukkan status sosial.",
+          "body": "Ini contoh motif prestise atau pengakuan sosial.",
+          "points": [
+            "Motif: prestise.",
+            "Berkaitan dengan citra diri.",
+            "Keputusan ekonomi dipengaruhi status sosial."
+          ],
+          "imageSrc": "/images/contoh/barang-mewah-status.jpg",
+          "imageAlt": "Placeholder contoh barang mewah dan status sosial",
+          "id": "barang-mewah-dan-status"
+        },
+        {
+          "slug": "menabung-untuk-masa-depan",
+          "title": "Menabung untuk Masa Depan",
+          "summary": "Menabung, investasi, atau asuransi dilakukan demi keamanan masa depan.",
+          "body": "Ini contoh motif keamanan dalam perencanaan keuangan.",
+          "points": [
+            "Motif: keamanan masa depan.",
+            "Berorientasi jangka panjang.",
+            "Bertujuan menjaga kestabilan finansial."
+          ],
+          "imageSrc": "/images/contoh/menabung-untuk-masa-depan.jpg",
+          "imageAlt": "Placeholder contoh menabung untuk masa depan",
+          "id": "menabung-untuk-masa-depan"
+        },
+        {
+          "slug": "bandingkan-harga-belanja",
+          "title": "Bandingkan Harga Belanja",
+          "summary": "Konsumen membandingkan harga sebelum memilih barang.",
+          "body": "Ini contoh prinsip ekonomi agar manfaat terbaik diperoleh dengan biaya yang efisien.",
+          "points": [
+            "Prinsip: efisiensi.",
+            "Keputusan didasarkan pada perbandingan.",
+            "Umum dilakukan konsumen."
+          ],
+          "imageSrc": "/images/contoh/bandingkan-harga-belanja.jpg",
+          "imageAlt": "Placeholder contoh membandingkan harga sebelum membeli",
+          "id": "bandingkan-harga-belanja"
+        },
+        {
+          "slug": "subsidi-tepat-sasaran",
+          "title": "Subsidi Tepat Sasaran",
+          "summary": "Pemerintah menyalurkan subsidi kepada pihak yang benar-benar membutuhkan.",
+          "body": "Ini contoh prinsip ekonomi pemerintah dalam pengelolaan anggaran.",
+          "points": [
+            "Prinsip: efisiensi anggaran.",
+            "Tujuan: dampak terbesar bagi masyarakat.",
+            "Menekankan ketepatan sasaran."
+          ],
+          "imageSrc": "/images/contoh/subsidi-tepat-sasaran.jpg",
+          "imageAlt": "Placeholder contoh subsidi tepat sasaran",
+          "id": "subsidi-tepat-sasaran"
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "quiz-e2ec0d0c",
+      "title": "Kuis Semua Materi IPAS",
+      "materialId": "all",
+      "materialTitle": "Semua Materi IPAS",
+      "status": "finished",
+      "questionCount": 43,
+      "questions": [
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Pengertian Ilmu Ekonomi\" adalah ...",
+          "options": [
+            "Ilmu ekonomi mempelajari perilaku manusia saat memilih kebutuhan dengan sumber daya yang terbatas.",
+            "Adam Smith dikenal sebagai bapak ilmu ekonomi modern melalui gagasan pasar bebas dan invisible hand.",
+            "Ekonomi Mikro",
+            "Adam Smith dan Pasar Bebas"
+          ],
+          "answer": 0,
+          "explanation": "Ilmu ekonomi mempelajari perilaku manusia saat memilih kebutuhan dengan sumber daya yang terbatas."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Adam Smith dan Pasar Bebas\" adalah ...",
+          "options": [
+            "Pengertian Ilmu Ekonomi",
+            "Adam Smith dan Pasar Bebas",
+            "Konsep utama materi",
+            "Dasar memahami pilihan manusia saat sumber daya terbatas."
+          ],
+          "answer": -1,
+          "explanation": "Adam Smith dikenal sebagai bapak ilmu ekonomi modern melalui gagasan pasar bebas dan invisible hand."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ekonomi Mikro\" adalah ...",
+          "options": [
+            "Hubungan antar gagasan",
+            "Ekonomi Makro",
+            "Pengertian Ilmu Ekonomi",
+            "Adam Smith dan Pasar Bebas"
+          ],
+          "answer": -1,
+          "explanation": "Mempelajari unit kecil seperti individu, rumah tangga, dan perusahaan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ekonomi Makro\" adalah ...",
+          "options": [
+            "Ringkasan umum Teori Ekonomi",
+            "Konsep utama materi",
+            "Ekonomi Mikro",
+            "Ekonomi Makro"
+          ],
+          "answer": -1,
+          "explanation": "Mempelajari perekonomian negara secara keseluruhan."
+        },
+        {
+          "question": "Ilmu ekonomi mempelajari cara manusia memenuhi kebutuhan yang tidak terbatas dengan sumber daya yang ...",
+          "options": [
+            "Berlimpah",
+            "Terbatas",
+            "Tidak pernah habis",
+            "Gratis"
+          ],
+          "answer": 1,
+          "explanation": "Inti ilmu ekonomi adalah mengelola sumber daya yang terbatas untuk kebutuhan yang tidak terbatas."
+        },
+        {
+          "question": "Adam Smith dikenal sebagai ...",
+          "options": [
+            "Bapak ilmu sosial",
+            "Bapak ilmu ekonomi modern",
+            "Penemu matematika modern",
+            "Tokoh ekonomi makro"
+          ],
+          "answer": 1,
+          "explanation": "Adam Smith menulis The Wealth of Nations dan dikenal sebagai bapak ilmu ekonomi modern."
+        },
+        {
+          "question": "Ekonomi mikro mempelajari ...",
+          "options": [
+            "Perekonomian negara secara keseluruhan",
+            "Perilaku unit kecil seperti individu dan perusahaan",
+            "Inflasi dunia",
+            "Kebijakan luar negeri"
+          ],
+          "answer": 1,
+          "explanation": "Ekonomi mikro fokus pada unit-unit kecil seperti rumah tangga, konsumen, dan perusahaan."
+        },
+        {
+          "question": "Ekonomi makro lebih fokus pada ...",
+          "options": [
+            "Harga satu barang",
+            "Pernak-pernik pasar kecil",
+            "Perekonomian nasional secara agregat",
+            "Desain produk"
+          ],
+          "answer": 2,
+          "explanation": "Ekonomi makro membahas inflasi, pengangguran, pertumbuhan ekonomi, dan kebijakan nasional."
+        },
+        {
+          "question": "Seseorang memilih kuliah daripada langsung bekerja. Biaya yang hilang dari pilihan itu disebut ...",
+          "options": [
+            "Biaya tetap",
+            "Opportunity cost",
+            "Biaya produksi",
+            "Biaya variabel"
+          ],
+          "answer": 1,
+          "explanation": "Opportunity cost adalah nilai dari alternatif terbaik yang dikorbankan."
+        },
+        {
+          "question": "Pemerintah memberi subsidi BBM agar masyarakat lebih banyak menggunakannya. Ini sesuai prinsip ...",
+          "options": [
+            "People face trade-offs",
+            "People respond to incentives",
+            "Rational people think at the margin",
+            "The cost of something is what you give up"
+          ],
+          "answer": 1,
+          "explanation": "Subsidi mengubah insentif sehingga perilaku masyarakat ikut berubah."
+        },
+        {
+          "question": "Istilah scarcity berarti ...",
+          "options": [
+            "Kelangkaan",
+            "Keuntungan",
+            "Monopoli",
+            "Inflasi"
+          ],
+          "answer": 0,
+          "explanation": "Scarcity atau kelangkaan adalah kondisi sumber daya yang terbatas."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Memenuhi Kebutuhan\" adalah ...",
+          "options": [
+            "Alasan yang mendorong manusia melakukan tindakan ekonomi.",
+            "Mendapat Kekuasaan",
+            "Ibadah dan Nilai",
+            "Meraih Kemakmuran"
+          ],
+          "answer": -1,
+          "explanation": "Dorongan paling dasar untuk bertahan hidup dan mencukupi kebutuhan pokok."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Meraih Kemakmuran\" adalah ...",
+          "options": [
+            "Dorongan untuk memperoleh pengaruh, status, atau kendali.",
+            "Tindakan ekonomi yang juga dimaknai sebagai ibadah atau perwujudan nilai.",
+            "Ringkasan umum Motif Ekonomi",
+            "Mendapat Kekuasaan"
+          ],
+          "answer": -1,
+          "explanation": "Keinginan untuk hidup berkecukupan dan sejahtera."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Mendapat Keuntungan\" adalah ...",
+          "options": [
+            "Mendapat Keuntungan",
+            "Dorongan untuk membantu sesama dan memberi manfaat bagi lingkungan.",
+            "Meraih Kemakmuran",
+            "Memenuhi Kebutuhan"
+          ],
+          "answer": -1,
+          "explanation": "Dorongan umum dalam dunia usaha untuk memperoleh laba."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Mendapat Kekuasaan\" adalah ...",
+          "options": [
+            "Dorongan paling dasar untuk bertahan hidup dan mencukupi kebutuhan pokok.",
+            "Memenuhi Kebutuhan",
+            "Hubungan antar gagasan",
+            "Konsep utama materi"
+          ],
+          "answer": -1,
+          "explanation": "Dorongan untuk memperoleh pengaruh, status, atau kendali."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Sosial dan Kemanusiaan\" adalah ...",
+          "options": [
+            "Memenuhi Kebutuhan",
+            "Dorongan untuk membantu sesama dan memberi manfaat bagi lingkungan.",
+            "Hubungan antar gagasan",
+            "Mendapat Kekuasaan"
+          ],
+          "answer": 1,
+          "explanation": "Dorongan untuk membantu sesama dan memberi manfaat bagi lingkungan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ibadah dan Nilai\" adalah ...",
+          "options": [
+            "Sosial dan Kemanusiaan",
+            "Mendapat Kekuasaan",
+            "Konsep utama materi",
+            "Dorongan untuk membantu sesama dan memberi manfaat bagi lingkungan."
+          ],
+          "answer": -1,
+          "explanation": "Tindakan ekonomi yang juga dimaknai sebagai ibadah atau perwujudan nilai."
+        },
+        {
+          "question": "Motif ekonomi yang paling dasar adalah ...",
+          "options": [
+            "Mendapat kekuasaan",
+            "Memenuhi kebutuhan",
+            "Mendapat status",
+            "Mendapat laba"
+          ],
+          "answer": 1,
+          "explanation": "Motif paling dasar adalah memenuhi kebutuhan hidup."
+        },
+        {
+          "question": "Seorang pengusaha membuka pabrik baru untuk memperbesar laba. Ini contoh motif ...",
+          "options": [
+            "Sosial",
+            "Ibadah",
+            "Mendapat keuntungan",
+            "Mendapat kekuasaan"
+          ],
+          "answer": 2,
+          "explanation": "Mengejar laba adalah motif ekonomi yang sangat umum dalam bisnis."
+        },
+        {
+          "question": "Membantu korban bencana dengan berdonasi termasuk motif ...",
+          "options": [
+            "Memenuhi kebutuhan",
+            "Sosial dan kemanusiaan",
+            "Mendapat kekuasaan",
+            "Mendapat keuntungan"
+          ],
+          "answer": 1,
+          "explanation": "Donasi adalah contoh motif sosial dan kemanusiaan."
+        },
+        {
+          "question": "Motif intrinsik adalah dorongan yang berasal dari ...",
+          "options": [
+            "Tekanan luar",
+            "Dalam diri sendiri",
+            "Media sosial",
+            "Pemerintah"
+          ],
+          "answer": 1,
+          "explanation": "Motif intrinsik datang dari kesadaran dan keinginan pribadi."
+        },
+        {
+          "question": "Motif ekstrinsik biasanya dipengaruhi oleh ...",
+          "options": [
+            "Lingkungan dan faktor luar",
+            "Genetik saja",
+            "Kebetulan",
+            "Rumah tangga"
+          ],
+          "answer": 0,
+          "explanation": "Motif ekstrinsik muncul karena pengaruh luar seperti sosial dan lingkungan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Inti Prinsip Ekonomi\" adalah ...",
+          "options": [
+            "Hubungan antar gagasan",
+            "Prinsip bagi Pemerintah",
+            "Membeli barang terbaik dengan harga yang paling tepat.",
+            "Prinsip bagi Konsumen"
+          ],
+          "answer": -1,
+          "explanation": "Pengorbanan sekecil-kecilnya untuk hasil sebesar-besarnya."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Prinsip bagi Konsumen\" adalah ...",
+          "options": [
+            "Mengelola anggaran negara secara efisien untuk kemakmuran rakyat.",
+            "Prinsip bagi Konsumen",
+            "Konsep utama materi",
+            "Prinsip bagi Pemerintah"
+          ],
+          "answer": -1,
+          "explanation": "Membeli barang terbaik dengan harga yang paling tepat."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Prinsip bagi Produsen\" adalah ...",
+          "options": [
+            "Prinsip bagi Konsumen",
+            "Inti Prinsip Ekonomi",
+            "Menghasilkan barang dengan biaya dan sumber daya yang efisien.",
+            "Prinsip bagi Distributor"
+          ],
+          "answer": 2,
+          "explanation": "Menghasilkan barang dengan biaya dan sumber daya yang efisien."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Prinsip bagi Distributor\" adalah ...",
+          "options": [
+            "Pengorbanan sekecil-kecilnya untuk hasil sebesar-besarnya.",
+            "Hubungan antar gagasan",
+            "Menghasilkan barang dengan biaya dan sumber daya yang efisien.",
+            "Prinsip bagi Distributor"
+          ],
+          "answer": -1,
+          "explanation": "Menyalurkan barang dengan biaya distribusi minimal namun tepat waktu."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Prinsip bagi Pemerintah\" adalah ...",
+          "options": [
+            "Prinsip bagi Distributor",
+            "Hubungan antar gagasan",
+            "Pengorbanan sekecil-kecilnya untuk hasil sebesar-besarnya.",
+            "Menghasilkan barang dengan biaya dan sumber daya yang efisien."
+          ],
+          "answer": -1,
+          "explanation": "Mengelola anggaran negara secara efisien untuk kemakmuran rakyat."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"4 Prinsip Gregory Mankiw\" adalah ...",
+          "options": [
+            "Prinsip bagi Produsen",
+            "Prinsip bagi Pemerintah",
+            "Mengelola anggaran negara secara efisien untuk kemakmuran rakyat.",
+            "Membeli barang terbaik dengan harga yang paling tepat."
+          ],
+          "answer": -1,
+          "explanation": "Ringkasan empat prinsip dasar pengambilan keputusan ekonomi."
+        },
+        {
+          "question": "Bunyi prinsip ekonomi yang paling tepat adalah ...",
+          "options": [
+            "Pengorbanan besar, hasil besar",
+            "Pengorbanan sekecil-kecilnya, hasil sebesar-besarnya",
+            "Hasil kecil, pengorbanan kecil",
+            "Hasil sebesar-besarnya tanpa pengorbanan"
+          ],
+          "answer": 1,
+          "explanation": "Prinsip ekonomi menekankan efisiensi: pengorbanan kecil untuk hasil yang besar."
+        },
+        {
+          "question": "Konsumen yang membandingkan harga dan kualitas sebelum membeli sedang menerapkan prinsip ...",
+          "options": [
+            "Kekuasaan",
+            "Ekonomi konsumen",
+            "Makroekonomi",
+            "Ibadah"
+          ],
+          "answer": 1,
+          "explanation": "Konsumen menerapkan prinsip ekonomi saat mencari hasil terbaik dengan biaya yang tepat."
+        },
+        {
+          "question": "Produsen yang menekan biaya bahan baku dan tenaga kerja sedang berusaha ...",
+          "options": [
+            "Memperbesar pemborosan",
+            "Efisiensi produksi",
+            "Mengurangi kualitas",
+            "Menurunkan permintaan"
+          ],
+          "answer": 1,
+          "explanation": "Produsen memakai prinsip ekonomi untuk menghasilkan barang dengan biaya efisien."
+        },
+        {
+          "question": "Gregory Mankiw menyebut bahwa manusia merespons ...",
+          "options": [
+            "Tradisi",
+            "Insentif",
+            "Kebisingan",
+            "Keberuntungan"
+          ],
+          "answer": 1,
+          "explanation": "People respond to incentives adalah salah satu prinsip dasar Mankiw."
+        },
+        {
+          "question": "Opportunity cost berarti ...",
+          "options": [
+            "Biaya yang sudah dibayar",
+            "Nilai dari pilihan terbaik yang dikorbankan",
+            "Keuntungan tambahan",
+            "Harga jual barang"
+          ],
+          "answer": 1,
+          "explanation": "Opportunity cost adalah nilai dari alternatif terbaik yang dilewatkan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ojek Online\" adalah ...",
+          "options": [
+            "Kuliah versus Langsung Kerja",
+            "Ringkasan umum Contoh Nyata",
+            "Kebijakan moneter digunakan untuk mengendalikan inflasi.",
+            "Tindakan ekonomi bisa digerakkan oleh motif sosial dan ibadah."
+          ],
+          "answer": -1,
+          "explanation": "Pengemudi memilih rute tercepat dan paling hemat agar penghasilan optimal."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"UMKM Warung Makan\" adalah ...",
+          "options": [
+            "Kuliah versus Langsung Kerja",
+            "Pemilik warung menentukan harga berdasarkan biaya, pesaing, dan pelanggan.",
+            "Donasi dan Zakat Digital",
+            "Konsep utama materi"
+          ],
+          "answer": 1,
+          "explanation": "Pemilik warung menentukan harga berdasarkan biaya, pesaing, dan pelanggan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Inflasi dan BI Rate\" adalah ...",
+          "options": [
+            "Konsep utama materi",
+            "Kuliah versus Langsung Kerja",
+            "Pengemudi memilih rute tercepat dan paling hemat agar penghasilan optimal.",
+            "Donasi dan Zakat Digital"
+          ],
+          "answer": -1,
+          "explanation": "Kebijakan moneter digunakan untuk mengendalikan inflasi."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Kuliah versus Langsung Kerja\" adalah ...",
+          "options": [
+            "Hubungan antar gagasan",
+            "Pemilik warung menentukan harga berdasarkan biaya, pesaing, dan pelanggan.",
+            "Tindakan ekonomi bisa digerakkan oleh motif sosial dan ibadah.",
+            "Donasi dan Zakat Digital"
+          ],
+          "answer": -1,
+          "explanation": "Keputusan pendidikan selalu memiliki biaya peluang."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Donasi dan Zakat Digital\" adalah ...",
+          "options": [
+            "Ojek Online",
+            "Inflasi dan BI Rate",
+            "Ringkasan umum Contoh Nyata",
+            "Kebijakan moneter digunakan untuk mengendalikan inflasi."
+          ],
+          "answer": -1,
+          "explanation": "Tindakan ekonomi bisa digerakkan oleh motif sosial dan ibadah."
+        },
+        {
+          "question": "Pengemudi ojek online memilih rute tercepat agar lebih banyak order. Ini contoh ...",
+          "options": [
+            "Motif kekuasaan",
+            "Prinsip ekonomi",
+            "Inflasi",
+            "Monopoli"
+          ],
+          "answer": 1,
+          "explanation": "Memilih rute tercepat adalah penerapan prinsip ekonomi: hasil maksimal dengan pengorbanan minimal."
+        },
+        {
+          "question": "Warung makan menentukan harga berdasarkan biaya bahan baku dan pesaing di sekitar. Ini termasuk ...",
+          "options": [
+            "Ekonomi mikro",
+            "Ekonomi makro",
+            "Motif ibadah",
+            "Kelangkaan"
+          ],
+          "answer": 0,
+          "explanation": "Penetapan harga warung termasuk analisis ekonomi mikro."
+        },
+        {
+          "question": "Kenaikan inflasi sering direspons dengan kebijakan suku bunga oleh bank sentral. Ini contoh ...",
+          "options": [
+            "Ekonomi makro",
+            "Motif sosial",
+            "Prinsip konsumen",
+            "Pasar tradisional"
+          ],
+          "answer": 0,
+          "explanation": "Inflasi dan suku bunga adalah isu ekonomi makro."
+        },
+        {
+          "question": "Memilih kuliah daripada langsung kerja menunjukkan adanya ...",
+          "options": [
+            "Opportunity cost",
+            "Subsidi",
+            "Monopoli",
+            "Inflasi"
+          ],
+          "answer": 0,
+          "explanation": "Pilihan kuliah berarti mengorbankan penghasilan yang bisa diperoleh jika langsung bekerja."
+        },
+        {
+          "question": "Donasi digital dan zakat online paling dekat dengan motif ...",
+          "options": [
+            "Kekuasaan",
+            "Sosial dan ibadah",
+            "Keuntungan",
+            "Mikroekonomi"
+          ],
+          "answer": 1,
+          "explanation": "Donasi dan zakat didorong oleh motif sosial dan ibadah."
+        }
+      ],
+      "participants": [],
+      "createdAt": "2026-05-16T07:51:57.456Z",
+      "updatedAt": "2026-05-16T07:52:27.052Z",
+      "durationMinutes": 13,
+      "questionDurationSeconds": 15,
+      "endsAt": 1778918730052,
+      "liveAt": 1778917950052,
+      "finishedAt": "2026-05-16T08:05:30.052Z"
+    },
+    {
+      "id": "quiz-0d76d524",
+      "title": "Kuis Semua Materi IPAS",
+      "materialId": "all",
+      "materialTitle": "Semua Materi IPAS",
+      "status": "finished",
+      "questionCount": 1,
+      "questions": [
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Pengertian Ilmu Ekonomi\" adalah ...",
+          "options": [
+            "Ringkasan umum Teori Ekonomi",
+            "Ilmu ekonomi mempelajari perilaku manusia saat memilih kebutuhan dengan sumber daya yang terbatas.",
+            "Mempelajari unit kecil seperti individu, rumah tangga, dan perusahaan.",
+            "Hubungan antar gagasan"
+          ],
+          "answer": 1,
+          "explanation": "Ilmu ekonomi mempelajari perilaku manusia saat memilih kebutuhan dengan sumber daya yang terbatas."
+        }
+      ],
+      "participants": [
+        {
+          "id": "participant-ec478920",
+          "name": "zil",
+          "joinedAt": "2026-05-14T15:04:30.313Z",
+          "score": 0,
+          "answeredCount": 1,
+          "answers": [
+            {
+              "questionIndex": 0,
+              "choiceIndex": 0,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T15:04:41.017Z"
+            }
+          ],
+          "lastAnsweredAt": "2026-05-14T15:04:41.017Z",
+          "finishedAt": "2026-05-14T15:04:41.017Z"
+        }
+      ],
+      "createdAt": "2026-05-14T15:04:15.140Z",
+      "updatedAt": "2026-05-14T15:04:41.017Z",
+      "durationMinutes": 10,
+      "questionDurationSeconds": 15,
+      "endsAt": 1778771675887,
+      "liveAt": 1778771075887,
+      "finishedAt": "2026-05-14T15:14:35.887Z"
+    },
+    {
+      "id": "quiz-4d5d1556",
+      "title": "Kuis Semua Materi IPAS",
+      "materialId": "all",
+      "materialTitle": "Semua Materi IPAS",
+      "status": "finished",
+      "questionCount": 7,
+      "questions": [
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Pengertian Ilmu Ekonomi\" adalah ...",
+          "options": [
+            "Mempelajari perekonomian negara secara keseluruhan.",
+            "Pengertian Ilmu Ekonomi",
+            "Ringkasan umum Teori Ekonomi",
+            "Konsep utama materi"
+          ],
+          "answer": -1,
+          "explanation": "Ilmu ekonomi mempelajari perilaku manusia saat memilih kebutuhan dengan sumber daya yang terbatas."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Adam Smith dan Pasar Bebas\" adalah ...",
+          "options": [
+            "Konsep utama materi",
+            "Adam Smith dikenal sebagai bapak ilmu ekonomi modern melalui gagasan pasar bebas dan invisible hand.",
+            "Ringkasan umum Teori Ekonomi",
+            "Hubungan antar gagasan"
+          ],
+          "answer": 1,
+          "explanation": "Adam Smith dikenal sebagai bapak ilmu ekonomi modern melalui gagasan pasar bebas dan invisible hand."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ekonomi Mikro\" adalah ...",
+          "options": [
+            "Ekonomi Makro",
+            "Hubungan antar gagasan",
+            "Mempelajari unit kecil seperti individu, rumah tangga, dan perusahaan.",
+            "Adam Smith dan Pasar Bebas"
+          ],
+          "answer": 2,
+          "explanation": "Mempelajari unit kecil seperti individu, rumah tangga, dan perusahaan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ekonomi Makro\" adalah ...",
+          "options": [
+            "Pengertian Ilmu Ekonomi",
+            "Ekonomi Makro",
+            "Ringkasan umum Teori Ekonomi",
+            "Mempelajari unit kecil seperti individu, rumah tangga, dan perusahaan."
+          ],
+          "answer": -1,
+          "explanation": "Mempelajari perekonomian negara secara keseluruhan."
+        },
+        {
+          "question": "Ilmu ekonomi mempelajari cara manusia memenuhi kebutuhan yang tidak terbatas dengan sumber daya yang ...",
+          "options": [
+            "Berlimpah",
+            "Terbatas",
+            "Tidak pernah habis",
+            "Gratis"
+          ],
+          "answer": 1,
+          "explanation": "Inti ilmu ekonomi adalah mengelola sumber daya yang terbatas untuk kebutuhan yang tidak terbatas."
+        },
+        {
+          "question": "Adam Smith dikenal sebagai ...",
+          "options": [
+            "Bapak ilmu sosial",
+            "Bapak ilmu ekonomi modern",
+            "Penemu matematika modern",
+            "Tokoh ekonomi makro"
+          ],
+          "answer": 1,
+          "explanation": "Adam Smith menulis The Wealth of Nations dan dikenal sebagai bapak ilmu ekonomi modern."
+        },
+        {
+          "question": "Ekonomi mikro mempelajari ...",
+          "options": [
+            "Perekonomian negara secara keseluruhan",
+            "Perilaku unit kecil seperti individu dan perusahaan",
+            "Inflasi dunia",
+            "Kebijakan luar negeri"
+          ],
+          "answer": 1,
+          "explanation": "Ekonomi mikro fokus pada unit-unit kecil seperti rumah tangga, konsumen, dan perusahaan."
+        }
+      ],
+      "participants": [
+        {
+          "id": "participant-b1af907e",
+          "name": "zil",
+          "joinedAt": "2026-05-14T14:48:51.878Z",
+          "score": 3,
+          "answeredCount": 7,
+          "answers": [
+            {
+              "questionIndex": 0,
+              "choiceIndex": 0,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:49:15.905Z"
+            },
+            {
+              "questionIndex": 1,
+              "choiceIndex": 1,
+              "isCorrect": true,
+              "answeredAt": "2026-05-14T14:49:18.651Z"
+            },
+            {
+              "questionIndex": 2,
+              "choiceIndex": 0,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:49:21.548Z"
+            },
+            {
+              "questionIndex": 3,
+              "choiceIndex": 1,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:49:23.981Z"
+            },
+            {
+              "questionIndex": 4,
+              "choiceIndex": 2,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:49:26.854Z"
+            },
+            {
+              "questionIndex": 5,
+              "choiceIndex": 1,
+              "isCorrect": true,
+              "answeredAt": "2026-05-14T14:49:29.602Z"
+            },
+            {
+              "questionIndex": 6,
+              "choiceIndex": 1,
+              "isCorrect": true,
+              "answeredAt": "2026-05-14T14:49:32.480Z"
+            }
+          ],
+          "lastAnsweredAt": "2026-05-14T14:49:32.480Z",
+          "finishedAt": "2026-05-14T14:49:32.480Z"
+        }
+      ],
+      "createdAt": "2026-05-14T14:48:40.608Z",
+      "updatedAt": "2026-05-14T14:49:32.480Z",
+      "durationMinutes": 10,
+      "questionDurationSeconds": 15,
+      "endsAt": 1778770748980,
+      "liveAt": 1778770148980,
+      "finishedAt": "2026-05-14T14:59:08.980Z"
+    },
+    {
+      "id": "quiz-ee54a5ff",
+      "title": "Kuis Semua Materi IPAS",
+      "materialId": "all",
+      "materialTitle": "Semua Materi IPAS",
+      "status": "waiting",
+      "questionCount": 43,
+      "questions": [
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Pengertian Ilmu Ekonomi\" adalah ...",
+          "options": [
+            "Ringkasan umum Teori Ekonomi",
+            "Dasar memahami pilihan manusia saat sumber daya terbatas.",
+            "Mempelajari perekonomian negara secara keseluruhan.",
+            "Konsep utama materi"
+          ],
+          "answer": -1,
+          "explanation": "Ilmu ekonomi mempelajari perilaku manusia saat memilih kebutuhan dengan sumber daya yang terbatas."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Adam Smith dan Pasar Bebas\" adalah ...",
+          "options": [
+            "Mempelajari perekonomian negara secara keseluruhan.",
+            "Dasar memahami pilihan manusia saat sumber daya terbatas.",
+            "Adam Smith dan Pasar Bebas",
+            "Mempelajari unit kecil seperti individu, rumah tangga, dan perusahaan."
+          ],
+          "answer": -1,
+          "explanation": "Adam Smith dikenal sebagai bapak ilmu ekonomi modern melalui gagasan pasar bebas dan invisible hand."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ekonomi Mikro\" adalah ...",
+          "options": [
+            "Ekonomi Mikro",
+            "Adam Smith dikenal sebagai bapak ilmu ekonomi modern melalui gagasan pasar bebas dan invisible hand.",
+            "Adam Smith dan Pasar Bebas",
+            "Konsep utama materi"
+          ],
+          "answer": -1,
+          "explanation": "Mempelajari unit kecil seperti individu, rumah tangga, dan perusahaan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ekonomi Makro\" adalah ...",
+          "options": [
+            "Pengertian Ilmu Ekonomi",
+            "Ekonomi Makro",
+            "Mempelajari unit kecil seperti individu, rumah tangga, dan perusahaan.",
+            "Ilmu ekonomi mempelajari perilaku manusia saat memilih kebutuhan dengan sumber daya yang terbatas."
+          ],
+          "answer": -1,
+          "explanation": "Mempelajari perekonomian negara secara keseluruhan."
+        },
+        {
+          "question": "Ilmu ekonomi mempelajari cara manusia memenuhi kebutuhan yang tidak terbatas dengan sumber daya yang ...",
+          "options": [
+            "Berlimpah",
+            "Terbatas",
+            "Tidak pernah habis",
+            "Gratis"
+          ],
+          "answer": 1,
+          "explanation": "Inti ilmu ekonomi adalah mengelola sumber daya yang terbatas untuk kebutuhan yang tidak terbatas."
+        },
+        {
+          "question": "Adam Smith dikenal sebagai ...",
+          "options": [
+            "Bapak ilmu sosial",
+            "Bapak ilmu ekonomi modern",
+            "Penemu matematika modern",
+            "Tokoh ekonomi makro"
+          ],
+          "answer": 1,
+          "explanation": "Adam Smith menulis The Wealth of Nations dan dikenal sebagai bapak ilmu ekonomi modern."
+        },
+        {
+          "question": "Ekonomi mikro mempelajari ...",
+          "options": [
+            "Perekonomian negara secara keseluruhan",
+            "Perilaku unit kecil seperti individu dan perusahaan",
+            "Inflasi dunia",
+            "Kebijakan luar negeri"
+          ],
+          "answer": 1,
+          "explanation": "Ekonomi mikro fokus pada unit-unit kecil seperti rumah tangga, konsumen, dan perusahaan."
+        },
+        {
+          "question": "Ekonomi makro lebih fokus pada ...",
+          "options": [
+            "Harga satu barang",
+            "Pernak-pernik pasar kecil",
+            "Perekonomian nasional secara agregat",
+            "Desain produk"
+          ],
+          "answer": 2,
+          "explanation": "Ekonomi makro membahas inflasi, pengangguran, pertumbuhan ekonomi, dan kebijakan nasional."
+        },
+        {
+          "question": "Seseorang memilih kuliah daripada langsung bekerja. Biaya yang hilang dari pilihan itu disebut ...",
+          "options": [
+            "Biaya tetap",
+            "Opportunity cost",
+            "Biaya produksi",
+            "Biaya variabel"
+          ],
+          "answer": 1,
+          "explanation": "Opportunity cost adalah nilai dari alternatif terbaik yang dikorbankan."
+        },
+        {
+          "question": "Pemerintah memberi subsidi BBM agar masyarakat lebih banyak menggunakannya. Ini sesuai prinsip ...",
+          "options": [
+            "People face trade-offs",
+            "People respond to incentives",
+            "Rational people think at the margin",
+            "The cost of something is what you give up"
+          ],
+          "answer": 1,
+          "explanation": "Subsidi mengubah insentif sehingga perilaku masyarakat ikut berubah."
+        },
+        {
+          "question": "Istilah scarcity berarti ...",
+          "options": [
+            "Kelangkaan",
+            "Keuntungan",
+            "Monopoli",
+            "Inflasi"
+          ],
+          "answer": 0,
+          "explanation": "Scarcity atau kelangkaan adalah kondisi sumber daya yang terbatas."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Memenuhi Kebutuhan\" adalah ...",
+          "options": [
+            "Ibadah dan Nilai",
+            "Ringkasan umum Motif Ekonomi",
+            "Konsep utama materi",
+            "Dorongan paling dasar untuk bertahan hidup dan mencukupi kebutuhan pokok."
+          ],
+          "answer": 3,
+          "explanation": "Dorongan paling dasar untuk bertahan hidup dan mencukupi kebutuhan pokok."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Meraih Kemakmuran\" adalah ...",
+          "options": [
+            "Hubungan antar gagasan",
+            "Meraih Kemakmuran",
+            "Sosial dan Kemanusiaan",
+            "Dorongan umum dalam dunia usaha untuk memperoleh laba."
+          ],
+          "answer": -1,
+          "explanation": "Keinginan untuk hidup berkecukupan dan sejahtera."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Mendapat Keuntungan\" adalah ...",
+          "options": [
+            "Hubungan antar gagasan",
+            "Alasan yang mendorong manusia melakukan tindakan ekonomi.",
+            "Ibadah dan Nilai",
+            "Dorongan untuk memperoleh pengaruh, status, atau kendali."
+          ],
+          "answer": -1,
+          "explanation": "Dorongan umum dalam dunia usaha untuk memperoleh laba."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Mendapat Kekuasaan\" adalah ...",
+          "options": [
+            "Ibadah dan Nilai",
+            "Meraih Kemakmuran",
+            "Keinginan untuk hidup berkecukupan dan sejahtera.",
+            "Memenuhi Kebutuhan"
+          ],
+          "answer": -1,
+          "explanation": "Dorongan untuk memperoleh pengaruh, status, atau kendali."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Sosial dan Kemanusiaan\" adalah ...",
+          "options": [
+            "Tindakan ekonomi yang juga dimaknai sebagai ibadah atau perwujudan nilai.",
+            "Dorongan untuk memperoleh pengaruh, status, atau kendali.",
+            "Memenuhi Kebutuhan",
+            "Hubungan antar gagasan"
+          ],
+          "answer": -1,
+          "explanation": "Dorongan untuk membantu sesama dan memberi manfaat bagi lingkungan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ibadah dan Nilai\" adalah ...",
+          "options": [
+            "Dorongan untuk membantu sesama dan memberi manfaat bagi lingkungan.",
+            "Hubungan antar gagasan",
+            "Konsep utama materi",
+            "Mendapat Keuntungan"
+          ],
+          "answer": -1,
+          "explanation": "Tindakan ekonomi yang juga dimaknai sebagai ibadah atau perwujudan nilai."
+        },
+        {
+          "question": "Motif ekonomi yang paling dasar adalah ...",
+          "options": [
+            "Mendapat kekuasaan",
+            "Memenuhi kebutuhan",
+            "Mendapat status",
+            "Mendapat laba"
+          ],
+          "answer": 1,
+          "explanation": "Motif paling dasar adalah memenuhi kebutuhan hidup."
+        },
+        {
+          "question": "Seorang pengusaha membuka pabrik baru untuk memperbesar laba. Ini contoh motif ...",
+          "options": [
+            "Sosial",
+            "Ibadah",
+            "Mendapat keuntungan",
+            "Mendapat kekuasaan"
+          ],
+          "answer": 2,
+          "explanation": "Mengejar laba adalah motif ekonomi yang sangat umum dalam bisnis."
+        },
+        {
+          "question": "Membantu korban bencana dengan berdonasi termasuk motif ...",
+          "options": [
+            "Memenuhi kebutuhan",
+            "Sosial dan kemanusiaan",
+            "Mendapat kekuasaan",
+            "Mendapat keuntungan"
+          ],
+          "answer": 1,
+          "explanation": "Donasi adalah contoh motif sosial dan kemanusiaan."
+        },
+        {
+          "question": "Motif intrinsik adalah dorongan yang berasal dari ...",
+          "options": [
+            "Tekanan luar",
+            "Dalam diri sendiri",
+            "Media sosial",
+            "Pemerintah"
+          ],
+          "answer": 1,
+          "explanation": "Motif intrinsik datang dari kesadaran dan keinginan pribadi."
+        },
+        {
+          "question": "Motif ekstrinsik biasanya dipengaruhi oleh ...",
+          "options": [
+            "Lingkungan dan faktor luar",
+            "Genetik saja",
+            "Kebetulan",
+            "Rumah tangga"
+          ],
+          "answer": 0,
+          "explanation": "Motif ekstrinsik muncul karena pengaruh luar seperti sosial dan lingkungan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Inti Prinsip Ekonomi\" adalah ...",
+          "options": [
+            "Cara berpikir rasional untuk memperoleh hasil optimal.",
+            "Hubungan antar gagasan",
+            "Konsep utama materi",
+            "Pengorbanan sekecil-kecilnya untuk hasil sebesar-besarnya."
+          ],
+          "answer": 3,
+          "explanation": "Pengorbanan sekecil-kecilnya untuk hasil sebesar-besarnya."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Prinsip bagi Konsumen\" adalah ...",
+          "options": [
+            "Ringkasan umum Prinsip Ekonomi",
+            "Hubungan antar gagasan",
+            "Cara berpikir rasional untuk memperoleh hasil optimal.",
+            "Konsep utama materi"
+          ],
+          "answer": -1,
+          "explanation": "Membeli barang terbaik dengan harga yang paling tepat."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Prinsip bagi Produsen\" adalah ...",
+          "options": [
+            "Hubungan antar gagasan",
+            "Prinsip bagi Distributor",
+            "4 Prinsip Gregory Mankiw",
+            "Prinsip bagi Produsen"
+          ],
+          "answer": -1,
+          "explanation": "Menghasilkan barang dengan biaya dan sumber daya yang efisien."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Prinsip bagi Distributor\" adalah ...",
+          "options": [
+            "Pengorbanan sekecil-kecilnya untuk hasil sebesar-besarnya.",
+            "Mengelola anggaran negara secara efisien untuk kemakmuran rakyat.",
+            "Konsep utama materi",
+            "Cara berpikir rasional untuk memperoleh hasil optimal."
+          ],
+          "answer": -1,
+          "explanation": "Menyalurkan barang dengan biaya distribusi minimal namun tepat waktu."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Prinsip bagi Pemerintah\" adalah ...",
+          "options": [
+            "Inti Prinsip Ekonomi",
+            "Konsep utama materi",
+            "Cara berpikir rasional untuk memperoleh hasil optimal.",
+            "Hubungan antar gagasan"
+          ],
+          "answer": -1,
+          "explanation": "Mengelola anggaran negara secara efisien untuk kemakmuran rakyat."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"4 Prinsip Gregory Mankiw\" adalah ...",
+          "options": [
+            "Prinsip bagi Konsumen",
+            "Konsep utama materi",
+            "Pengorbanan sekecil-kecilnya untuk hasil sebesar-besarnya.",
+            "Ringkasan umum Prinsip Ekonomi"
+          ],
+          "answer": -1,
+          "explanation": "Ringkasan empat prinsip dasar pengambilan keputusan ekonomi."
+        },
+        {
+          "question": "Bunyi prinsip ekonomi yang paling tepat adalah ...",
+          "options": [
+            "Pengorbanan besar, hasil besar",
+            "Pengorbanan sekecil-kecilnya, hasil sebesar-besarnya",
+            "Hasil kecil, pengorbanan kecil",
+            "Hasil sebesar-besarnya tanpa pengorbanan"
+          ],
+          "answer": 1,
+          "explanation": "Prinsip ekonomi menekankan efisiensi: pengorbanan kecil untuk hasil yang besar."
+        },
+        {
+          "question": "Konsumen yang membandingkan harga dan kualitas sebelum membeli sedang menerapkan prinsip ...",
+          "options": [
+            "Kekuasaan",
+            "Ekonomi konsumen",
+            "Makroekonomi",
+            "Ibadah"
+          ],
+          "answer": 1,
+          "explanation": "Konsumen menerapkan prinsip ekonomi saat mencari hasil terbaik dengan biaya yang tepat."
+        },
+        {
+          "question": "Produsen yang menekan biaya bahan baku dan tenaga kerja sedang berusaha ...",
+          "options": [
+            "Memperbesar pemborosan",
+            "Efisiensi produksi",
+            "Mengurangi kualitas",
+            "Menurunkan permintaan"
+          ],
+          "answer": 1,
+          "explanation": "Produsen memakai prinsip ekonomi untuk menghasilkan barang dengan biaya efisien."
+        },
+        {
+          "question": "Gregory Mankiw menyebut bahwa manusia merespons ...",
+          "options": [
+            "Tradisi",
+            "Insentif",
+            "Kebisingan",
+            "Keberuntungan"
+          ],
+          "answer": 1,
+          "explanation": "People respond to incentives adalah salah satu prinsip dasar Mankiw."
+        },
+        {
+          "question": "Opportunity cost berarti ...",
+          "options": [
+            "Biaya yang sudah dibayar",
+            "Nilai dari pilihan terbaik yang dikorbankan",
+            "Keuntungan tambahan",
+            "Harga jual barang"
+          ],
+          "answer": 1,
+          "explanation": "Opportunity cost adalah nilai dari alternatif terbaik yang dilewatkan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ojek Online\" adalah ...",
+          "options": [
+            "Inflasi dan BI Rate",
+            "Keputusan pendidikan selalu memiliki biaya peluang.",
+            "UMKM Warung Makan",
+            "Tindakan ekonomi bisa digerakkan oleh motif sosial dan ibadah."
+          ],
+          "answer": -1,
+          "explanation": "Pengemudi memilih rute tercepat dan paling hemat agar penghasilan optimal."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"UMKM Warung Makan\" adalah ...",
+          "options": [
+            "Kasus nyata IPAS ekonomi di kehidupan sehari-hari.",
+            "Ringkasan umum Contoh Nyata",
+            "Donasi dan Zakat Digital",
+            "Inflasi dan BI Rate"
+          ],
+          "answer": -1,
+          "explanation": "Pemilik warung menentukan harga berdasarkan biaya, pesaing, dan pelanggan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Inflasi dan BI Rate\" adalah ...",
+          "options": [
+            "Pemilik warung menentukan harga berdasarkan biaya, pesaing, dan pelanggan.",
+            "Tindakan ekonomi bisa digerakkan oleh motif sosial dan ibadah.",
+            "Konsep utama materi",
+            "Keputusan pendidikan selalu memiliki biaya peluang."
+          ],
+          "answer": -1,
+          "explanation": "Kebijakan moneter digunakan untuk mengendalikan inflasi."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Kuliah versus Langsung Kerja\" adalah ...",
+          "options": [
+            "Pemilik warung menentukan harga berdasarkan biaya, pesaing, dan pelanggan.",
+            "Ojek Online",
+            "Konsep utama materi",
+            "Kuliah versus Langsung Kerja"
+          ],
+          "answer": -1,
+          "explanation": "Keputusan pendidikan selalu memiliki biaya peluang."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Donasi dan Zakat Digital\" adalah ...",
+          "options": [
+            "Ringkasan umum Contoh Nyata",
+            "Konsep utama materi",
+            "Hubungan antar gagasan",
+            "Ojek Online"
+          ],
+          "answer": -1,
+          "explanation": "Tindakan ekonomi bisa digerakkan oleh motif sosial dan ibadah."
+        },
+        {
+          "question": "Pengemudi ojek online memilih rute tercepat agar lebih banyak order. Ini contoh ...",
+          "options": [
+            "Motif kekuasaan",
+            "Prinsip ekonomi",
+            "Inflasi",
+            "Monopoli"
+          ],
+          "answer": 1,
+          "explanation": "Memilih rute tercepat adalah penerapan prinsip ekonomi: hasil maksimal dengan pengorbanan minimal."
+        },
+        {
+          "question": "Warung makan menentukan harga berdasarkan biaya bahan baku dan pesaing di sekitar. Ini termasuk ...",
+          "options": [
+            "Ekonomi mikro",
+            "Ekonomi makro",
+            "Motif ibadah",
+            "Kelangkaan"
+          ],
+          "answer": 0,
+          "explanation": "Penetapan harga warung termasuk analisis ekonomi mikro."
+        },
+        {
+          "question": "Kenaikan inflasi sering direspons dengan kebijakan suku bunga oleh bank sentral. Ini contoh ...",
+          "options": [
+            "Ekonomi makro",
+            "Motif sosial",
+            "Prinsip konsumen",
+            "Pasar tradisional"
+          ],
+          "answer": 0,
+          "explanation": "Inflasi dan suku bunga adalah isu ekonomi makro."
+        },
+        {
+          "question": "Memilih kuliah daripada langsung kerja menunjukkan adanya ...",
+          "options": [
+            "Opportunity cost",
+            "Subsidi",
+            "Monopoli",
+            "Inflasi"
+          ],
+          "answer": 0,
+          "explanation": "Pilihan kuliah berarti mengorbankan penghasilan yang bisa diperoleh jika langsung bekerja."
+        },
+        {
+          "question": "Donasi digital dan zakat online paling dekat dengan motif ...",
+          "options": [
+            "Kekuasaan",
+            "Sosial dan ibadah",
+            "Keuntungan",
+            "Mikroekonomi"
+          ],
+          "answer": 1,
+          "explanation": "Donasi dan zakat didorong oleh motif sosial dan ibadah."
+        }
+      ],
+      "participants": [],
+      "createdAt": "2026-05-14T14:29:20.876Z",
+      "updatedAt": "2026-05-14T14:29:20.876Z",
+      "durationMinutes": 13,
+      "questionDurationSeconds": 15
+    },
+    {
+      "id": "quiz-9f3bea09",
+      "title": "Kuis Semua Materi IPAS",
+      "materialId": "all",
+      "materialTitle": "Semua Materi IPAS",
+      "status": "finished",
+      "questionCount": 43,
+      "questions": [
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Pengertian Ilmu Ekonomi\" adalah ...",
+          "options": [
+            "Pengertian Ilmu Ekonomi",
+            "Ilmu ekonomi mempelajari perilaku manusia saat memilih kebutuhan dengan sumber daya yang terbatas.",
+            "Ringkasan umum Teori Ekonomi",
+            "Dasar memahami pilihan manusia saat sumber daya terbatas."
+          ],
+          "answer": 1,
+          "explanation": "Ilmu ekonomi mempelajari perilaku manusia saat memilih kebutuhan dengan sumber daya yang terbatas."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Adam Smith dan Pasar Bebas\" adalah ...",
+          "options": [
+            "Adam Smith dikenal sebagai bapak ilmu ekonomi modern melalui gagasan pasar bebas dan invisible hand.",
+            "Adam Smith dan Pasar Bebas",
+            "Ekonomi Mikro",
+            "Hubungan antar gagasan"
+          ],
+          "answer": 0,
+          "explanation": "Adam Smith dikenal sebagai bapak ilmu ekonomi modern melalui gagasan pasar bebas dan invisible hand."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ekonomi Mikro\" adalah ...",
+          "options": [
+            "Ilmu ekonomi mempelajari perilaku manusia saat memilih kebutuhan dengan sumber daya yang terbatas.",
+            "Mempelajari unit kecil seperti individu, rumah tangga, dan perusahaan.",
+            "Mempelajari perekonomian negara secara keseluruhan.",
+            "Hubungan antar gagasan"
+          ],
+          "answer": 1,
+          "explanation": "Mempelajari unit kecil seperti individu, rumah tangga, dan perusahaan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ekonomi Makro\" adalah ...",
+          "options": [
+            "Konsep utama materi",
+            "Adam Smith dan Pasar Bebas",
+            "Ekonomi Mikro",
+            "Dasar memahami pilihan manusia saat sumber daya terbatas."
+          ],
+          "answer": -1,
+          "explanation": "Mempelajari perekonomian negara secara keseluruhan."
+        },
+        {
+          "question": "Ilmu ekonomi mempelajari cara manusia memenuhi kebutuhan yang tidak terbatas dengan sumber daya yang ...",
+          "options": [
+            "Berlimpah",
+            "Terbatas",
+            "Tidak pernah habis",
+            "Gratis"
+          ],
+          "answer": 1,
+          "explanation": "Inti ilmu ekonomi adalah mengelola sumber daya yang terbatas untuk kebutuhan yang tidak terbatas."
+        },
+        {
+          "question": "Adam Smith dikenal sebagai ...",
+          "options": [
+            "Bapak ilmu sosial",
+            "Bapak ilmu ekonomi modern",
+            "Penemu matematika modern",
+            "Tokoh ekonomi makro"
+          ],
+          "answer": 1,
+          "explanation": "Adam Smith menulis The Wealth of Nations dan dikenal sebagai bapak ilmu ekonomi modern."
+        },
+        {
+          "question": "Ekonomi mikro mempelajari ...",
+          "options": [
+            "Perekonomian negara secara keseluruhan",
+            "Perilaku unit kecil seperti individu dan perusahaan",
+            "Inflasi dunia",
+            "Kebijakan luar negeri"
+          ],
+          "answer": 1,
+          "explanation": "Ekonomi mikro fokus pada unit-unit kecil seperti rumah tangga, konsumen, dan perusahaan."
+        },
+        {
+          "question": "Ekonomi makro lebih fokus pada ...",
+          "options": [
+            "Harga satu barang",
+            "Pernak-pernik pasar kecil",
+            "Perekonomian nasional secara agregat",
+            "Desain produk"
+          ],
+          "answer": 2,
+          "explanation": "Ekonomi makro membahas inflasi, pengangguran, pertumbuhan ekonomi, dan kebijakan nasional."
+        },
+        {
+          "question": "Seseorang memilih kuliah daripada langsung bekerja. Biaya yang hilang dari pilihan itu disebut ...",
+          "options": [
+            "Biaya tetap",
+            "Opportunity cost",
+            "Biaya produksi",
+            "Biaya variabel"
+          ],
+          "answer": 1,
+          "explanation": "Opportunity cost adalah nilai dari alternatif terbaik yang dikorbankan."
+        },
+        {
+          "question": "Pemerintah memberi subsidi BBM agar masyarakat lebih banyak menggunakannya. Ini sesuai prinsip ...",
+          "options": [
+            "People face trade-offs",
+            "People respond to incentives",
+            "Rational people think at the margin",
+            "The cost of something is what you give up"
+          ],
+          "answer": 1,
+          "explanation": "Subsidi mengubah insentif sehingga perilaku masyarakat ikut berubah."
+        },
+        {
+          "question": "Istilah scarcity berarti ...",
+          "options": [
+            "Kelangkaan",
+            "Keuntungan",
+            "Monopoli",
+            "Inflasi"
+          ],
+          "answer": 0,
+          "explanation": "Scarcity atau kelangkaan adalah kondisi sumber daya yang terbatas."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Memenuhi Kebutuhan\" adalah ...",
+          "options": [
+            "Mendapat Kekuasaan",
+            "Hubungan antar gagasan",
+            "Sosial dan Kemanusiaan",
+            "Memenuhi Kebutuhan"
+          ],
+          "answer": -1,
+          "explanation": "Dorongan paling dasar untuk bertahan hidup dan mencukupi kebutuhan pokok."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Meraih Kemakmuran\" adalah ...",
+          "options": [
+            "Dorongan umum dalam dunia usaha untuk memperoleh laba.",
+            "Keinginan untuk hidup berkecukupan dan sejahtera.",
+            "Alasan yang mendorong manusia melakukan tindakan ekonomi.",
+            "Tindakan ekonomi yang juga dimaknai sebagai ibadah atau perwujudan nilai."
+          ],
+          "answer": 1,
+          "explanation": "Keinginan untuk hidup berkecukupan dan sejahtera."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Mendapat Keuntungan\" adalah ...",
+          "options": [
+            "Keinginan untuk hidup berkecukupan dan sejahtera.",
+            "Memenuhi Kebutuhan",
+            "Meraih Kemakmuran",
+            "Dorongan paling dasar untuk bertahan hidup dan mencukupi kebutuhan pokok."
+          ],
+          "answer": -1,
+          "explanation": "Dorongan umum dalam dunia usaha untuk memperoleh laba."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Mendapat Kekuasaan\" adalah ...",
+          "options": [
+            "Mendapat Kekuasaan",
+            "Ibadah dan Nilai",
+            "Memenuhi Kebutuhan",
+            "Konsep utama materi"
+          ],
+          "answer": -1,
+          "explanation": "Dorongan untuk memperoleh pengaruh, status, atau kendali."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Sosial dan Kemanusiaan\" adalah ...",
+          "options": [
+            "Dorongan paling dasar untuk bertahan hidup dan mencukupi kebutuhan pokok.",
+            "Dorongan untuk memperoleh pengaruh, status, atau kendali.",
+            "Tindakan ekonomi yang juga dimaknai sebagai ibadah atau perwujudan nilai.",
+            "Dorongan umum dalam dunia usaha untuk memperoleh laba."
+          ],
+          "answer": -1,
+          "explanation": "Dorongan untuk membantu sesama dan memberi manfaat bagi lingkungan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ibadah dan Nilai\" adalah ...",
+          "options": [
+            "Tindakan ekonomi yang juga dimaknai sebagai ibadah atau perwujudan nilai.",
+            "Sosial dan Kemanusiaan",
+            "Keinginan untuk hidup berkecukupan dan sejahtera.",
+            "Mendapat Keuntungan"
+          ],
+          "answer": 0,
+          "explanation": "Tindakan ekonomi yang juga dimaknai sebagai ibadah atau perwujudan nilai."
+        },
+        {
+          "question": "Motif ekonomi yang paling dasar adalah ...",
+          "options": [
+            "Mendapat kekuasaan",
+            "Memenuhi kebutuhan",
+            "Mendapat status",
+            "Mendapat laba"
+          ],
+          "answer": 1,
+          "explanation": "Motif paling dasar adalah memenuhi kebutuhan hidup."
+        },
+        {
+          "question": "Seorang pengusaha membuka pabrik baru untuk memperbesar laba. Ini contoh motif ...",
+          "options": [
+            "Sosial",
+            "Ibadah",
+            "Mendapat keuntungan",
+            "Mendapat kekuasaan"
+          ],
+          "answer": 2,
+          "explanation": "Mengejar laba adalah motif ekonomi yang sangat umum dalam bisnis."
+        },
+        {
+          "question": "Membantu korban bencana dengan berdonasi termasuk motif ...",
+          "options": [
+            "Memenuhi kebutuhan",
+            "Sosial dan kemanusiaan",
+            "Mendapat kekuasaan",
+            "Mendapat keuntungan"
+          ],
+          "answer": 1,
+          "explanation": "Donasi adalah contoh motif sosial dan kemanusiaan."
+        },
+        {
+          "question": "Motif intrinsik adalah dorongan yang berasal dari ...",
+          "options": [
+            "Tekanan luar",
+            "Dalam diri sendiri",
+            "Media sosial",
+            "Pemerintah"
+          ],
+          "answer": 1,
+          "explanation": "Motif intrinsik datang dari kesadaran dan keinginan pribadi."
+        },
+        {
+          "question": "Motif ekstrinsik biasanya dipengaruhi oleh ...",
+          "options": [
+            "Lingkungan dan faktor luar",
+            "Genetik saja",
+            "Kebetulan",
+            "Rumah tangga"
+          ],
+          "answer": 0,
+          "explanation": "Motif ekstrinsik muncul karena pengaruh luar seperti sosial dan lingkungan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Inti Prinsip Ekonomi\" adalah ...",
+          "options": [
+            "Inti Prinsip Ekonomi",
+            "Konsep utama materi",
+            "Prinsip bagi Produsen",
+            "4 Prinsip Gregory Mankiw"
+          ],
+          "answer": -1,
+          "explanation": "Pengorbanan sekecil-kecilnya untuk hasil sebesar-besarnya."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Prinsip bagi Konsumen\" adalah ...",
+          "options": [
+            "Prinsip bagi Distributor",
+            "Menghasilkan barang dengan biaya dan sumber daya yang efisien.",
+            "Cara berpikir rasional untuk memperoleh hasil optimal.",
+            "Mengelola anggaran negara secara efisien untuk kemakmuran rakyat."
+          ],
+          "answer": -1,
+          "explanation": "Membeli barang terbaik dengan harga yang paling tepat."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Prinsip bagi Produsen\" adalah ...",
+          "options": [
+            "Cara berpikir rasional untuk memperoleh hasil optimal.",
+            "Membeli barang terbaik dengan harga yang paling tepat.",
+            "4 Prinsip Gregory Mankiw",
+            "Mengelola anggaran negara secara efisien untuk kemakmuran rakyat."
+          ],
+          "answer": -1,
+          "explanation": "Menghasilkan barang dengan biaya dan sumber daya yang efisien."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Prinsip bagi Distributor\" adalah ...",
+          "options": [
+            "Mengelola anggaran negara secara efisien untuk kemakmuran rakyat.",
+            "Prinsip bagi Pemerintah",
+            "Menghasilkan barang dengan biaya dan sumber daya yang efisien.",
+            "Prinsip bagi Distributor"
+          ],
+          "answer": -1,
+          "explanation": "Menyalurkan barang dengan biaya distribusi minimal namun tepat waktu."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Prinsip bagi Pemerintah\" adalah ...",
+          "options": [
+            "4 Prinsip Gregory Mankiw",
+            "Prinsip bagi Konsumen",
+            "Mengelola anggaran negara secara efisien untuk kemakmuran rakyat.",
+            "Hubungan antar gagasan"
+          ],
+          "answer": 2,
+          "explanation": "Mengelola anggaran negara secara efisien untuk kemakmuran rakyat."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"4 Prinsip Gregory Mankiw\" adalah ...",
+          "options": [
+            "Menghasilkan barang dengan biaya dan sumber daya yang efisien.",
+            "Ringkasan umum Prinsip Ekonomi",
+            "4 Prinsip Gregory Mankiw",
+            "Ringkasan empat prinsip dasar pengambilan keputusan ekonomi."
+          ],
+          "answer": 3,
+          "explanation": "Ringkasan empat prinsip dasar pengambilan keputusan ekonomi."
+        },
+        {
+          "question": "Bunyi prinsip ekonomi yang paling tepat adalah ...",
+          "options": [
+            "Pengorbanan besar, hasil besar",
+            "Pengorbanan sekecil-kecilnya, hasil sebesar-besarnya",
+            "Hasil kecil, pengorbanan kecil",
+            "Hasil sebesar-besarnya tanpa pengorbanan"
+          ],
+          "answer": 1,
+          "explanation": "Prinsip ekonomi menekankan efisiensi: pengorbanan kecil untuk hasil yang besar."
+        },
+        {
+          "question": "Konsumen yang membandingkan harga dan kualitas sebelum membeli sedang menerapkan prinsip ...",
+          "options": [
+            "Kekuasaan",
+            "Ekonomi konsumen",
+            "Makroekonomi",
+            "Ibadah"
+          ],
+          "answer": 1,
+          "explanation": "Konsumen menerapkan prinsip ekonomi saat mencari hasil terbaik dengan biaya yang tepat."
+        },
+        {
+          "question": "Produsen yang menekan biaya bahan baku dan tenaga kerja sedang berusaha ...",
+          "options": [
+            "Memperbesar pemborosan",
+            "Efisiensi produksi",
+            "Mengurangi kualitas",
+            "Menurunkan permintaan"
+          ],
+          "answer": 1,
+          "explanation": "Produsen memakai prinsip ekonomi untuk menghasilkan barang dengan biaya efisien."
+        },
+        {
+          "question": "Gregory Mankiw menyebut bahwa manusia merespons ...",
+          "options": [
+            "Tradisi",
+            "Insentif",
+            "Kebisingan",
+            "Keberuntungan"
+          ],
+          "answer": 1,
+          "explanation": "People respond to incentives adalah salah satu prinsip dasar Mankiw."
+        },
+        {
+          "question": "Opportunity cost berarti ...",
+          "options": [
+            "Biaya yang sudah dibayar",
+            "Nilai dari pilihan terbaik yang dikorbankan",
+            "Keuntungan tambahan",
+            "Harga jual barang"
+          ],
+          "answer": 1,
+          "explanation": "Opportunity cost adalah nilai dari alternatif terbaik yang dilewatkan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ojek Online\" adalah ...",
+          "options": [
+            "Tindakan ekonomi bisa digerakkan oleh motif sosial dan ibadah.",
+            "Kasus nyata IPAS ekonomi di kehidupan sehari-hari.",
+            "Donasi dan Zakat Digital",
+            "Inflasi dan BI Rate"
+          ],
+          "answer": -1,
+          "explanation": "Pengemudi memilih rute tercepat dan paling hemat agar penghasilan optimal."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"UMKM Warung Makan\" adalah ...",
+          "options": [
+            "Pengemudi memilih rute tercepat dan paling hemat agar penghasilan optimal.",
+            "Donasi dan Zakat Digital",
+            "Ojek Online",
+            "Keputusan pendidikan selalu memiliki biaya peluang."
+          ],
+          "answer": -1,
+          "explanation": "Pemilik warung menentukan harga berdasarkan biaya, pesaing, dan pelanggan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Inflasi dan BI Rate\" adalah ...",
+          "options": [
+            "Konsep utama materi",
+            "UMKM Warung Makan",
+            "Kebijakan moneter digunakan untuk mengendalikan inflasi.",
+            "Kasus nyata IPAS ekonomi di kehidupan sehari-hari."
+          ],
+          "answer": 2,
+          "explanation": "Kebijakan moneter digunakan untuk mengendalikan inflasi."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Kuliah versus Langsung Kerja\" adalah ...",
+          "options": [
+            "UMKM Warung Makan",
+            "Donasi dan Zakat Digital",
+            "Inflasi dan BI Rate",
+            "Ringkasan umum Contoh Nyata"
+          ],
+          "answer": -1,
+          "explanation": "Keputusan pendidikan selalu memiliki biaya peluang."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Donasi dan Zakat Digital\" adalah ...",
+          "options": [
+            "Tindakan ekonomi bisa digerakkan oleh motif sosial dan ibadah.",
+            "Konsep utama materi",
+            "Kasus nyata IPAS ekonomi di kehidupan sehari-hari.",
+            "Hubungan antar gagasan"
+          ],
+          "answer": 0,
+          "explanation": "Tindakan ekonomi bisa digerakkan oleh motif sosial dan ibadah."
+        },
+        {
+          "question": "Pengemudi ojek online memilih rute tercepat agar lebih banyak order. Ini contoh ...",
+          "options": [
+            "Motif kekuasaan",
+            "Prinsip ekonomi",
+            "Inflasi",
+            "Monopoli"
+          ],
+          "answer": 1,
+          "explanation": "Memilih rute tercepat adalah penerapan prinsip ekonomi: hasil maksimal dengan pengorbanan minimal."
+        },
+        {
+          "question": "Warung makan menentukan harga berdasarkan biaya bahan baku dan pesaing di sekitar. Ini termasuk ...",
+          "options": [
+            "Ekonomi mikro",
+            "Ekonomi makro",
+            "Motif ibadah",
+            "Kelangkaan"
+          ],
+          "answer": 0,
+          "explanation": "Penetapan harga warung termasuk analisis ekonomi mikro."
+        },
+        {
+          "question": "Kenaikan inflasi sering direspons dengan kebijakan suku bunga oleh bank sentral. Ini contoh ...",
+          "options": [
+            "Ekonomi makro",
+            "Motif sosial",
+            "Prinsip konsumen",
+            "Pasar tradisional"
+          ],
+          "answer": 0,
+          "explanation": "Inflasi dan suku bunga adalah isu ekonomi makro."
+        },
+        {
+          "question": "Memilih kuliah daripada langsung kerja menunjukkan adanya ...",
+          "options": [
+            "Opportunity cost",
+            "Subsidi",
+            "Monopoli",
+            "Inflasi"
+          ],
+          "answer": 0,
+          "explanation": "Pilihan kuliah berarti mengorbankan penghasilan yang bisa diperoleh jika langsung bekerja."
+        },
+        {
+          "question": "Donasi digital dan zakat online paling dekat dengan motif ...",
+          "options": [
+            "Kekuasaan",
+            "Sosial dan ibadah",
+            "Keuntungan",
+            "Mikroekonomi"
+          ],
+          "answer": 1,
+          "explanation": "Donasi dan zakat didorong oleh motif sosial dan ibadah."
+        }
+      ],
+      "participants": [
+        {
+          "id": "participant-2283da49",
+          "name": "tess",
+          "joinedAt": "2026-05-14T14:21:25.692Z",
+          "score": 7,
+          "answeredCount": 43,
+          "answers": [
+            {
+              "questionIndex": 0,
+              "choiceIndex": 0,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:25:01.467Z"
+            },
+            {
+              "questionIndex": 1,
+              "choiceIndex": 0,
+              "isCorrect": true,
+              "answeredAt": "2026-05-14T14:25:03.218Z"
+            },
+            {
+              "questionIndex": 2,
+              "choiceIndex": 0,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:25:11.402Z"
+            },
+            {
+              "questionIndex": 3,
+              "choiceIndex": 0,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:25:13.757Z"
+            },
+            {
+              "questionIndex": 4,
+              "choiceIndex": 0,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:25:16.688Z"
+            },
+            {
+              "questionIndex": 5,
+              "choiceIndex": 1,
+              "isCorrect": true,
+              "answeredAt": "2026-05-14T14:25:19.149Z"
+            },
+            {
+              "questionIndex": 6,
+              "choiceIndex": 2,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:25:21.716Z"
+            },
+            {
+              "questionIndex": 7,
+              "choiceIndex": 3,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:25:24.597Z"
+            },
+            {
+              "questionIndex": 8,
+              "choiceIndex": 3,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:25:27.213Z"
+            },
+            {
+              "questionIndex": 9,
+              "choiceIndex": 1,
+              "isCorrect": true,
+              "answeredAt": "2026-05-14T14:25:34.117Z"
+            },
+            {
+              "questionIndex": 10,
+              "choiceIndex": 0,
+              "isCorrect": true,
+              "answeredAt": "2026-05-14T14:25:42.910Z"
+            },
+            {
+              "questionIndex": 11,
+              "choiceIndex": 0,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:25:48.422Z"
+            },
+            {
+              "questionIndex": 12,
+              "choiceIndex": 1,
+              "isCorrect": true,
+              "answeredAt": "2026-05-14T14:25:50.917Z"
+            },
+            {
+              "questionIndex": 13,
+              "choiceIndex": 2,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:25:52.879Z"
+            },
+            {
+              "questionIndex": 14,
+              "choiceIndex": 3,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:25:55.348Z"
+            },
+            {
+              "questionIndex": 15,
+              "choiceIndex": 0,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:26:04.380Z"
+            },
+            {
+              "questionIndex": 16,
+              "choiceIndex": 1,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:26:07.248Z"
+            },
+            {
+              "questionIndex": 17,
+              "choiceIndex": 3,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:26:08.830Z"
+            },
+            {
+              "questionIndex": 18,
+              "choiceIndex": null,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:26:30.696Z"
+            },
+            {
+              "questionIndex": 19,
+              "choiceIndex": null,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:26:48.540Z"
+            },
+            {
+              "questionIndex": 20,
+              "choiceIndex": 0,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:27:05.650Z"
+            },
+            {
+              "questionIndex": 21,
+              "choiceIndex": 3,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:27:08.426Z"
+            },
+            {
+              "questionIndex": 22,
+              "choiceIndex": 2,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:27:10.749Z"
+            },
+            {
+              "questionIndex": 23,
+              "choiceIndex": 3,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:27:13.875Z"
+            },
+            {
+              "questionIndex": 24,
+              "choiceIndex": 0,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:27:25.253Z"
+            },
+            {
+              "questionIndex": 25,
+              "choiceIndex": null,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:27:49.321Z"
+            },
+            {
+              "questionIndex": 26,
+              "choiceIndex": null,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:28:13.353Z"
+            },
+            {
+              "questionIndex": 27,
+              "choiceIndex": 0,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:28:31.216Z"
+            },
+            {
+              "questionIndex": 28,
+              "choiceIndex": 1,
+              "isCorrect": true,
+              "answeredAt": "2026-05-14T14:28:34.611Z"
+            },
+            {
+              "questionIndex": 29,
+              "choiceIndex": 1,
+              "isCorrect": true,
+              "answeredAt": "2026-05-14T14:28:36.794Z"
+            },
+            {
+              "questionIndex": 30,
+              "choiceIndex": 2,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:28:39.420Z"
+            },
+            {
+              "questionIndex": 31,
+              "choiceIndex": null,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:29:02.467Z"
+            },
+            {
+              "questionIndex": 32,
+              "choiceIndex": null,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:29:27.815Z"
+            },
+            {
+              "questionIndex": 33,
+              "choiceIndex": null,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:29:49.939Z"
+            },
+            {
+              "questionIndex": 34,
+              "choiceIndex": null,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:30:09.006Z"
+            },
+            {
+              "questionIndex": 35,
+              "choiceIndex": null,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:30:29.012Z"
+            },
+            {
+              "questionIndex": 36,
+              "choiceIndex": null,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:30:47.996Z"
+            },
+            {
+              "questionIndex": 37,
+              "choiceIndex": null,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:31:05.893Z"
+            },
+            {
+              "questionIndex": 38,
+              "choiceIndex": null,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:31:25.755Z"
+            },
+            {
+              "questionIndex": 39,
+              "choiceIndex": null,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:31:43.623Z"
+            },
+            {
+              "questionIndex": 40,
+              "choiceIndex": null,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:32:01.430Z"
+            },
+            {
+              "questionIndex": 41,
+              "choiceIndex": null,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:32:20.171Z"
+            },
+            {
+              "questionIndex": 42,
+              "choiceIndex": null,
+              "isCorrect": false,
+              "answeredAt": "2026-05-14T14:32:42.045Z"
+            }
+          ],
+          "lastAnsweredAt": "2026-05-14T14:32:42.045Z",
+          "finishedAt": "2026-05-14T14:32:42.045Z"
+        }
+      ],
+      "createdAt": "2026-05-14T14:21:14.230Z",
+      "updatedAt": "2026-05-14T14:32:42.045Z",
+      "durationMinutes": 13,
+      "questionDurationSeconds": 15,
+      "endsAt": 1778769271686,
+      "liveAt": 1778768491686,
+      "finishedAt": "2026-05-14T14:34:31.686Z"
+    },
+    {
+      "id": "quiz-cf3698ee",
+      "title": "Kuis Semua Materi IPAS",
+      "materialId": "all",
+      "materialTitle": "Semua Materi IPAS",
+      "status": "finished",
+      "questionCount": 43,
+      "questions": [
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Pengertian Ilmu Ekonomi\" adalah ...",
+          "options": [
+            "Pengertian Ilmu Ekonomi",
+            "Ekonomi Makro",
+            "Adam Smith dan Pasar Bebas",
+            "Mempelajari perekonomian negara secara keseluruhan."
+          ],
+          "answer": -1,
+          "explanation": "Ilmu ekonomi mempelajari perilaku manusia saat memilih kebutuhan dengan sumber daya yang terbatas."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Adam Smith dan Pasar Bebas\" adalah ...",
+          "options": [
+            "Mempelajari unit kecil seperti individu, rumah tangga, dan perusahaan.",
+            "Ekonomi Mikro",
+            "Ekonomi Makro",
+            "Hubungan antar gagasan"
+          ],
+          "answer": -1,
+          "explanation": "Adam Smith dikenal sebagai bapak ilmu ekonomi modern melalui gagasan pasar bebas dan invisible hand."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ekonomi Mikro\" adalah ...",
+          "options": [
+            "Ringkasan umum Teori Ekonomi",
+            "Ekonomi Makro",
+            "Adam Smith dikenal sebagai bapak ilmu ekonomi modern melalui gagasan pasar bebas dan invisible hand.",
+            "Pengertian Ilmu Ekonomi"
+          ],
+          "answer": -1,
+          "explanation": "Mempelajari unit kecil seperti individu, rumah tangga, dan perusahaan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ekonomi Makro\" adalah ...",
+          "options": [
+            "Ekonomi Makro",
+            "Pengertian Ilmu Ekonomi",
+            "Adam Smith dan Pasar Bebas",
+            "Konsep utama materi"
+          ],
+          "answer": -1,
+          "explanation": "Mempelajari perekonomian negara secara keseluruhan."
+        },
+        {
+          "question": "Ilmu ekonomi mempelajari cara manusia memenuhi kebutuhan yang tidak terbatas dengan sumber daya yang ...",
+          "options": [
+            "Berlimpah",
+            "Terbatas",
+            "Tidak pernah habis",
+            "Gratis"
+          ],
+          "answer": 1,
+          "explanation": "Inti ilmu ekonomi adalah mengelola sumber daya yang terbatas untuk kebutuhan yang tidak terbatas."
+        },
+        {
+          "question": "Adam Smith dikenal sebagai ...",
+          "options": [
+            "Bapak ilmu sosial",
+            "Bapak ilmu ekonomi modern",
+            "Penemu matematika modern",
+            "Tokoh ekonomi makro"
+          ],
+          "answer": 1,
+          "explanation": "Adam Smith menulis The Wealth of Nations dan dikenal sebagai bapak ilmu ekonomi modern."
+        },
+        {
+          "question": "Ekonomi mikro mempelajari ...",
+          "options": [
+            "Perekonomian negara secara keseluruhan",
+            "Perilaku unit kecil seperti individu dan perusahaan",
+            "Inflasi dunia",
+            "Kebijakan luar negeri"
+          ],
+          "answer": 1,
+          "explanation": "Ekonomi mikro fokus pada unit-unit kecil seperti rumah tangga, konsumen, dan perusahaan."
+        },
+        {
+          "question": "Ekonomi makro lebih fokus pada ...",
+          "options": [
+            "Harga satu barang",
+            "Pernak-pernik pasar kecil",
+            "Perekonomian nasional secara agregat",
+            "Desain produk"
+          ],
+          "answer": 2,
+          "explanation": "Ekonomi makro membahas inflasi, pengangguran, pertumbuhan ekonomi, dan kebijakan nasional."
+        },
+        {
+          "question": "Seseorang memilih kuliah daripada langsung bekerja. Biaya yang hilang dari pilihan itu disebut ...",
+          "options": [
+            "Biaya tetap",
+            "Opportunity cost",
+            "Biaya produksi",
+            "Biaya variabel"
+          ],
+          "answer": 1,
+          "explanation": "Opportunity cost adalah nilai dari alternatif terbaik yang dikorbankan."
+        },
+        {
+          "question": "Pemerintah memberi subsidi BBM agar masyarakat lebih banyak menggunakannya. Ini sesuai prinsip ...",
+          "options": [
+            "People face trade-offs",
+            "People respond to incentives",
+            "Rational people think at the margin",
+            "The cost of something is what you give up"
+          ],
+          "answer": 1,
+          "explanation": "Subsidi mengubah insentif sehingga perilaku masyarakat ikut berubah."
+        },
+        {
+          "question": "Istilah scarcity berarti ...",
+          "options": [
+            "Kelangkaan",
+            "Keuntungan",
+            "Monopoli",
+            "Inflasi"
+          ],
+          "answer": 0,
+          "explanation": "Scarcity atau kelangkaan adalah kondisi sumber daya yang terbatas."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Memenuhi Kebutuhan\" adalah ...",
+          "options": [
+            "Memenuhi Kebutuhan",
+            "Mendapat Kekuasaan",
+            "Tindakan ekonomi yang juga dimaknai sebagai ibadah atau perwujudan nilai.",
+            "Sosial dan Kemanusiaan"
+          ],
+          "answer": -1,
+          "explanation": "Dorongan paling dasar untuk bertahan hidup dan mencukupi kebutuhan pokok."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Meraih Kemakmuran\" adalah ...",
+          "options": [
+            "Mendapat Kekuasaan",
+            "Keinginan untuk hidup berkecukupan dan sejahtera.",
+            "Sosial dan Kemanusiaan",
+            "Dorongan untuk membantu sesama dan memberi manfaat bagi lingkungan."
+          ],
+          "answer": 1,
+          "explanation": "Keinginan untuk hidup berkecukupan dan sejahtera."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Mendapat Keuntungan\" adalah ...",
+          "options": [
+            "Dorongan untuk memperoleh pengaruh, status, atau kendali.",
+            "Tindakan ekonomi yang juga dimaknai sebagai ibadah atau perwujudan nilai.",
+            "Dorongan paling dasar untuk bertahan hidup dan mencukupi kebutuhan pokok.",
+            "Meraih Kemakmuran"
+          ],
+          "answer": -1,
+          "explanation": "Dorongan umum dalam dunia usaha untuk memperoleh laba."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Mendapat Kekuasaan\" adalah ...",
+          "options": [
+            "Dorongan paling dasar untuk bertahan hidup dan mencukupi kebutuhan pokok.",
+            "Dorongan untuk membantu sesama dan memberi manfaat bagi lingkungan.",
+            "Meraih Kemakmuran",
+            "Alasan yang mendorong manusia melakukan tindakan ekonomi."
+          ],
+          "answer": -1,
+          "explanation": "Dorongan untuk memperoleh pengaruh, status, atau kendali."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Sosial dan Kemanusiaan\" adalah ...",
+          "options": [
+            "Dorongan paling dasar untuk bertahan hidup dan mencukupi kebutuhan pokok.",
+            "Ringkasan umum Motif Ekonomi",
+            "Ibadah dan Nilai",
+            "Memenuhi Kebutuhan"
+          ],
+          "answer": -1,
+          "explanation": "Dorongan untuk membantu sesama dan memberi manfaat bagi lingkungan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ibadah dan Nilai\" adalah ...",
+          "options": [
+            "Ibadah dan Nilai",
+            "Ringkasan umum Motif Ekonomi",
+            "Konsep utama materi",
+            "Keinginan untuk hidup berkecukupan dan sejahtera."
+          ],
+          "answer": -1,
+          "explanation": "Tindakan ekonomi yang juga dimaknai sebagai ibadah atau perwujudan nilai."
+        },
+        {
+          "question": "Motif ekonomi yang paling dasar adalah ...",
+          "options": [
+            "Mendapat kekuasaan",
+            "Memenuhi kebutuhan",
+            "Mendapat status",
+            "Mendapat laba"
+          ],
+          "answer": 1,
+          "explanation": "Motif paling dasar adalah memenuhi kebutuhan hidup."
+        },
+        {
+          "question": "Seorang pengusaha membuka pabrik baru untuk memperbesar laba. Ini contoh motif ...",
+          "options": [
+            "Sosial",
+            "Ibadah",
+            "Mendapat keuntungan",
+            "Mendapat kekuasaan"
+          ],
+          "answer": 2,
+          "explanation": "Mengejar laba adalah motif ekonomi yang sangat umum dalam bisnis."
+        },
+        {
+          "question": "Membantu korban bencana dengan berdonasi termasuk motif ...",
+          "options": [
+            "Memenuhi kebutuhan",
+            "Sosial dan kemanusiaan",
+            "Mendapat kekuasaan",
+            "Mendapat keuntungan"
+          ],
+          "answer": 1,
+          "explanation": "Donasi adalah contoh motif sosial dan kemanusiaan."
+        },
+        {
+          "question": "Motif intrinsik adalah dorongan yang berasal dari ...",
+          "options": [
+            "Tekanan luar",
+            "Dalam diri sendiri",
+            "Media sosial",
+            "Pemerintah"
+          ],
+          "answer": 1,
+          "explanation": "Motif intrinsik datang dari kesadaran dan keinginan pribadi."
+        },
+        {
+          "question": "Motif ekstrinsik biasanya dipengaruhi oleh ...",
+          "options": [
+            "Lingkungan dan faktor luar",
+            "Genetik saja",
+            "Kebetulan",
+            "Rumah tangga"
+          ],
+          "answer": 0,
+          "explanation": "Motif ekstrinsik muncul karena pengaruh luar seperti sosial dan lingkungan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Inti Prinsip Ekonomi\" adalah ...",
+          "options": [
+            "Membeli barang terbaik dengan harga yang paling tepat.",
+            "Prinsip bagi Konsumen",
+            "Ringkasan umum Prinsip Ekonomi",
+            "Mengelola anggaran negara secara efisien untuk kemakmuran rakyat."
+          ],
+          "answer": -1,
+          "explanation": "Pengorbanan sekecil-kecilnya untuk hasil sebesar-besarnya."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Prinsip bagi Konsumen\" adalah ...",
+          "options": [
+            "Prinsip bagi Produsen",
+            "Prinsip bagi Konsumen",
+            "4 Prinsip Gregory Mankiw",
+            "Pengorbanan sekecil-kecilnya untuk hasil sebesar-besarnya."
+          ],
+          "answer": -1,
+          "explanation": "Membeli barang terbaik dengan harga yang paling tepat."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Prinsip bagi Produsen\" adalah ...",
+          "options": [
+            "Prinsip bagi Produsen",
+            "Hubungan antar gagasan",
+            "Prinsip bagi Pemerintah",
+            "4 Prinsip Gregory Mankiw"
+          ],
+          "answer": -1,
+          "explanation": "Menghasilkan barang dengan biaya dan sumber daya yang efisien."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Prinsip bagi Distributor\" adalah ...",
+          "options": [
+            "Prinsip bagi Produsen",
+            "Prinsip bagi Konsumen",
+            "Menghasilkan barang dengan biaya dan sumber daya yang efisien.",
+            "Ringkasan empat prinsip dasar pengambilan keputusan ekonomi."
+          ],
+          "answer": -1,
+          "explanation": "Menyalurkan barang dengan biaya distribusi minimal namun tepat waktu."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Prinsip bagi Pemerintah\" adalah ...",
+          "options": [
+            "Prinsip bagi Konsumen",
+            "Konsep utama materi",
+            "Membeli barang terbaik dengan harga yang paling tepat.",
+            "Prinsip bagi Distributor"
+          ],
+          "answer": -1,
+          "explanation": "Mengelola anggaran negara secara efisien untuk kemakmuran rakyat."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"4 Prinsip Gregory Mankiw\" adalah ...",
+          "options": [
+            "Menyalurkan barang dengan biaya distribusi minimal namun tepat waktu.",
+            "Ringkasan umum Prinsip Ekonomi",
+            "Mengelola anggaran negara secara efisien untuk kemakmuran rakyat.",
+            "Menghasilkan barang dengan biaya dan sumber daya yang efisien."
+          ],
+          "answer": -1,
+          "explanation": "Ringkasan empat prinsip dasar pengambilan keputusan ekonomi."
+        },
+        {
+          "question": "Bunyi prinsip ekonomi yang paling tepat adalah ...",
+          "options": [
+            "Pengorbanan besar, hasil besar",
+            "Pengorbanan sekecil-kecilnya, hasil sebesar-besarnya",
+            "Hasil kecil, pengorbanan kecil",
+            "Hasil sebesar-besarnya tanpa pengorbanan"
+          ],
+          "answer": 1,
+          "explanation": "Prinsip ekonomi menekankan efisiensi: pengorbanan kecil untuk hasil yang besar."
+        },
+        {
+          "question": "Konsumen yang membandingkan harga dan kualitas sebelum membeli sedang menerapkan prinsip ...",
+          "options": [
+            "Kekuasaan",
+            "Ekonomi konsumen",
+            "Makroekonomi",
+            "Ibadah"
+          ],
+          "answer": 1,
+          "explanation": "Konsumen menerapkan prinsip ekonomi saat mencari hasil terbaik dengan biaya yang tepat."
+        },
+        {
+          "question": "Produsen yang menekan biaya bahan baku dan tenaga kerja sedang berusaha ...",
+          "options": [
+            "Memperbesar pemborosan",
+            "Efisiensi produksi",
+            "Mengurangi kualitas",
+            "Menurunkan permintaan"
+          ],
+          "answer": 1,
+          "explanation": "Produsen memakai prinsip ekonomi untuk menghasilkan barang dengan biaya efisien."
+        },
+        {
+          "question": "Gregory Mankiw menyebut bahwa manusia merespons ...",
+          "options": [
+            "Tradisi",
+            "Insentif",
+            "Kebisingan",
+            "Keberuntungan"
+          ],
+          "answer": 1,
+          "explanation": "People respond to incentives adalah salah satu prinsip dasar Mankiw."
+        },
+        {
+          "question": "Opportunity cost berarti ...",
+          "options": [
+            "Biaya yang sudah dibayar",
+            "Nilai dari pilihan terbaik yang dikorbankan",
+            "Keuntungan tambahan",
+            "Harga jual barang"
+          ],
+          "answer": 1,
+          "explanation": "Opportunity cost adalah nilai dari alternatif terbaik yang dilewatkan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ojek Online\" adalah ...",
+          "options": [
+            "Hubungan antar gagasan",
+            "Tindakan ekonomi bisa digerakkan oleh motif sosial dan ibadah.",
+            "Kasus nyata IPAS ekonomi di kehidupan sehari-hari.",
+            "Pengemudi memilih rute tercepat dan paling hemat agar penghasilan optimal."
+          ],
+          "answer": 3,
+          "explanation": "Pengemudi memilih rute tercepat dan paling hemat agar penghasilan optimal."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"UMKM Warung Makan\" adalah ...",
+          "options": [
+            "Kuliah versus Langsung Kerja",
+            "UMKM Warung Makan",
+            "Keputusan pendidikan selalu memiliki biaya peluang.",
+            "Hubungan antar gagasan"
+          ],
+          "answer": -1,
+          "explanation": "Pemilik warung menentukan harga berdasarkan biaya, pesaing, dan pelanggan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Inflasi dan BI Rate\" adalah ...",
+          "options": [
+            "Kasus nyata IPAS ekonomi di kehidupan sehari-hari.",
+            "UMKM Warung Makan",
+            "Inflasi dan BI Rate",
+            "Kebijakan moneter digunakan untuk mengendalikan inflasi."
+          ],
+          "answer": 3,
+          "explanation": "Kebijakan moneter digunakan untuk mengendalikan inflasi."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Kuliah versus Langsung Kerja\" adalah ...",
+          "options": [
+            "Pemilik warung menentukan harga berdasarkan biaya, pesaing, dan pelanggan.",
+            "Donasi dan Zakat Digital",
+            "Ringkasan umum Contoh Nyata",
+            "Hubungan antar gagasan"
+          ],
+          "answer": -1,
+          "explanation": "Keputusan pendidikan selalu memiliki biaya peluang."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Donasi dan Zakat Digital\" adalah ...",
+          "options": [
+            "Inflasi dan BI Rate",
+            "Kasus nyata IPAS ekonomi di kehidupan sehari-hari.",
+            "Keputusan pendidikan selalu memiliki biaya peluang.",
+            "Tindakan ekonomi bisa digerakkan oleh motif sosial dan ibadah."
+          ],
+          "answer": 3,
+          "explanation": "Tindakan ekonomi bisa digerakkan oleh motif sosial dan ibadah."
+        },
+        {
+          "question": "Pengemudi ojek online memilih rute tercepat agar lebih banyak order. Ini contoh ...",
+          "options": [
+            "Motif kekuasaan",
+            "Prinsip ekonomi",
+            "Inflasi",
+            "Monopoli"
+          ],
+          "answer": 1,
+          "explanation": "Memilih rute tercepat adalah penerapan prinsip ekonomi: hasil maksimal dengan pengorbanan minimal."
+        },
+        {
+          "question": "Warung makan menentukan harga berdasarkan biaya bahan baku dan pesaing di sekitar. Ini termasuk ...",
+          "options": [
+            "Ekonomi mikro",
+            "Ekonomi makro",
+            "Motif ibadah",
+            "Kelangkaan"
+          ],
+          "answer": 0,
+          "explanation": "Penetapan harga warung termasuk analisis ekonomi mikro."
+        },
+        {
+          "question": "Kenaikan inflasi sering direspons dengan kebijakan suku bunga oleh bank sentral. Ini contoh ...",
+          "options": [
+            "Ekonomi makro",
+            "Motif sosial",
+            "Prinsip konsumen",
+            "Pasar tradisional"
+          ],
+          "answer": 0,
+          "explanation": "Inflasi dan suku bunga adalah isu ekonomi makro."
+        },
+        {
+          "question": "Memilih kuliah daripada langsung kerja menunjukkan adanya ...",
+          "options": [
+            "Opportunity cost",
+            "Subsidi",
+            "Monopoli",
+            "Inflasi"
+          ],
+          "answer": 0,
+          "explanation": "Pilihan kuliah berarti mengorbankan penghasilan yang bisa diperoleh jika langsung bekerja."
+        },
+        {
+          "question": "Donasi digital dan zakat online paling dekat dengan motif ...",
+          "options": [
+            "Kekuasaan",
+            "Sosial dan ibadah",
+            "Keuntungan",
+            "Mikroekonomi"
+          ],
+          "answer": 1,
+          "explanation": "Donasi dan zakat didorong oleh motif sosial dan ibadah."
+        }
+      ],
+      "participants": [],
+      "createdAt": "2026-05-14T14:20:39.174Z",
+      "updatedAt": "2026-05-14T14:20:44.722Z",
+      "durationMinutes": 13,
+      "questionDurationSeconds": 15,
+      "endsAt": 1778769227722,
+      "liveAt": 1778768447722,
+      "finishedAt": "2026-05-14T14:33:47.722Z"
+    },
+    {
+      "id": "quiz-412ec4ec",
+      "title": "Kuis Teori Ekonomi",
+      "materialId": "teori",
+      "materialTitle": "Teori Ekonomi",
+      "status": "waiting",
+      "questionCount": 4,
+      "questions": [
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Pengertian Ilmu Ekonomi\" adalah ...",
+          "options": [
+            "Pengertian Ilmu Ekonomi",
+            "Mempelajari perekonomian negara secara keseluruhan.",
+            "Mempelajari unit kecil seperti individu, rumah tangga, dan perusahaan.",
+            "Adam Smith dan Pasar Bebas"
+          ],
+          "answer": -1,
+          "explanation": "Ilmu ekonomi mempelajari perilaku manusia saat memilih kebutuhan dengan sumber daya yang terbatas."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Adam Smith dan Pasar Bebas\" adalah ...",
+          "options": [
+            "Konsep utama materi",
+            "Ekonomi Mikro",
+            "Ekonomi Makro",
+            "Adam Smith dan Pasar Bebas"
+          ],
+          "answer": -1,
+          "explanation": "Adam Smith dikenal sebagai bapak ilmu ekonomi modern melalui gagasan pasar bebas dan invisible hand."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ekonomi Mikro\" adalah ...",
+          "options": [
+            "Ilmu ekonomi mempelajari perilaku manusia saat memilih kebutuhan dengan sumber daya yang terbatas.",
+            "Hubungan antar gagasan",
+            "Mempelajari perekonomian negara secara keseluruhan.",
+            "Ekonomi Makro"
+          ],
+          "answer": -1,
+          "explanation": "Mempelajari unit kecil seperti individu, rumah tangga, dan perusahaan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ekonomi Makro\" adalah ...",
+          "options": [
+            "Ringkasan umum Teori Ekonomi",
+            "Dasar memahami pilihan manusia saat sumber daya terbatas.",
+            "Ekonomi Makro",
+            "Ekonomi Mikro"
+          ],
+          "answer": -1,
+          "explanation": "Mempelajari perekonomian negara secara keseluruhan."
+        }
+      ],
+      "participants": [],
+      "createdAt": "2026-05-14T13:34:13.476Z",
+      "updatedAt": "2026-05-14T13:34:13.476Z",
+      "durationMinutes": 10,
+      "questionDurationSeconds": 15
+    },
+    {
+      "id": "quiz-c11944e0",
+      "title": "Kuis Teori Ekonomi",
+      "materialId": "teori",
+      "materialTitle": "Teori Ekonomi",
+      "status": "finished",
+      "questionCount": 7,
+      "questions": [
+        {
+          "question": "Ilmu ekonomi mempelajari cara manusia memenuhi kebutuhan yang tidak terbatas dengan sumber daya yang ...",
+          "options": [
+            "Berlimpah",
+            "Terbatas",
+            "Tidak pernah habis",
+            "Gratis"
+          ],
+          "answer": 1,
+          "explanation": "Inti ilmu ekonomi adalah mengelola sumber daya yang terbatas untuk kebutuhan yang tidak terbatas."
+        },
+        {
+          "question": "Adam Smith dikenal sebagai ...",
+          "options": [
+            "Bapak ilmu sosial",
+            "Bapak ilmu ekonomi modern",
+            "Penemu matematika modern",
+            "Tokoh ekonomi makro"
+          ],
+          "answer": 1,
+          "explanation": "Adam Smith menulis The Wealth of Nations dan dikenal sebagai bapak ilmu ekonomi modern."
+        },
+        {
+          "question": "Ekonomi mikro mempelajari ...",
+          "options": [
+            "Perekonomian negara secara keseluruhan",
+            "Perilaku unit kecil seperti individu dan perusahaan",
+            "Inflasi dunia",
+            "Kebijakan luar negeri"
+          ],
+          "answer": 1,
+          "explanation": "Ekonomi mikro fokus pada unit-unit kecil seperti rumah tangga, konsumen, dan perusahaan."
+        },
+        {
+          "question": "Ekonomi makro lebih fokus pada ...",
+          "options": [
+            "Harga satu barang",
+            "Pernak-pernik pasar kecil",
+            "Perekonomian nasional secara agregat",
+            "Desain produk"
+          ],
+          "answer": 2,
+          "explanation": "Ekonomi makro membahas inflasi, pengangguran, pertumbuhan ekonomi, dan kebijakan nasional."
+        },
+        {
+          "question": "Seseorang memilih kuliah daripada langsung bekerja. Biaya yang hilang dari pilihan itu disebut ...",
+          "options": [
+            "Biaya tetap",
+            "Opportunity cost",
+            "Biaya produksi",
+            "Biaya variabel"
+          ],
+          "answer": 1,
+          "explanation": "Opportunity cost adalah nilai dari alternatif terbaik yang dikorbankan."
+        },
+        {
+          "question": "Pemerintah memberi subsidi BBM agar masyarakat lebih banyak menggunakannya. Ini sesuai prinsip ...",
+          "options": [
+            "People face trade-offs",
+            "People respond to incentives",
+            "Rational people think at the margin",
+            "The cost of something is what you give up"
+          ],
+          "answer": 1,
+          "explanation": "Subsidi mengubah insentif sehingga perilaku masyarakat ikut berubah."
+        },
+        {
+          "question": "Istilah scarcity berarti ...",
+          "options": [
+            "Kelangkaan",
+            "Keuntungan",
+            "Monopoli",
+            "Inflasi"
+          ],
+          "answer": 0,
+          "explanation": "Scarcity atau kelangkaan adalah kondisi sumber daya yang terbatas."
+        }
+      ],
+      "participants": [
+        {
+          "id": "participant-ffd77ffd",
+          "name": "zili",
+          "joinedAt": "2026-05-14T13:23:55.858Z",
+          "score": 0,
+          "answeredCount": 0,
+          "answers": []
+        }
+      ],
+      "createdAt": "2026-05-14T13:23:45.869Z",
+      "updatedAt": "2026-05-14T13:24:08.836Z",
+      "liveAt": 1778765051836,
+      "durationMinutes": 10,
+      "endsAt": 1778765651836,
+      "finishedAt": "2026-05-14T13:34:11.836Z",
+      "questionDurationSeconds": 15
+    },
+    {
+      "id": "quiz-18c853ec",
+      "title": "Kuis Contoh Nyata",
+      "materialId": "contoh",
+      "materialTitle": "Contoh Nyata",
+      "status": "waiting",
+      "questionCount": 5,
+      "questions": [
+        {
+          "question": "Pengemudi ojek online memilih rute tercepat agar lebih banyak order. Ini contoh ...",
+          "options": [
+            "Motif kekuasaan",
+            "Prinsip ekonomi",
+            "Inflasi",
+            "Monopoli"
+          ],
+          "answer": 1,
+          "explanation": "Memilih rute tercepat adalah penerapan prinsip ekonomi: hasil maksimal dengan pengorbanan minimal."
+        },
+        {
+          "question": "Warung makan menentukan harga berdasarkan biaya bahan baku dan pesaing di sekitar. Ini termasuk ...",
+          "options": [
+            "Ekonomi mikro",
+            "Ekonomi makro",
+            "Motif ibadah",
+            "Kelangkaan"
+          ],
+          "answer": 0,
+          "explanation": "Penetapan harga warung termasuk analisis ekonomi mikro."
+        },
+        {
+          "question": "Kenaikan inflasi sering direspons dengan kebijakan suku bunga oleh bank sentral. Ini contoh ...",
+          "options": [
+            "Ekonomi makro",
+            "Motif sosial",
+            "Prinsip konsumen",
+            "Pasar tradisional"
+          ],
+          "answer": 0,
+          "explanation": "Inflasi dan suku bunga adalah isu ekonomi makro."
+        },
+        {
+          "question": "Memilih kuliah daripada langsung kerja menunjukkan adanya ...",
+          "options": [
+            "Opportunity cost",
+            "Subsidi",
+            "Monopoli",
+            "Inflasi"
+          ],
+          "answer": 0,
+          "explanation": "Pilihan kuliah berarti mengorbankan penghasilan yang bisa diperoleh jika langsung bekerja."
+        },
+        {
+          "question": "Donasi digital dan zakat online paling dekat dengan motif ...",
+          "options": [
+            "Kekuasaan",
+            "Sosial dan ibadah",
+            "Keuntungan",
+            "Mikroekonomi"
+          ],
+          "answer": 1,
+          "explanation": "Donasi dan zakat didorong oleh motif sosial dan ibadah."
+        }
+      ],
+      "participants": [],
+      "createdAt": "2026-05-14T13:21:22.902Z",
+      "updatedAt": "2026-05-14T13:21:22.902Z",
+      "durationMinutes": 10,
+      "questionDurationSeconds": 15
+    },
+    {
+      "id": "quiz-86e6e8e4",
+      "title": "Kuis Contoh Nyata",
+      "materialId": "contoh",
+      "materialTitle": "Contoh Nyata",
+      "status": "finished",
+      "questionCount": 5,
+      "questions": [
+        {
+          "question": "Pengemudi ojek online memilih rute tercepat agar lebih banyak order. Ini contoh ...",
+          "options": [
+            "Motif kekuasaan",
+            "Prinsip ekonomi",
+            "Inflasi",
+            "Monopoli"
+          ],
+          "answer": 1,
+          "explanation": "Memilih rute tercepat adalah penerapan prinsip ekonomi: hasil maksimal dengan pengorbanan minimal."
+        },
+        {
+          "question": "Warung makan menentukan harga berdasarkan biaya bahan baku dan pesaing di sekitar. Ini termasuk ...",
+          "options": [
+            "Ekonomi mikro",
+            "Ekonomi makro",
+            "Motif ibadah",
+            "Kelangkaan"
+          ],
+          "answer": 0,
+          "explanation": "Penetapan harga warung termasuk analisis ekonomi mikro."
+        },
+        {
+          "question": "Kenaikan inflasi sering direspons dengan kebijakan suku bunga oleh bank sentral. Ini contoh ...",
+          "options": [
+            "Ekonomi makro",
+            "Motif sosial",
+            "Prinsip konsumen",
+            "Pasar tradisional"
+          ],
+          "answer": 0,
+          "explanation": "Inflasi dan suku bunga adalah isu ekonomi makro."
+        },
+        {
+          "question": "Memilih kuliah daripada langsung kerja menunjukkan adanya ...",
+          "options": [
+            "Opportunity cost",
+            "Subsidi",
+            "Monopoli",
+            "Inflasi"
+          ],
+          "answer": 0,
+          "explanation": "Pilihan kuliah berarti mengorbankan penghasilan yang bisa diperoleh jika langsung bekerja."
+        },
+        {
+          "question": "Donasi digital dan zakat online paling dekat dengan motif ...",
+          "options": [
+            "Kekuasaan",
+            "Sosial dan ibadah",
+            "Keuntungan",
+            "Mikroekonomi"
+          ],
+          "answer": 1,
+          "explanation": "Donasi dan zakat didorong oleh motif sosial dan ibadah."
+        }
+      ],
+      "participants": [
+        {
+          "id": "participant-d7fc9cb6",
+          "name": "zili",
+          "joinedAt": "2026-05-14T12:59:43.521Z",
+          "score": 0,
+          "answeredCount": 0,
+          "answers": []
+        }
+      ],
+      "createdAt": "2026-05-14T12:59:30.477Z",
+      "updatedAt": "2026-05-14T12:59:52.297Z",
+      "liveAt": 1778763595297,
+      "durationMinutes": 10,
+      "endsAt": 1778764195297,
+      "finishedAt": "2026-05-14T13:09:55.297Z",
+      "questionDurationSeconds": 15
+    },
+    {
+      "id": "quiz-2535d94b",
+      "title": "Kuis Contoh Nyata",
+      "materialId": "contoh",
+      "materialTitle": "Contoh Nyata",
+      "status": "waiting",
+      "questionCount": 5,
+      "questions": [
+        {
+          "question": "Pengemudi ojek online memilih rute tercepat agar lebih banyak order. Ini contoh ...",
+          "options": [
+            "Motif kekuasaan",
+            "Prinsip ekonomi",
+            "Inflasi",
+            "Monopoli"
+          ],
+          "answer": 1,
+          "explanation": "Memilih rute tercepat adalah penerapan prinsip ekonomi: hasil maksimal dengan pengorbanan minimal."
+        },
+        {
+          "question": "Warung makan menentukan harga berdasarkan biaya bahan baku dan pesaing di sekitar. Ini termasuk ...",
+          "options": [
+            "Ekonomi mikro",
+            "Ekonomi makro",
+            "Motif ibadah",
+            "Kelangkaan"
+          ],
+          "answer": 0,
+          "explanation": "Penetapan harga warung termasuk analisis ekonomi mikro."
+        },
+        {
+          "question": "Kenaikan inflasi sering direspons dengan kebijakan suku bunga oleh bank sentral. Ini contoh ...",
+          "options": [
+            "Ekonomi makro",
+            "Motif sosial",
+            "Prinsip konsumen",
+            "Pasar tradisional"
+          ],
+          "answer": 0,
+          "explanation": "Inflasi dan suku bunga adalah isu ekonomi makro."
+        },
+        {
+          "question": "Memilih kuliah daripada langsung kerja menunjukkan adanya ...",
+          "options": [
+            "Opportunity cost",
+            "Subsidi",
+            "Monopoli",
+            "Inflasi"
+          ],
+          "answer": 0,
+          "explanation": "Pilihan kuliah berarti mengorbankan penghasilan yang bisa diperoleh jika langsung bekerja."
+        },
+        {
+          "question": "Donasi digital dan zakat online paling dekat dengan motif ...",
+          "options": [
+            "Kekuasaan",
+            "Sosial dan ibadah",
+            "Keuntungan",
+            "Mikroekonomi"
+          ],
+          "answer": 1,
+          "explanation": "Donasi dan zakat didorong oleh motif sosial dan ibadah."
+        }
+      ],
+      "participants": [],
+      "createdAt": "2026-05-14T12:50:18.376Z",
+      "updatedAt": "2026-05-14T12:50:18.376Z",
+      "durationMinutes": 10,
+      "questionDurationSeconds": 15
+    }
+  ]
+}

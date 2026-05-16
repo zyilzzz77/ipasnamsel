@@ -1,0 +1,28 @@
+services:
+  ipas-ekonomi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ipas-ekonomi:latest
+    container_name: ${CONTAINER_NAME:-ipas-ekonomi}
+    ports:
+      - "${APP_PORT:-3000}:3000"
+    environment:
+      NODE_ENV: production
+      NEXT_TELEMETRY_DISABLED: 1
+      HOSTNAME: 0.0.0.0
+      PORT: 3000
+      APP_BASE_URL: ${APP_BASE_URL:-https://ipasnamsel.my.id}
+    volumes:
+      - ipas-ekonomi-data:/app/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:3000/ >/dev/null 2>&1 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
+volumes:
+  ipas-ekonomi-data:
+    name: ${DATA_VOLUME_NAME:-ipas-ekonomi-data}

@@ -1,0 +1,16 @@
+<svg width="320" height="200" viewBox="0 0 320 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="320" height="200" rx="28" fill="#DBEAFE"/>
+<rect x="12" y="12" width="296" height="176" rx="22" fill="#EFF6FF" stroke="#93C5FD" stroke-width="2"/>
+<path d="M74 52L80 70H100L84 82L90 100L74 88L58 100L64 82L48 70H68L74 52Z" fill="#2563EB"/>
+<path d="M110 70L114 82H126L116 90L120 102L110 95L100 102L104 90L94 82H106L110 70Z" fill="#60A5FA"/>
+<circle cx="90" cy="118" r="28" fill="#2563EB" opacity="0.16"/>
+<path d="M72 124C78 114 84 110 90 110C96 110 102 114 108 124" stroke="#2563EB" stroke-width="7" stroke-linecap="round"/>
+<circle cx="80" cy="104" r="4" fill="#2563EB"/>
+<circle cx="100" cy="104" r="4" fill="#2563EB"/>
+<rect x="146" y="52" width="126" height="18" rx="9" fill="#3B82F6"/>
+<rect x="146" y="82" width="110" height="12" rx="6" fill="#60A5FA"/>
+<rect x="146" y="102" width="120" height="12" rx="6" fill="#93C5FD"/>
+<rect x="146" y="122" width="96" height="12" rx="6" fill="#BFDBFE"/>
+<rect x="42" y="154" width="236" height="18" rx="9" fill="#1D4ED8" opacity="0.1"/>
+<text x="160" y="166" text-anchor="middle" fill="#1D4ED8" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">Bagus. Rank sedang bergerak naik.</text>
+</svg>
