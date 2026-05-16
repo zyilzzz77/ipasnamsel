@@ -327,11 +327,16 @@ export default function QuizJoinLiveClient({ quizId, initialParticipant }: QuizJ
       const nextQuiz = payload.quiz
       const nextParticipant = payload.participant ?? nextQuiz.participants.find((item) => item.id === participant.id)
       setQuiz(nextQuiz)
+      const correctOption = question.answer >= 0 && question.answer < question.options.length
+        ? question.options[question.answer]
+        : null
+      const explanationText = question.explanation || ''
+
       setFeedback({
         tone: isCorrect ? 'correct' : 'wrong',
         text: isCorrect
-          ? `Benar. ${question.explanation}`
-          : `Salah. Jawaban benar: ${question.options[question.answer]}. ${question.explanation}`,
+          ? `Benar!${explanationText ? ` ${explanationText}` : ''}`
+          : `Salah.${correctOption ? ` Jawaban benar: ${correctOption}.` : ''}${explanationText ? ` ${explanationText}` : ''}`,
         meme,
       })
 

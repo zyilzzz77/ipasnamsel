@@ -245,13 +245,15 @@ function shuffleValues<T>(values: T[]): T[] {
 }
 
 function buildQuestionOptions(correct: string, distractors: string[], fallbackOptions: string[]): string[] {
-  const pool = uniqueStrings([correct, ...distractors, ...fallbackOptions])
+  const pool = uniqueStrings([...distractors, ...fallbackOptions].filter((item) => item !== correct))
+  const shuffled = shuffleValues(pool).slice(0, 3)
+  const options = shuffleValues([correct, ...shuffled])
 
-  while (pool.length < 4) {
-    pool.push(`Opsi ${pool.length + 1}`)
+  while (options.length < 4) {
+    options.push(`Opsi ${options.length + 1}`)
   }
 
-  return shuffleValues(pool).slice(0, 4)
+  return options
 }
 
 function dedupeQuestions(questions: QuizQuestion[]): QuizQuestion[] {
@@ -299,9 +301,11 @@ function buildMaterialQuizQuestions(material: StoredMaterial): QuizQuestion[] {
 }
 
 function cloneQuestion(question: QuizQuestion): QuizQuestion {
+  const shuffledOptions = shuffleValues([...question.options])
   return {
     ...question,
-    options: [...question.options],
+    options: shuffledOptions,
+    answer: shuffledOptions.indexOf(question.options[question.answer]),
   }
 }
 
