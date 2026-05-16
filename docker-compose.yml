@@ -5,8 +5,8 @@ services:
       dockerfile: Dockerfile
     image: ipas-ekonomi:latest
     container_name: ${CONTAINER_NAME:-ipas-ekonomi}
-    ports:
-      - "${APP_PORT:-3000}:3000"
+    expose:
+      - "3000"
     environment:
       NODE_ENV: production
       NEXT_TELEMETRY_DISABLED: 1
@@ -23,6 +23,26 @@ services:
       retries: 3
       start_period: 15s
 
+  caddy:
+    image: caddy:2-alpine
+    container_name: ${CADDY_CONTAINER_NAME:-ipas-ekonomi-caddy}
+    depends_on:
+      - ipas-ekonomi
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      SITE_DOMAIN: ${SITE_DOMAIN:-ipasnamsel.my.id}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    restart: unless-stopped
+
 volumes:
   ipas-ekonomi-data:
     name: ${DATA_VOLUME_NAME:-ipas-ekonomi-data}
+  caddy_data:
+    name: ${CADDY_DATA_VOLUME_NAME:-ipas-ekonomi-caddy-data}
+  caddy_config:
+    name: ${CADDY_CONFIG_VOLUME_NAME:-ipas-ekonomi-caddy-config}
