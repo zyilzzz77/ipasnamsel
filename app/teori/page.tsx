@@ -1,6 +1,25 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { BookOpen, Layers } from 'lucide-react'
 import { DEFAULT_SUBMATERI, MATERIALS } from '@/lib/catalog'
+
+const SECTION_IMAGES: Record<string, { src: string; alt: string }> = {
+  'ekonomi-mikro': {
+    src: '/images/teori/ekonomi-mikro.jpeg',
+    alt: 'Ilustrasi ekonomi mikro',
+  },
+  'ekonomi-makro': {
+    src: '/images/teori/ekonomi-makro.jpeg',
+    alt: 'Ilustrasi ekonomi makro',
+  },
+}
+
+const TOKOH_IMAGES: { name: string; src: string }[] = [
+  { name: 'Adam Smith', src: '/images/teori/tokoh-adam-smith.jpeg' },
+  { name: 'John Maynard Keynes', src: '/images/teori/tokoh-john-maynard-keynes.jpeg' },
+  { name: 'Alfred Marshall', src: '/images/teori/tokoh-alfred-marshall.jpeg' },
+  { name: 'Milton Friedman', src: '/images/teori/tokoh-milton-friedman.jpeg' },
+]
 
 export const metadata: Metadata = { title: 'Teori Ekonomi | IPAS Ekonomi' }
 
@@ -22,19 +41,66 @@ export default function TeoriPage() {
         <p className="sec-sub">Ringkasan inti dari materi teori ekonomi</p>
       </div>
 
-      {teoriSections.map((section, index) => (
-        <div key={section.slug} className="card">
-          <div className="card-num">{String(index + 1).padStart(2, '0')}</div>
-          <div className="card-label blue"><Layers size={11} /> Submateri</div>
-          <h3>{section.title}</h3>
-          <p>{section.body}</p>
-          <ul className="card-points">
-            {section.points.map((point) => (
-              <li key={point}>{point}</li>
-            ))}
-          </ul>
-        </div>
-      ))}
+      {teoriSections.map((section, index) => {
+        const sideImage = SECTION_IMAGES[section.slug]
+        const isTokoh = section.slug === 'tokoh-penting-teori-ekonomi'
+        return (
+          <div key={section.slug} className="card">
+            <div className="card-num">{String(index + 1).padStart(2, '0')}</div>
+            <div className="card-label blue"><Layers size={11} /> Submateri</div>
+            <h3 className="teori-title"><strong>{section.title}</strong></h3>
+            <div className={sideImage ? 'teori-body teori-body--with-image' : 'teori-body'}>
+              {sideImage && (
+                <div className="teori-image-wrap">
+                  <Image
+                    src={sideImage.src}
+                    alt={sideImage.alt}
+                    width={200}
+                    height={200}
+                    className="teori-image"
+                  />
+                </div>
+              )}
+              <div className="teori-copy">
+                <p><strong>{section.body}</strong></p>
+                {!isTokoh && (
+                  <ul className="card-points">
+                    {section.points.map((point) => (
+                      <li key={point}>{point}</li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            </div>
+            {isTokoh && (
+              <div className="tokoh-grid">
+                {TOKOH_IMAGES.map((tokoh, i) => {
+                  const point = section.points[i] ?? ''
+                  const colonIdx = point.indexOf(':')
+                  const desc = colonIdx >= 0 ? point.slice(colonIdx + 1).trim() : point
+                  return (
+                    <div key={tokoh.name} className="tokoh-item">
+                      <div className="tokoh-image-wrap">
+                        <Image
+                          src={tokoh.src}
+                          alt={`Foto ${tokoh.name}`}
+                          width={120}
+                          height={120}
+                          className="tokoh-image"
+                        />
+                      </div>
+                      <div className="tokoh-copy">
+                        <h4><strong>{tokoh.name}</strong></h4>
+                        <p><strong>{desc}</strong></p>
+                      </div>
+                    </div>
+                  )
+                })}
+              </div>
+            )}
+          </div>
+        )
+      })}
 
       <div className="info-box">
         <BookOpen size={16} />

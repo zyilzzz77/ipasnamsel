@@ -346,6 +346,560 @@
   ],
   "quizzes": [
     {
+      "id": "quiz-9ce19100",
+      "title": "Kuis Semua Materi IPAS",
+      "materialId": "all",
+      "materialTitle": "Semua Materi IPAS",
+      "status": "waiting",
+      "questionCount": 49,
+      "questions": [
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Pengertian Teori Ekonomi\" adalah ...",
+          "options": [
+            "Ekonomi Makro",
+            "Ekonomi Mikro",
+            "Ringkasan umum Teori Ekonomi",
+            "Teori ekonomi menjelaskan cara individu, perusahaan, dan pemerintah mengambil keputusan saat sumber daya terbatas."
+          ],
+          "answer": 3,
+          "explanation": "Teori ekonomi menjelaskan cara individu, perusahaan, dan pemerintah mengambil keputusan saat sumber daya terbatas."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ekonomi Mikro\" adalah ...",
+          "options": [
+            "Ekonomi mikro mempelajari perilaku unit ekonomi individual seperti konsumen, rumah tangga, dan perusahaan.",
+            "Dasar untuk memahami bagaimana sumber daya terbatas dialokasikan guna memenuhi kebutuhan yang tidak terbatas.",
+            "Ringkasan umum Teori Ekonomi",
+            "Ekonomi makro mempelajari perekonomian secara keseluruhan."
+          ],
+          "answer": 0,
+          "explanation": "Ekonomi mikro mempelajari perilaku unit ekonomi individual seperti konsumen, rumah tangga, dan perusahaan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ekonomi Makro\" adalah ...",
+          "options": [
+            "Hubungan antar gagasan",
+            "Ekonomi Mikro",
+            "Tokoh Penting Teori Ekonomi",
+            "Ekonomi makro mempelajari perekonomian secara keseluruhan."
+          ],
+          "answer": 3,
+          "explanation": "Ekonomi makro mempelajari perekonomian secara keseluruhan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Tokoh Penting Teori Ekonomi\" adalah ...",
+          "options": [
+            "Adam Smith, John Maynard Keynes, Alfred Marshall, dan Milton Friedman berperan besar dalam perkembangan teori ekonomi.",
+            "Masalah pokok ekonomi menjawab apa, bagaimana, dan untuk siapa barang serta jasa diproduksi.",
+            "Ekonomi Makro",
+            "Dasar untuk memahami bagaimana sumber daya terbatas dialokasikan guna memenuhi kebutuhan yang tidak terbatas."
+          ],
+          "answer": 0,
+          "explanation": "Adam Smith, John Maynard Keynes, Alfred Marshall, dan Milton Friedman berperan besar dalam perkembangan teori ekonomi."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Masalah Pokok Ekonomi\" adalah ...",
+          "options": [
+            "Dasar untuk memahami bagaimana sumber daya terbatas dialokasikan guna memenuhi kebutuhan yang tidak terbatas.",
+            "Tokoh Penting Teori Ekonomi",
+            "Ekonomi mikro mempelajari perilaku unit ekonomi individual seperti konsumen, rumah tangga, dan perusahaan.",
+            "Masalah pokok ekonomi menjawab apa, bagaimana, dan untuk siapa barang serta jasa diproduksi."
+          ],
+          "answer": 3,
+          "explanation": "Masalah pokok ekonomi menjawab apa, bagaimana, dan untuk siapa barang serta jasa diproduksi."
+        },
+        {
+          "question": "Teori ekonomi mempelajari cara ...",
+          "options": [
+            "Menghafal nama perusahaan",
+            "Mencetak uang tanpa aturan",
+            "Mengalokasikan sumber daya terbatas",
+            "Menentukan semua harga secara acak"
+          ],
+          "answer": 2,
+          "explanation": "Teori ekonomi membahas bagaimana sumber daya yang terbatas digunakan untuk memenuhi kebutuhan manusia."
+        },
+        {
+          "question": "Cabang ekonomi yang mempelajari perilaku konsumen dan perusahaan adalah ...",
+          "options": [
+            "Ekonomi regional",
+            "Ekonomi politik",
+            "Ekonomi mikro",
+            "Ekonomi makro"
+          ],
+          "answer": 2,
+          "explanation": "Ekonomi mikro fokus pada unit-unit ekonomi individual seperti konsumen dan perusahaan."
+        },
+        {
+          "question": "Inflasi, pengangguran, dan PDB dibahas dalam ...",
+          "options": [
+            "Akuntansi",
+            "Manajemen",
+            "Ekonomi makro",
+            "Ekonomi mikro"
+          ],
+          "answer": 2,
+          "explanation": "Ekonomi makro mempelajari perekonomian secara keseluruhan."
+        },
+        {
+          "question": "Tokoh yang dikenal dengan konsep invisible hand adalah ...",
+          "options": [
+            "Alfred Marshall",
+            "Adam Smith",
+            "John Maynard Keynes",
+            "Milton Friedman"
+          ],
+          "answer": 1,
+          "explanation": "Adam Smith dikenal sebagai tokoh pasar bebas dengan konsep invisible hand."
+        },
+        {
+          "question": "Masalah pokok ekonomi mencakup pertanyaan ...",
+          "options": [
+            "Kapan libur dan kapan bekerja",
+            "Apa, bagaimana, dan untuk siapa diproduksi",
+            "Berapa jumlah penduduk dan luas wilayah",
+            "Siapa guru dan siapa murid"
+          ],
+          "answer": 1,
+          "explanation": "Masalah pokok ekonomi membahas apa yang diproduksi, bagaimana memproduksi, dan untuk siapa hasilnya."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Pengertian Motif Ekonomi\" adalah ...",
+          "options": [
+            "Alasan yang mendorong seseorang melakukan tindakan ekonomi, dari memenuhi kebutuhan hingga menyiapkan masa depan.",
+            "Motif Sosial",
+            "Prestise dan Kekuasaan",
+            "Motif ekonomi adalah alasan atau dorongan yang membuat seseorang melakukan kegiatan ekonomi."
+          ],
+          "answer": 3,
+          "explanation": "Motif ekonomi adalah alasan atau dorongan yang membuat seseorang melakukan kegiatan ekonomi."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Pemenuhan Kebutuhan\" adalah ...",
+          "options": [
+            "Motif ekonomi adalah alasan atau dorongan yang membuat seseorang melakukan kegiatan ekonomi.",
+            "Motif Berdasarkan Pelaku",
+            "Hubungan antar gagasan",
+            "Motif ini mendorong orang memenuhi kebutuhan pokok seperti pangan, sandang, dan papan."
+          ],
+          "answer": 3,
+          "explanation": "Motif ini mendorong orang memenuhi kebutuhan pokok seperti pangan, sandang, dan papan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Memperoleh Keuntungan\" adalah ...",
+          "options": [
+            "Motif keuntungan mendorong pelaku ekonomi mencari laba.",
+            "Ringkasan umum Motif Ekonomi",
+            "Motif ini mendorong orang menabung, berinvestasi, atau membeli asuransi.",
+            "Motif ini berkaitan dengan keinginan memperoleh status, pengaruh, atau pengakuan sosial."
+          ],
+          "answer": 0,
+          "explanation": "Motif keuntungan mendorong pelaku ekonomi mencari laba."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Motif Sosial\" adalah ...",
+          "options": [
+            "Motif ekonomi adalah alasan atau dorongan yang membuat seseorang melakukan kegiatan ekonomi.",
+            "Pemenuhan Kebutuhan",
+            "Motif sosial mendorong tindakan ekonomi untuk membantu orang lain atau masyarakat.",
+            "Alasan yang mendorong seseorang melakukan tindakan ekonomi, dari memenuhi kebutuhan hingga menyiapkan masa depan."
+          ],
+          "answer": 2,
+          "explanation": "Motif sosial mendorong tindakan ekonomi untuk membantu orang lain atau masyarakat."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Prestise dan Kekuasaan\" adalah ...",
+          "options": [
+            "Pengertian Motif Ekonomi",
+            "Konsep utama materi",
+            "Konsumen, produsen, dan pemerintah memiliki motif ekonomi yang berbeda.",
+            "Motif ini berkaitan dengan keinginan memperoleh status, pengaruh, atau pengakuan sosial."
+          ],
+          "answer": 3,
+          "explanation": "Motif ini berkaitan dengan keinginan memperoleh status, pengaruh, atau pengakuan sosial."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Keamanan dan Masa Depan\" adalah ...",
+          "options": [
+            "Motif ini mendorong orang memenuhi kebutuhan pokok seperti pangan, sandang, dan papan.",
+            "Hubungan antar gagasan",
+            "Motif ini mendorong orang menabung, berinvestasi, atau membeli asuransi.",
+            "Konsumen, produsen, dan pemerintah memiliki motif ekonomi yang berbeda."
+          ],
+          "answer": 2,
+          "explanation": "Motif ini mendorong orang menabung, berinvestasi, atau membeli asuransi."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Motif Berdasarkan Pelaku\" adalah ...",
+          "options": [
+            "Konsep utama materi",
+            "Konsumen, produsen, dan pemerintah memiliki motif ekonomi yang berbeda.",
+            "Pemenuhan Kebutuhan",
+            "Pengertian Motif Ekonomi"
+          ],
+          "answer": 1,
+          "explanation": "Konsumen, produsen, dan pemerintah memiliki motif ekonomi yang berbeda."
+        },
+        {
+          "question": "Motif ekonomi adalah ...",
+          "options": [
+            "Alasan melakukan tindakan ekonomi",
+            "Cara menghitung laba",
+            "Jenis alat pembayaran",
+            "Nama lain dari pasar bebas"
+          ],
+          "answer": 0,
+          "explanation": "Motif ekonomi adalah alasan atau dorongan yang membuat seseorang melakukan kegiatan ekonomi."
+        },
+        {
+          "question": "Dorongan untuk memenuhi pangan, sandang, dan papan termasuk motif ...",
+          "options": [
+            "Sosial",
+            "Kekuasaan",
+            "Prestise",
+            "Pemenuhan kebutuhan"
+          ],
+          "answer": 3,
+          "explanation": "Motif pemenuhan kebutuhan berkaitan dengan kebutuhan pokok sehari-hari."
+        },
+        {
+          "question": "Membuka usaha dengan tujuan memperoleh laba termasuk motif ...",
+          "options": [
+            "Keamanan masa depan",
+            "Keuntungan",
+            "Kebutuhan pokok",
+            "Sosial"
+          ],
+          "answer": 1,
+          "explanation": "Motif memperoleh keuntungan mendorong pelaku ekonomi mencari laba."
+        },
+        {
+          "question": "Menyumbangkan penghasilan untuk membantu korban bencana termasuk motif ...",
+          "options": [
+            "Sosial",
+            "Keuntungan",
+            "Kekuasaan",
+            "Prestise"
+          ],
+          "answer": 0,
+          "explanation": "Motif sosial mendorong tindakan ekonomi untuk membantu orang lain atau masyarakat."
+        },
+        {
+          "question": "Membeli barang mewah demi pengakuan sosial termasuk motif ...",
+          "options": [
+            "Sosial",
+            "Prestise dan kekuasaan",
+            "Ibadah",
+            "Pemenuhan kebutuhan"
+          ],
+          "answer": 1,
+          "explanation": "Motif prestise berkaitan dengan status, citra diri, dan pengakuan sosial."
+        },
+        {
+          "question": "Menabung atau membeli asuransi untuk perlindungan keluarga termasuk motif ...",
+          "options": [
+            "Keamanan dan masa depan",
+            "Keuntungan",
+            "Prestise",
+            "Sosial"
+          ],
+          "answer": 0,
+          "explanation": "Motif keamanan dan masa depan berhubungan dengan kestabilan finansial jangka panjang."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Pengertian Prinsip Ekonomi\" adalah ...",
+          "options": [
+            "Pengertian Prinsip Ekonomi",
+            "Orang yang menerapkan prinsip ekonomi cenderung rasional, hemat, dan mampu menentukan prioritas.",
+            "Prinsip ekonomi adalah pedoman bertindak agar hasil maksimal dicapai dengan pengorbanan minimal.",
+            "Penerapan Prinsip Ekonomi"
+          ],
+          "answer": 2,
+          "explanation": "Prinsip ekonomi adalah pedoman bertindak agar hasil maksimal dicapai dengan pengorbanan minimal."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Rumusan Prinsip Ekonomi\" adalah ...",
+          "options": [
+            "Manfaat Prinsip Ekonomi",
+            "Prinsip ekonomi dirumuskan sebagai hasil sebesar-besarnya dengan pengorbanan tertentu atau hasil tertentu dengan pengorbanan sekecil-kecilnya.",
+            "Prinsip ekonomi membantu memenuhi kebutuhan secara optimal dan menghindari pemborosan.",
+            "Prinsip ekonomi diterapkan oleh konsumen, produsen, dan pemerintah."
+          ],
+          "answer": 1,
+          "explanation": "Prinsip ekonomi dirumuskan sebagai hasil sebesar-besarnya dengan pengorbanan tertentu atau hasil tertentu dengan pengorbanan sekecil-kecilnya."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Ciri Orang yang Menerapkan Prinsip Ekonomi\" adalah ...",
+          "options": [
+            "Pedoman bertindak efisien agar memperoleh hasil terbaik dengan biaya, waktu, dan usaha yang tepat.",
+            "Manfaat Prinsip Ekonomi",
+            "Orang yang menerapkan prinsip ekonomi cenderung rasional, hemat, dan mampu menentukan prioritas.",
+            "Prinsip ekonomi dirumuskan sebagai hasil sebesar-besarnya dengan pengorbanan tertentu atau hasil tertentu dengan pengorbanan sekecil-kecilnya."
+          ],
+          "answer": 2,
+          "explanation": "Orang yang menerapkan prinsip ekonomi cenderung rasional, hemat, dan mampu menentukan prioritas."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Penerapan Prinsip Ekonomi\" adalah ...",
+          "options": [
+            "Konsep utama materi",
+            "Rumusan Prinsip Ekonomi",
+            "Pedoman bertindak efisien agar memperoleh hasil terbaik dengan biaya, waktu, dan usaha yang tepat.",
+            "Prinsip ekonomi diterapkan oleh konsumen, produsen, dan pemerintah."
+          ],
+          "answer": 3,
+          "explanation": "Prinsip ekonomi diterapkan oleh konsumen, produsen, dan pemerintah."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Manfaat Prinsip Ekonomi\" adalah ...",
+          "options": [
+            "Prinsip ekonomi diterapkan oleh konsumen, produsen, dan pemerintah.",
+            "Prinsip ekonomi adalah pedoman bertindak agar hasil maksimal dicapai dengan pengorbanan minimal.",
+            "Penerapan Prinsip Ekonomi",
+            "Prinsip ekonomi membantu memenuhi kebutuhan secara optimal dan menghindari pemborosan."
+          ],
+          "answer": 3,
+          "explanation": "Prinsip ekonomi membantu memenuhi kebutuhan secara optimal dan menghindari pemborosan."
+        },
+        {
+          "question": "Inti prinsip ekonomi adalah ...",
+          "options": [
+            "Menaikkan harga setinggi mungkin",
+            "Menghabiskan semua sumber daya",
+            "Hasil maksimal dengan pengorbanan minimal",
+            "Mengutamakan gengsi saat membeli"
+          ],
+          "answer": 2,
+          "explanation": "Prinsip ekonomi menekankan hasil terbaik dengan biaya, waktu, dan usaha yang efisien."
+        },
+        {
+          "question": "Prinsip ekonomi muncul karena adanya ...",
+          "options": [
+            "Surplus tanpa batas",
+            "Harga yang selalu sama",
+            "Produksi tanpa biaya",
+            "Kelangkaan sumber daya"
+          ],
+          "answer": 3,
+          "explanation": "Prinsip ekonomi lahir karena manusia menghadapi sumber daya yang terbatas."
+        },
+        {
+          "question": "Sikap yang menunjukkan penerapan prinsip ekonomi adalah ...",
+          "options": [
+            "Membeli semua barang diskon",
+            "Membuat skala prioritas",
+            "Belanja tanpa rencana",
+            "Mengabaikan biaya"
+          ],
+          "answer": 1,
+          "explanation": "Orang yang menerapkan prinsip ekonomi cenderung rasional dan menentukan prioritas."
+        },
+        {
+          "question": "Membandingkan harga sebelum membeli barang termasuk prinsip ekonomi bagi ...",
+          "options": [
+            "Produsen",
+            "Konsumen",
+            "Distributor",
+            "Pemerintah"
+          ],
+          "answer": 1,
+          "explanation": "Membandingkan harga adalah contoh prinsip ekonomi pada konsumen."
+        },
+        {
+          "question": "Mengurangi pemborosan bahan baku adalah contoh prinsip ekonomi bagi ...",
+          "options": [
+            "Produsen",
+            "Konsumen",
+            "Pemerintah",
+            "Pekerja lepas"
+          ],
+          "answer": 0,
+          "explanation": "Produsen menerapkan prinsip ekonomi dengan menekan biaya dan mengurangi pemborosan."
+        },
+        {
+          "question": "Menyalurkan subsidi tepat sasaran adalah contoh prinsip ekonomi bagi ...",
+          "options": [
+            "Pemerintah",
+            "Konsumen",
+            "Distributor",
+            "Produsen"
+          ],
+          "answer": 0,
+          "explanation": "Pemerintah menerapkan prinsip ekonomi saat mengelola anggaran secara efisien."
+        },
+        {
+          "question": "Salah satu manfaat prinsip ekonomi adalah ...",
+          "options": [
+            "Menghindari pemborosan sumber daya",
+            "Menghapus semua risiko ekonomi",
+            "Membuat kebutuhan bertambah tanpa batas",
+            "Menurunkan semua harga barang"
+          ],
+          "answer": 0,
+          "explanation": "Prinsip ekonomi membantu memenuhi kebutuhan secara optimal dan mencegah pemborosan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Harga Turun, Pembeli Naik\" adalah ...",
+          "options": [
+            "Saat harga barang turun, jumlah pembeli biasanya bertambah.",
+            "Contoh singkat penerapan teori, motif, dan prinsip ekonomi dalam kehidupan sehari-hari.",
+            "Menabung, investasi, atau asuransi dilakukan demi keamanan masa depan.",
+            "Barang Mewah dan Status"
+          ],
+          "answer": 0,
+          "explanation": "Saat harga barang turun, jumlah pembeli biasanya bertambah."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Buka Toko untuk Laba\" adalah ...",
+          "options": [
+            "Bandingkan Harga Belanja",
+            "Pedagang membuka toko untuk memperoleh keuntungan.",
+            "Ringkasan umum Contoh Nyata",
+            "Seseorang membeli barang mewah untuk menunjukkan status sosial."
+          ],
+          "answer": 1,
+          "explanation": "Pedagang membuka toko untuk memperoleh keuntungan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Donasi untuk Sesama\" adalah ...",
+          "options": [
+            "Barang Mewah dan Status",
+            "Sebagian penghasilan disumbangkan untuk membantu korban bencana.",
+            "Seseorang membeli barang mewah untuk menunjukkan status sosial.",
+            "Pemerintah menyalurkan subsidi kepada pihak yang benar-benar membutuhkan."
+          ],
+          "answer": 1,
+          "explanation": "Sebagian penghasilan disumbangkan untuk membantu korban bencana."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Barang Mewah dan Status\" adalah ...",
+          "options": [
+            "Subsidi Tepat Sasaran",
+            "Sebagian penghasilan disumbangkan untuk membantu korban bencana.",
+            "Seseorang membeli barang mewah untuk menunjukkan status sosial.",
+            "Ringkasan umum Contoh Nyata"
+          ],
+          "answer": 2,
+          "explanation": "Seseorang membeli barang mewah untuk menunjukkan status sosial."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Menabung untuk Masa Depan\" adalah ...",
+          "options": [
+            "Menabung, investasi, atau asuransi dilakukan demi keamanan masa depan.",
+            "Subsidi Tepat Sasaran",
+            "Konsumen membandingkan harga sebelum memilih barang.",
+            "Barang Mewah dan Status"
+          ],
+          "answer": 0,
+          "explanation": "Menabung, investasi, atau asuransi dilakukan demi keamanan masa depan."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Bandingkan Harga Belanja\" adalah ...",
+          "options": [
+            "Hubungan antar gagasan",
+            "Contoh singkat penerapan teori, motif, dan prinsip ekonomi dalam kehidupan sehari-hari.",
+            "Konsumen membandingkan harga sebelum memilih barang.",
+            "Sebagian penghasilan disumbangkan untuk membantu korban bencana."
+          ],
+          "answer": 2,
+          "explanation": "Konsumen membandingkan harga sebelum memilih barang."
+        },
+        {
+          "question": "Pernyataan yang paling sesuai dengan submateri \"Subsidi Tepat Sasaran\" adalah ...",
+          "options": [
+            "Subsidi Tepat Sasaran",
+            "Hubungan antar gagasan",
+            "Seseorang membeli barang mewah untuk menunjukkan status sosial.",
+            "Pemerintah menyalurkan subsidi kepada pihak yang benar-benar membutuhkan."
+          ],
+          "answer": 3,
+          "explanation": "Pemerintah menyalurkan subsidi kepada pihak yang benar-benar membutuhkan."
+        },
+        {
+          "question": "Saat harga barang turun dan pembeli bertambah, contoh tersebut menunjukkan ...",
+          "options": [
+            "Motif prestise",
+            "Hukum permintaan",
+            "Prinsip pemerintah",
+            "Motif sosial"
+          ],
+          "answer": 1,
+          "explanation": "Harga yang turun dapat meningkatkan jumlah pembelian, ini contoh hukum permintaan."
+        },
+        {
+          "question": "Pedagang membuka toko untuk memperoleh keuntungan adalah contoh ...",
+          "options": [
+            "Ekonomi makro",
+            "Motif sosial",
+            "Motif laba",
+            "Motif ibadah"
+          ],
+          "answer": 2,
+          "explanation": "Membuka toko untuk memperoleh laba adalah contoh motif keuntungan."
+        },
+        {
+          "question": "Menyumbangkan penghasilan untuk korban bencana merupakan contoh ...",
+          "options": [
+            "Ekonomi mikro",
+            "Motif keuntungan",
+            "Motif prestise",
+            "Motif sosial"
+          ],
+          "answer": 3,
+          "explanation": "Donasi untuk sesama menunjukkan motif sosial dalam tindakan ekonomi."
+        },
+        {
+          "question": "Membeli barang mewah untuk menunjukkan status sosial adalah contoh ...",
+          "options": [
+            "Motif prestise",
+            "Ekonomi makro",
+            "Motif sosial",
+            "Prinsip produksi"
+          ],
+          "answer": 0,
+          "explanation": "Status dan pengakuan sosial termasuk motif prestise atau kekuasaan."
+        },
+        {
+          "question": "Menabung atau membeli asuransi untuk masa depan adalah contoh ...",
+          "options": [
+            "Motif sosial",
+            "Hukum permintaan",
+            "Motif laba",
+            "Motif keamanan dan masa depan"
+          ],
+          "answer": 3,
+          "explanation": "Menabung dan asuransi menunjukkan upaya menjaga keamanan finansial di masa depan."
+        },
+        {
+          "question": "Membandingkan harga sebelum membeli barang adalah contoh ...",
+          "options": [
+            "Motif sosial",
+            "Ekonomi makro",
+            "Motif prestise",
+            "Prinsip ekonomi konsumen"
+          ],
+          "answer": 3,
+          "explanation": "Membandingkan harga merupakan contoh penerapan prinsip ekonomi oleh konsumen."
+        },
+        {
+          "question": "Penyaluran subsidi tepat sasaran menunjukkan penerapan prinsip ekonomi oleh ...",
+          "options": [
+            "Produsen",
+            "Pemerintah",
+            "Konsumen",
+            "Pedagang"
+          ],
+          "answer": 1,
+          "explanation": "Pemerintah menerapkan prinsip ekonomi saat anggaran dialokasikan secara efisien dan tepat sasaran."
+        }
+      ],
+      "participants": [],
+      "createdAt": "2026-05-19T09:48:28.202Z",
+      "updatedAt": "2026-05-19T09:48:28.202Z",
+      "durationMinutes": 15,
+      "questionDurationSeconds": 15
+    },
+    {
       "id": "quiz-6ed30dfd",
       "title": "Kuis Semua Materi IPAS",
       "materialId": "all",

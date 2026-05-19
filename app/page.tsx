@@ -45,7 +45,7 @@ export default function BerandaPage() {
           <Sparkles size={12} />
           Welcome to Materi IPAS
         </div>
-        <h1>Materi, submateri, dan kuis live untuk <span>IPAS Ekonomi</span></h1>
+        <h1>Materi IPAS Teori, Motif dan <span>Prinsip Ekonomi</span></h1>
         <div className="divider" />
         <p>Mulai dari halaman ini untuk membaca materi, membuka submateri, menambah konten lewat admin, lalu menjalankan kuis yang dibagikan lewat link khusus.</p>
       </div>

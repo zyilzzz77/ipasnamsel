@@ -255,6 +255,50 @@ button, input, textarea, select {
 .card-points { margin-top: 12px; padding-left: 18px; color: var(--gray-500); }
 .card-points li { margin-bottom: 7px; font-size: 0.82rem; line-height: 1.65; }
 
+/* ── Teori page: side images & tokoh grid ── */
+.teori-title { font-weight: 800; }
+.teori-body { display: block; }
+.teori-body--with-image {
+  display: flex; gap: 16px; align-items: flex-start;
+}
+.teori-image-wrap {
+  width: 140px; min-width: 140px; height: 140px; overflow: hidden;
+  border-radius: 24px;
+  border: 1px solid rgba(112,150,209,0.18);
+  background: linear-gradient(135deg, var(--primary-50), var(--primary-100));
+  box-shadow: var(--shadow-sm); flex-shrink: 0;
+}
+.teori-image { display: block; width: 100%; height: 100%; object-fit: cover; }
+.teori-copy { flex: 1; min-width: 0; }
+.teori-copy p { font-weight: 600; }
+
+.tokoh-grid {
+  margin-top: 16px;
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px;
+}
+.tokoh-item {
+  display: flex; gap: 12px; align-items: center;
+  background: var(--primary-50);
+  border: 1px solid rgba(112,150,209,0.18);
+  border-radius: 16px; padding: 12px;
+}
+.tokoh-image-wrap {
+  width: 72px; height: 72px; min-width: 72px; overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid var(--white);
+  background: linear-gradient(135deg, var(--primary-50), var(--primary-100));
+  box-shadow: var(--shadow-sm); flex-shrink: 0;
+}
+.tokoh-image { display: block; width: 100%; height: 100%; object-fit: cover; }
+.tokoh-copy h4 { font-size: 0.88rem; font-weight: 800; color: var(--gray-900); margin-bottom: 3px; }
+.tokoh-copy p { font-size: 0.8rem; color: var(--gray-600); line-height: 1.5; font-weight: 600; }
+
+@media (max-width: 640px) {
+  .teori-body--with-image { flex-direction: column; }
+  .teori-image-wrap { width: 100%; min-width: 0; max-width: 240px; height: 180px; }
+  .tokoh-grid { grid-template-columns: 1fr; }
+}
+
 /* ── Section header ── */
 .sec-header { margin: 28px 0 16px; }
 .sec-title { font-family: var(--font-title); font-size: 1.4rem; font-weight: normal; color: var(--gray-900); letter-spacing: 0.01em; margin-bottom: 3px; }

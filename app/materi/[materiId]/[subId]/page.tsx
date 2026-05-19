@@ -6,6 +6,18 @@ import { ArrowLeft, ArrowRight, BadgeCheck, BookOpen, Library } from 'lucide-rea
 import { isMaterialId } from '@/lib/catalog'
 import { getMaterial, getSubmateri } from '@/lib/store'
 
+const TEORI_IMAGE_OVERRIDES: Record<string, { src: string; alt: string }> = {
+  'ekonomi-mikro': { src: '/images/teori/ekonomi-mikro.jpeg', alt: 'Ilustrasi ekonomi mikro' },
+  'ekonomi-makro': { src: '/images/teori/ekonomi-makro.jpeg', alt: 'Ilustrasi ekonomi makro' },
+}
+
+const TOKOH_IMAGES: { name: string; src: string }[] = [
+  { name: 'Adam Smith', src: '/images/teori/tokoh-adam-smith.jpeg' },
+  { name: 'John Maynard Keynes', src: '/images/teori/tokoh-john-maynard-keynes.jpeg' },
+  { name: 'Alfred Marshall', src: '/images/teori/tokoh-alfred-marshall.jpeg' },
+  { name: 'Milton Friedman', src: '/images/teori/tokoh-milton-friedman.jpeg' },
+]
+
 export const dynamic = 'force-dynamic'
 
 interface MateriDetailProps {
@@ -40,6 +52,11 @@ export default async function MateriDetailPage({ params }: MateriDetailProps) {
   const previous = index > 0 ? material.submateri[index - 1] : undefined
   const next = index >= 0 && index < material.submateri.length - 1 ? material.submateri[index + 1] : undefined
 
+  const teoriOverride = materiId === 'teori' ? TEORI_IMAGE_OVERRIDES[submateri.slug] : undefined
+  const imageSrc = teoriOverride?.src ?? submateri.imageSrc
+  const imageAlt = teoriOverride?.alt ?? submateri.imageAlt ?? submateri.title
+  const isTokoh = materiId === 'teori' && submateri.slug === 'tokoh-penting-teori-ekonomi'
+
   return (
     <div>
       <div className="hero">
@@ -62,12 +79,12 @@ export default async function MateriDetailPage({ params }: MateriDetailProps) {
       </div>
 
       <article className="detail-card">
-        <div className={`detail-card-head${submateri.imageSrc ? ' with-media' : ''}`}>
-          {submateri.imageSrc && (
+        <div className={`detail-card-head${imageSrc ? ' with-media' : ''}`}>
+          {imageSrc && (
             <div className="detail-media-wrap">
               <Image
-                src={submateri.imageSrc}
-                alt={submateri.imageAlt ?? submateri.title}
+                src={imageSrc}
+                alt={imageAlt}
                 width={360}
                 height={260}
                 className="detail-media"
@@ -80,23 +97,56 @@ export default async function MateriDetailPage({ params }: MateriDetailProps) {
               <BadgeCheck size={15} />
               Submateri aktif
             </div>
-            <h2>{submateri.title}</h2>
-            <p>{submateri.body}</p>
+            <h2><strong>{submateri.title}</strong></h2>
+            <p><strong>{submateri.body}</strong></p>
           </div>
         </div>
 
-        {submateri.points.length > 0 && (
+        {isTokoh ? (
           <div className="detail-points">
             <h3>
               <BookOpen size={16} />
-              Poin penting
+              Tokoh penting
             </h3>
-            <ul>
-              {submateri.points.map((point) => (
-                <li key={point}>{point}</li>
-              ))}
-            </ul>
+            <div className="tokoh-grid">
+              {TOKOH_IMAGES.map((tokoh, i) => {
+                const point = submateri.points[i] ?? ''
+                const colonIdx = point.indexOf(':')
+                const desc = colonIdx >= 0 ? point.slice(colonIdx + 1).trim() : point
+                return (
+                  <div key={tokoh.name} className="tokoh-item">
+                    <div className="tokoh-image-wrap">
+                      <Image
+                        src={tokoh.src}
+                        alt={`Foto ${tokoh.name}`}
+                        width={120}
+                        height={120}
+                        className="tokoh-image"
+                      />
+                    </div>
+                    <div className="tokoh-copy">
+                      <h4><strong>{tokoh.name}</strong></h4>
+                      <p><strong>{desc}</strong></p>
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
           </div>
+        ) : (
+          submateri.points.length > 0 && (
+            <div className="detail-points">
+              <h3>
+                <BookOpen size={16} />
+                Poin penting
+              </h3>
+              <ul>
+                {submateri.points.map((point) => (
+                  <li key={point}>{point}</li>
+                ))}
+              </ul>
+            </div>
+          )
         )}
 
         <div className="detail-nav">
