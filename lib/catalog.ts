@@ -81,6 +81,8 @@ export const DEFAULT_SUBMATERI: Record<MaterialId, SubmateriSeed[]> = {
         'Membahas keputusan individu, perusahaan, dan pemerintah.',
         'Membantu menjelaskan berbagai fenomena ekonomi.',
       ],
+      imageSrc: '/images/teori/pengertian-teori-ekonomi.svg',
+      imageAlt: 'Ilustrasi pengertian teori ekonomi',
     },
     {
       slug: 'ekonomi-mikro',
@@ -92,6 +94,8 @@ export const DEFAULT_SUBMATERI: Record<MaterialId, SubmateriSeed[]> = {
         'Membahas perilaku konsumen, produksi, dan biaya.',
         'Menganalisis struktur pasar dan penentuan harga.',
       ],
+      imageSrc: '/images/teori/ekonomi-mikro.svg',
+      imageAlt: 'Ilustrasi ekonomi mikro',
     },
     {
       slug: 'ekonomi-makro',
@@ -103,6 +107,8 @@ export const DEFAULT_SUBMATERI: Record<MaterialId, SubmateriSeed[]> = {
         'Menganalisis pertumbuhan ekonomi nasional.',
         'Berkaitan dengan kebijakan fiskal, moneter, dan perdagangan.',
       ],
+      imageSrc: '/images/teori/ekonomi-makro.svg',
+      imageAlt: 'Ilustrasi ekonomi makro',
     },
     {
       slug: 'tokoh-penting-teori-ekonomi',
@@ -115,6 +121,8 @@ export const DEFAULT_SUBMATERI: Record<MaterialId, SubmateriSeed[]> = {
         'Alfred Marshall: permintaan, penawaran, dan elastisitas.',
         'Milton Friedman: monetarisme dan uang beredar.',
       ],
+      imageSrc: '/images/teori/tokoh-penting.svg',
+      imageAlt: 'Ilustrasi tokoh penting teori ekonomi',
     },
     {
       slug: 'masalah-pokok-ekonomi',
@@ -126,6 +134,8 @@ export const DEFAULT_SUBMATERI: Record<MaterialId, SubmateriSeed[]> = {
         'Bagaimana cara memproduksinya?',
         'Untuk siapa barang dan jasa diproduksi?',
       ],
+      imageSrc: '/images/teori/masalah-pokok.svg',
+      imageAlt: 'Ilustrasi masalah pokok ekonomi',
     },
   ],
   motif: [
@@ -139,6 +149,8 @@ export const DEFAULT_SUBMATERI: Record<MaterialId, SubmateriSeed[]> = {
         'Motif memengaruhi tujuan setiap tindakan ekonomi.',
         'Bisa bersifat pribadi maupun sosial.',
       ],
+      imageSrc: '/images/motif/pengertian-motif.svg',
+      imageAlt: 'Ilustrasi pengertian motif ekonomi',
     },
     {
       slug: 'pemenuhan-kebutuhan',
@@ -150,6 +162,8 @@ export const DEFAULT_SUBMATERI: Record<MaterialId, SubmateriSeed[]> = {
         'Berkaitan dengan kebutuhan hidup sehari-hari.',
         'Mencakup pangan, sandang, papan, dan kebutuhan penting lain.',
       ],
+      imageSrc: '/images/motif/pemenuhan-kebutuhan.svg',
+      imageAlt: 'Ilustrasi pemenuhan kebutuhan',
     },
     {
       slug: 'memperoleh-keuntungan',
@@ -161,6 +175,8 @@ export const DEFAULT_SUBMATERI: Record<MaterialId, SubmateriSeed[]> = {
         'Mendorong kegiatan produksi, penjualan, dan investasi.',
         'Berorientasi pada laba atau keuntungan finansial.',
       ],
+      imageSrc: '/images/motif/memperoleh-keuntungan.svg',
+      imageAlt: 'Ilustrasi memperoleh keuntungan',
     },
     {
       slug: 'motif-sosial',
@@ -172,6 +188,8 @@ export const DEFAULT_SUBMATERI: Record<MaterialId, SubmateriSeed[]> = {
         'Tidak berfokus pada keuntungan pribadi.',
         'Terlihat dalam donasi dan kegiatan sosial.',
       ],
+      imageSrc: '/images/motif/motif-sosial.svg',
+      imageAlt: 'Ilustrasi motif sosial',
     },
     {
       slug: 'prestise-dan-kekuasaan',
@@ -183,6 +201,8 @@ export const DEFAULT_SUBMATERI: Record<MaterialId, SubmateriSeed[]> = {
         'Sering muncul dalam keputusan konsumsi tertentu.',
         'Mendorong pencarian pengaruh di lingkungan sekitar.',
       ],
+      imageSrc: '/images/motif/prestise-kekuasaan.svg',
+      imageAlt: 'Ilustrasi prestise dan kekuasaan',
     },
     {
       slug: 'keamanan-dan-masa-depan',
@@ -194,6 +214,8 @@ export const DEFAULT_SUBMATERI: Record<MaterialId, SubmateriSeed[]> = {
         'Bertujuan menjaga keamanan finansial.',
         'Membantu menghadapi risiko masa depan.',
       ],
+      imageSrc: '/images/motif/keamanan-masa-depan.svg',
+      imageAlt: 'Ilustrasi keamanan masa depan',
     },
     {
       slug: 'motif-berdasarkan-pelaku',
@@ -205,6 +227,8 @@ export const DEFAULT_SUBMATERI: Record<MaterialId, SubmateriSeed[]> = {
         'Produsen: keuntungan, omzet, dan keberlangsungan usaha.',
         'Pemerintah: kesejahteraan rakyat dan lapangan kerja.',
       ],
+      imageSrc: '/images/motif/motif-pelaku.svg',
+      imageAlt: 'Ilustrasi motif berdasarkan pelaku',
     },
   ],
   prinsip: [
@@ -218,6 +242,8 @@ export const DEFAULT_SUBMATERI: Record<MaterialId, SubmateriSeed[]> = {
         'Mendorong keputusan yang rasional.',
         'Berlaku dalam berbagai kegiatan ekonomi.',
       ],
+      imageSrc: '/images/prinsip/pengertian-prinsip.svg',
+      imageAlt: 'Ilustrasi pengertian prinsip ekonomi',
     },
     {
       slug: 'rumusan-prinsip-ekonomi',
@@ -229,6 +255,8 @@ export const DEFAULT_SUBMATERI: Record<MaterialId, SubmateriSeed[]> = {
         'Pengorbanan dapat berupa biaya, waktu, atau tenaga.',
         'Tujuannya memilih cara yang paling efisien.',
       ],
+      imageSrc: '/images/prinsip/rumusan-prinsip.svg',
+      imageAlt: 'Ilustrasi rumusan prinsip ekonomi',
     },
     {
       slug: 'ciri-orang-yang-menerapkan-prinsip-ekonomi',
@@ -242,6 +270,8 @@ export const DEFAULT_SUBMATERI: Record<MaterialId, SubmateriSeed[]> = {
         'Hemat dan tidak boros.',
         'Bertindak rasional.',
       ],
+      imageSrc: '/images/prinsip/ciri-penerapan.svg',
+      imageAlt: 'Ilustrasi ciri penerapan prinsip ekonomi',
     },
     {
       slug: 'penerapan-prinsip-ekonomi',
@@ -253,6 +283,8 @@ export const DEFAULT_SUBMATERI: Record<MaterialId, SubmateriSeed[]> = {
         'Produsen: kurangi pemborosan dan tingkatkan efisiensi.',
         'Pemerintah: alokasikan anggaran pada program paling berdampak.',
       ],
+      imageSrc: '/images/prinsip/penerapan-prinsip.svg',
+      imageAlt: 'Ilustrasi penerapan prinsip ekonomi',
     },
     {
       slug: 'manfaat-prinsip-ekonomi',
@@ -266,6 +298,8 @@ export const DEFAULT_SUBMATERI: Record<MaterialId, SubmateriSeed[]> = {
         'Efisiensi meningkat.',
         'Kesejahteraan lebih terjaga.',
       ],
+      imageSrc: '/images/prinsip/manfaat-prinsip.svg',
+      imageAlt: 'Ilustrasi manfaat prinsip ekonomi',
     },
   ],
   contoh: [
