@@ -12,11 +12,14 @@ export default function MotifPage() {
   return (
     <div>
       <div className="hero motif-hero-header">
-        <div className="hero-gif-wrap">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/header-utama/GIF by MINI Italia.gif" alt="Header motif ekonomi" />
-        </div>
-        <div className="hero-gif-overlay" />
+        <Image
+          src="/images/header-utama/motif-ekonomi.jpeg"
+          alt="Header motif ekonomi"
+          fill
+          priority
+          className="motif-hero-image"
+        />
+        <div className="motif-hero-overlay" />
         <div className="motif-hero-content">
           <div className="hero-eyebrow"><Lightbulb size={12} /> {motifMaterial.eyebrow}</div>
           <h1>Motif <span>Ekonomi</span></h1>

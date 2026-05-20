@@ -12,11 +12,14 @@ export default function ContohPage() {
   return (
     <div>
       <div className="hero contoh-hero-header">
-        <div className="hero-gif-wrap">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/header-utama/GIF by MINI Italia.gif" alt="Header contoh nyata" />
-        </div>
-        <div className="hero-gif-overlay" />
+        <Image
+          src="/images/header-utama/contoh-nyata.jpeg"
+          alt="Header contoh nyata"
+          fill
+          priority
+          className="contoh-hero-image"
+        />
+        <div className="contoh-hero-overlay" />
         <div className="contoh-hero-content">
           <div className="hero-eyebrow"><Globe size={12} /> {contohMaterial.eyebrow}</div>
           <h1>Contoh dalam <span>Kehidupan</span></h1>
