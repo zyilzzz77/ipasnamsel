@@ -12,23 +12,16 @@ export default function PrinsipPage() {
   return (
     <div>
       <div className="hero prinsip-hero-header">
-        <Image
-          src="/images/header-utama/prinsip-ekonomi.jpeg"
-          alt="Header prinsip ekonomi"
-          fill
-          priority
-          className="prinsip-hero-image"
-        />
-        <div className="prinsip-hero-overlay" />
+        <div className="hero-gif-wrap">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/header-utama/GIF by MINI Italia.gif" alt="Header prinsip ekonomi" />
+        </div>
+        <div className="hero-gif-overlay" />
         <div className="prinsip-hero-content">
           <div className="hero-eyebrow"><Scale size={12} /> {prinsipMaterial.eyebrow}</div>
           <h1>Prinsip <span>Ekonomi</span></h1>
           <div className="divider" />
           <p>{prinsipMaterial.summary}</p>
-        </div>
-        <div className="hero-gif-wrap">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/header-utama/GIF by MINI Italia.gif" alt="Mini animation" />
         </div>
       </div>
 

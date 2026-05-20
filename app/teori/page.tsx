@@ -21,23 +21,16 @@ export default function TeoriPage() {
   return (
     <div>
       <div className="hero teori-hero-header">
-        <Image
-          src="/images/header-utama/teori-ekonomi.jpeg"
-          alt="Header teori ekonomi"
-          fill
-          priority
-          className="teori-hero-image"
-        />
-        <div className="teori-hero-overlay" />
+        <div className="hero-gif-wrap">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/header-utama/GIF by MINI Italia.gif" alt="Header teori ekonomi" />
+        </div>
+        <div className="hero-gif-overlay" />
         <div className="teori-hero-content">
           <div className="hero-eyebrow"><BookOpen size={12} /> {teoriMaterial.eyebrow}</div>
           <h1>Teori <span>Ekonomi</span></h1>
           <div className="divider" />
           <p>{teoriMaterial.summary}</p>
-        </div>
-        <div className="hero-gif-wrap">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/header-utama/GIF by MINI Italia.gif" alt="Mini animation" />
         </div>
       </div>
 

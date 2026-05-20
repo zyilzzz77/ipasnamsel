@@ -184,7 +184,12 @@ export default function QuizBuilderClient() {
   return (
     <div>
       <div className="hero quiz-hero">
-        <div>
+        <div className="hero-gif-wrap">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/header-utama/GIF by MINI Italia.gif" alt="Header quiz" />
+        </div>
+        <div className="hero-gif-overlay" />
+        <div style={{ position: 'relative', zIndex: 3 }}>
           <div className="hero-eyebrow">
             <Target size={12} />
             Quiz IPAS Ekonomi
@@ -192,10 +197,6 @@ export default function QuizBuilderClient() {
           <h1>Quiz <span>Interaktif</span></h1>
           <div className="divider" />
           <p>Buat quiz baru atau lihat riwayat quiz sebelumnya.</p>
-        </div>
-        <div className="hero-gif-wrap">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/header-utama/GIF by MINI Italia.gif" alt="Mini animation" />
         </div>
       </div>
 

@@ -42,14 +42,11 @@ export default function BerandaPage() {
   return (
     <div>
       <div className="hero home-hero-header">
-        <Image
-          src="/images/header-utama/dollar.jpg"
-          alt="Header materi IPAS"
-          fill
-          priority
-          className="home-hero-image"
-        />
-        <div className="home-hero-overlay" />
+        <div className="hero-gif-wrap">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/header-utama/GIF by MINI Italia.gif" alt="Header IPAS Ekonomi" />
+        </div>
+        <div className="hero-gif-overlay" />
         <div className="home-hero-content">
           <div className="hero-eyebrow">
             <Sparkles size={12} />
@@ -58,10 +55,6 @@ export default function BerandaPage() {
           <h1>Materi IPAS Teori, Motif dan <span>Prinsip Ekonomi</span></h1>
           <div className="divider" />
           <p>Mulai dari halaman ini untuk membaca materi, membuka submateri, menambah konten lewat admin, lalu menjalankan kuis yang dibagikan lewat link khusus.</p>
-        </div>
-        <div className="hero-gif-wrap">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/header-utama/GIF by MINI Italia.gif" alt="Mini animation" />
         </div>
       </div>
 

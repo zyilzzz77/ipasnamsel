@@ -26,14 +26,11 @@ export default async function MateriIndexPage() {
   return (
     <div>
       <div className="hero materi-hero-header">
-        <Image
-          src="/images/header-utama/ekonomi.jpeg"
-          alt="Header materi"
-          fill
-          priority
-          className="materi-hero-image"
-        />
-        <div className="materi-hero-overlay" />
+        <div className="hero-gif-wrap">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/header-utama/GIF by MINI Italia.gif" alt="Header materi" />
+        </div>
+        <div className="hero-gif-overlay" />
         <div className="materi-hero-content">
           <div className="hero-eyebrow">
             <Sparkles size={12} />
@@ -42,10 +39,6 @@ export default async function MateriIndexPage() {
           <h1>Semua materi dan <span>submateri</span> di satu tempat</h1>
           <div className="divider" />
           <p>Pilih materi utama lalu buka submateri yang ingin dipelajari. Dashboard konten di halaman /admin bisa dipakai langsung untuk menambah submateri dan hasilnya langsung muncul di sini.</p>
-        </div>
-        <div className="hero-gif-wrap">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/header-utama/GIF by MINI Italia.gif" alt="Mini animation" />
         </div>
       </div>
 
