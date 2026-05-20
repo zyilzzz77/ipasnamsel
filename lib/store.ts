@@ -158,11 +158,29 @@ function normalizeStoredMaterial(material: StoredMaterial): StoredMaterial {
   }
 }
 
+function mergeWithCatalogDefaults(storedMaterials: StoredMaterial[]): StoredMaterial[] {
+  return storedMaterials.map((storedMaterial) => {
+    const catalogDefaults = DEFAULT_SUBMATERI[storedMaterial.id] ?? []
+    const mergedSubmateri = storedMaterial.submateri.map((storedSub) => {
+      const catalogSub = catalogDefaults.find((c) => c.slug === storedSub.slug)
+      if (!catalogSub) return storedSub
+      return {
+        ...storedSub,
+        imageSrc: catalogSub.imageSrc ?? storedSub.imageSrc,
+        imageAlt: catalogSub.imageAlt ?? storedSub.imageAlt,
+      }
+    })
+    return { ...storedMaterial, submateri: mergedSubmateri }
+  })
+}
+
 function normalizeStoreData(store?: Partial<StoreData>): StoreData {
   const defaultStore = cloneDefaultStore()
+  const rawMaterials = store?.materials ?? defaultStore.materials
+  const mergedMaterials = mergeWithCatalogDefaults(rawMaterials)
 
   return {
-    materials: (store?.materials ?? defaultStore.materials).map(normalizeStoredMaterial),
+    materials: mergedMaterials.map(normalizeStoredMaterial),
     quizzes: store?.quizzes ?? [],
   }
 }

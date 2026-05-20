@@ -121,7 +121,6 @@ export const DEFAULT_SUBMATERI: Record<MaterialId, SubmateriSeed[]> = {
         'Alfred Marshall: permintaan, penawaran, dan elastisitas.',
         'Milton Friedman: monetarisme dan uang beredar.',
       ],
-      imageSrc: '/images/teori/tokoh-penting.svg',
       imageAlt: 'Ilustrasi tokoh penting teori ekonomi',
     },
     {
