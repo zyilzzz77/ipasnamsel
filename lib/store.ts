@@ -112,32 +112,42 @@ function cloneDefaultStore(): StoreData {
   }
 }
 
-function normalizeContohImageSrc(imageSrc: string | undefined): string | undefined {
-  if (!imageSrc) {
-    return undefined
-  }
-
-  const legacyMap: Record<string, string | undefined> = {
-    '/images/contoh/harga-turun-pembeli-naik.svg': '/images/contoh/harga-turun-pembeli-naik.jpg',
-    '/images/contoh/buka-toko-untuk-laba.svg': '/images/contoh/buka-toko-untuk-laba.jpg',
-    '/images/contoh/donasi-untuk-sesama.svg': '/images/contoh/donasi-untuk-sesama.jpg',
-    '/images/contoh/barang-mewah-dan-status.svg': '/images/contoh/barang-mewah-status.jpg',
-    '/images/contoh/menabung-untuk-masa-depan.svg': '/images/contoh/menabung-untuk-masa-depan.jpg',
-    '/images/contoh/bandingkan-harga-belanja.svg': '/images/contoh/bandingkan-harga-belanja.jpg',
-    '/images/contoh/subsidi-tepat-sasaran.svg': '/images/contoh/subsidi-tepat-sasaran.jpg',
-  }
-
-  return legacyMap[imageSrc] ?? imageSrc
-}
-
 function normalizeStoredSubmateri(materialId: MaterialId, submateri: StoredSubmateri): StoredSubmateri {
-  if (materialId !== 'contoh') {
-    return submateri
+  let imageSrc = submateri.imageSrc
+
+  if (imageSrc) {
+    const legacyMap: Record<string, string | undefined> = {
+      '/images/contoh/harga-turun-pembeli-naik.svg': '/images/contoh/harga-turun-pembeli-naik.jpg',
+      '/images/contoh/buka-toko-untuk-laba.svg': '/images/contoh/buka-toko-untuk-laba.jpg',
+      '/images/contoh/donasi-untuk-sesama.svg': '/images/contoh/donasi-untuk-sesama.jpg',
+      '/images/contoh/barang-mewah-dan-status.svg': '/images/contoh/barang-mewah-status.jpg',
+      '/images/contoh/menabung-untuk-masa-depan.svg': '/images/contoh/menabung-untuk-masa-depan.jpg',
+      '/images/contoh/bandingkan-harga-belanja.svg': '/images/contoh/bandingkan-harga-belanja.jpg',
+      '/images/contoh/subsidi-tepat-sasaran.svg': '/images/contoh/subsidi-tepat-sasaran.jpg',
+      '/images/teori/pengertian-teori-ekonomi.svg': '/images/teori/pengertian-teori-ekonomi.jpeg',
+      '/images/teori/ekonomi-mikro.svg': '/images/teori/ekonomi-mikro.jpeg',
+      '/images/teori/ekonomi-makro.svg': '/images/teori/ekonomi-makro.jpeg',
+      '/images/teori/masalah-pokok.svg': '/images/teori/masalah-pokok.jpeg',
+      '/images/motif/pengertian-motif.svg': '/images/motif/pengertian-motif.jpeg',
+      '/images/motif/pemenuhan-kebutuhan.svg': '/images/motif/pemenuhan-kebutuhan.jpeg',
+      '/images/motif/memperoleh-keuntungan.svg': '/images/motif/memperoleh-keuntungan.jpeg',
+      '/images/motif/motif-sosial.svg': '/images/motif/motif-sosial.jpeg',
+      '/images/motif/prestise-kekuasaan.svg': '/images/motif/prestise-kekuasaan.jpeg',
+      '/images/motif/keamanan-masa-depan.svg': '/images/motif/keamanan-masa-depan.jpeg',
+      '/images/motif/motif-pelaku.svg': '/images/motif/motif-pelaku.gif',
+      '/images/prinsip/pengertian-prinsip.svg': '/images/prinsip/prinsip-ekonomi.jpeg',
+      '/images/prinsip/rumusan-prinsip.svg': '/images/prinsip/rumusan-prinsip.jpeg',
+      '/images/prinsip/ciri-penerapan.svg': '/images/prinsip/ciri-penerapan.jpeg',
+      '/images/prinsip/penerapan-prinsip.svg': '/images/prinsip/penerepan-prinsip.jpeg',
+      '/images/prinsip/manfaat-prinsip.svg': '/images/prinsip/manfaat-prinsip.jpeg',
+    }
+
+    imageSrc = legacyMap[imageSrc] ?? imageSrc
   }
 
   return {
     ...submateri,
-    imageSrc: normalizeContohImageSrc(submateri.imageSrc),
+    imageSrc,
   }
 }
 
