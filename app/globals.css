@@ -199,6 +199,44 @@ button, input, textarea, select {
 /* ── Hero ── */
 .hero { padding: 28px 0 24px; }
 
+[class*="-hero-header"] {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  padding: 40px 32px;
+  margin-bottom: 24px;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 640px) {
+  [class*="-hero-header"] {
+    padding: 32px 20px;
+    min-height: 240px;
+  }
+}
+
+[class*="-hero-image"] {
+  object-fit: cover;
+  z-index: 1;
+}
+
+[class*="-hero-overlay"] {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(100deg, rgba(255,255,255,0.96) 0%, rgba(255,255,255,0.85) 50%, rgba(255,255,255,0.1) 100%);
+  z-index: 2;
+}
+
+[class*="-hero-content"] {
+  position: relative;
+  z-index: 3;
+  max-width: 600px;
+}
+
 .hero-eyebrow {
   display: inline-flex; align-items: center; gap: 6px;
   background: var(--primary-50); border: 1px solid var(--primary-100);

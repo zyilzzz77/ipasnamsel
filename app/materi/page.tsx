@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { ArrowRight, BookOpen, Globe, Lightbulb, Scale, Sparkles } from 'lucide-react'
 import { type LucideIcon } from 'lucide-react'
 import { getMaterials } from '@/lib/store'
@@ -24,14 +25,24 @@ export default async function MateriIndexPage() {
 
   return (
     <div>
-      <div className="hero">
-        <div className="hero-eyebrow">
-          <Sparkles size={12} />
-          /materi
+      <div className="hero materi-hero-header">
+        <Image
+          src="/images/header-utama/ekonomi.jpeg"
+          alt="Header materi"
+          fill
+          priority
+          className="materi-hero-image"
+        />
+        <div className="materi-hero-overlay" />
+        <div className="materi-hero-content">
+          <div className="hero-eyebrow">
+            <Sparkles size={12} />
+            /materi
+          </div>
+          <h1>Semua materi dan <span>submateri</span> di satu tempat</h1>
+          <div className="divider" />
+          <p>Pilih materi utama lalu buka submateri yang ingin dipelajari. Dashboard konten di halaman /admin bisa dipakai langsung untuk menambah submateri dan hasilnya langsung muncul di sini.</p>
         </div>
-        <h1>Semua materi dan <span>submateri</span> di satu tempat</h1>
-        <div className="divider" />
-        <p>Pilih materi utama lalu buka submateri yang ingin dipelajari. Dashboard konten di halaman /admin bisa dipakai langsung untuk menambah submateri dan hasilnya langsung muncul di sini.</p>
       </div>
 
       <div className="info-box">

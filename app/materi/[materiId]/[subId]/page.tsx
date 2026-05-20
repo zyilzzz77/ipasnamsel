@@ -6,10 +6,7 @@ import { ArrowLeft, ArrowRight, BadgeCheck, BookOpen, Library } from 'lucide-rea
 import { isMaterialId } from '@/lib/catalog'
 import { getMaterial, getSubmateri } from '@/lib/store'
 
-const TEORI_IMAGE_OVERRIDES: Record<string, { src: string; alt: string }> = {
-  'ekonomi-mikro': { src: '/images/teori/ekonomi-mikro.jpeg', alt: 'Ilustrasi ekonomi mikro' },
-  'ekonomi-makro': { src: '/images/teori/ekonomi-makro.jpeg', alt: 'Ilustrasi ekonomi makro' },
-}
+
 
 const TOKOH_IMAGES: { name: string; src: string }[] = [
   { name: 'Adam Smith', src: '/images/teori/tokoh-adam-smith.jpeg' },
@@ -52,9 +49,8 @@ export default async function MateriDetailPage({ params }: MateriDetailProps) {
   const previous = index > 0 ? material.submateri[index - 1] : undefined
   const next = index >= 0 && index < material.submateri.length - 1 ? material.submateri[index + 1] : undefined
 
-  const teoriOverride = materiId === 'teori' ? TEORI_IMAGE_OVERRIDES[submateri.slug] : undefined
-  const imageSrc = teoriOverride?.src ?? submateri.imageSrc
-  const imageAlt = teoriOverride?.alt ?? submateri.imageAlt ?? submateri.title
+  const imageSrc = submateri.imageSrc
+  const imageAlt = submateri.imageAlt ?? submateri.title
   const isTokoh = materiId === 'teori' && submateri.slug === 'tokoh-penting-teori-ekonomi'
 
   return (

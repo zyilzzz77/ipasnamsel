@@ -3,16 +3,7 @@ import Image from 'next/image'
 import { BookOpen, Layers } from 'lucide-react'
 import { DEFAULT_SUBMATERI, MATERIALS } from '@/lib/catalog'
 
-const SECTION_IMAGES: Record<string, { src: string; alt: string }> = {
-  'ekonomi-mikro': {
-    src: '/images/teori/ekonomi-mikro.jpeg',
-    alt: 'Ilustrasi ekonomi mikro',
-  },
-  'ekonomi-makro': {
-    src: '/images/teori/ekonomi-makro.jpeg',
-    alt: 'Ilustrasi ekonomi makro',
-  },
-}
+
 
 const TOKOH_IMAGES: { name: string; src: string }[] = [
   { name: 'Adam Smith', src: '/images/teori/tokoh-adam-smith.jpeg' },
@@ -52,19 +43,18 @@ export default function TeoriPage() {
       </div>
 
       {teoriSections.map((section, index) => {
-        const sideImage = SECTION_IMAGES[section.slug]
         const isTokoh = section.slug === 'tokoh-penting-teori-ekonomi'
         return (
           <div key={section.slug} className="card">
             <div className="card-num">{String(index + 1).padStart(2, '0')}</div>
             <div className="card-label blue"><Layers size={11} /> Submateri</div>
             <h3 className="teori-title"><strong>{section.title}</strong></h3>
-            <div className={sideImage ? 'teori-body teori-body--with-image' : 'teori-body'}>
-              {sideImage && (
+            <div className={section.imageSrc ? 'teori-body teori-body--with-image' : 'teori-body'}>
+              {section.imageSrc && (
                 <div className="teori-image-wrap">
                   <Image
-                    src={sideImage.src}
-                    alt={sideImage.alt}
+                    src={section.imageSrc}
+                    alt={section.imageAlt || section.title}
                     width={200}
                     height={200}
                     className="teori-image"

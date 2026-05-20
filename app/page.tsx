@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { ArrowRight, BookOpen, Globe, Library, LayoutDashboard, Sparkles, Target } from 'lucide-react'
 import { DEFAULT_SUBMATERI, MATERIALS, QUIZ_BANK } from '@/lib/catalog'
 
@@ -40,14 +41,24 @@ const ACTIONS = [
 export default function BerandaPage() {
   return (
     <div>
-      <div className="hero">
-        <div className="hero-eyebrow">
-          <Sparkles size={12} />
-          Welcome to Materi IPAS
+      <div className="hero home-hero-header">
+        <Image
+          src="/images/header-utama/dollar.jpg"
+          alt="Header materi IPAS"
+          fill
+          priority
+          className="home-hero-image"
+        />
+        <div className="home-hero-overlay" />
+        <div className="home-hero-content">
+          <div className="hero-eyebrow">
+            <Sparkles size={12} />
+            Welcome to Materi IPAS
+          </div>
+          <h1>Materi IPAS Teori, Motif dan <span>Prinsip Ekonomi</span></h1>
+          <div className="divider" />
+          <p>Mulai dari halaman ini untuk membaca materi, membuka submateri, menambah konten lewat admin, lalu menjalankan kuis yang dibagikan lewat link khusus.</p>
         </div>
-        <h1>Materi IPAS Teori, Motif dan <span>Prinsip Ekonomi</span></h1>
-        <div className="divider" />
-        <p>Mulai dari halaman ini untuk membaca materi, membuka submateri, menambah konten lewat admin, lalu menjalankan kuis yang dibagikan lewat link khusus.</p>
       </div>
 
       <div className="stats-bar">

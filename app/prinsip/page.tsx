@@ -38,12 +38,27 @@ export default function PrinsipPage() {
           <div className="card-num">{String(index + 1).padStart(2, '0')}</div>
           <div className="card-label amber"><Layers size={11} /> Submateri</div>
           <h3>{section.title}</h3>
-          <p>{section.body}</p>
-          <ul className="card-points">
-            {section.points.map((point) => (
-              <li key={point}>{point}</li>
-            ))}
-          </ul>
+          <div className={section.imageSrc ? 'teori-body teori-body--with-image' : 'teori-body'}>
+            {section.imageSrc && (
+              <div className="teori-image-wrap">
+                <Image
+                  src={section.imageSrc}
+                  alt={section.imageAlt || section.title}
+                  width={200}
+                  height={200}
+                  className="teori-image"
+                />
+              </div>
+            )}
+            <div className="teori-copy">
+              <p>{section.body}</p>
+              <ul className="card-points">
+                {section.points.map((point) => (
+                  <li key={point}>{point}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
       ))}
 
