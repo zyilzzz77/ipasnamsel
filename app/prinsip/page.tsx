@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { Layers, Scale, Sparkles } from 'lucide-react'
 import { DEFAULT_SUBMATERI, MATERIALS } from '@/lib/catalog'
 
@@ -10,11 +11,21 @@ const prinsipSections = DEFAULT_SUBMATERI.prinsip
 export default function PrinsipPage() {
   return (
     <div>
-      <div className="hero">
-        <div className="hero-eyebrow"><Scale size={12} /> {prinsipMaterial.eyebrow}</div>
-        <h1>Prinsip <span>Ekonomi</span></h1>
-        <div className="divider" />
-        <p>{prinsipMaterial.summary}</p>
+      <div className="hero prinsip-hero-header">
+        <Image
+          src="/images/header-utama/prinsip-ekonomi.jpeg"
+          alt="Header prinsip ekonomi"
+          fill
+          priority
+          className="prinsip-hero-image"
+        />
+        <div className="prinsip-hero-overlay" />
+        <div className="prinsip-hero-content">
+          <div className="hero-eyebrow"><Scale size={12} /> {prinsipMaterial.eyebrow}</div>
+          <h1>Prinsip <span>Ekonomi</span></h1>
+          <div className="divider" />
+          <p>{prinsipMaterial.summary}</p>
+        </div>
       </div>
 
       <div className="sec-header">

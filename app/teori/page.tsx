@@ -29,11 +29,21 @@ const teoriSections = DEFAULT_SUBMATERI.teori
 export default function TeoriPage() {
   return (
     <div>
-      <div className="hero">
-        <div className="hero-eyebrow"><BookOpen size={12} /> {teoriMaterial.eyebrow}</div>
-        <h1>Teori <span>Ekonomi</span></h1>
-        <div className="divider" />
-        <p>{teoriMaterial.summary}</p>
+      <div className="hero teori-hero-header">
+        <Image
+          src="/images/header-utama/teori-ekonomi.jpeg"
+          alt="Header teori ekonomi"
+          fill
+          priority
+          className="teori-hero-image"
+        />
+        <div className="teori-hero-overlay" />
+        <div className="teori-hero-content">
+          <div className="hero-eyebrow"><BookOpen size={12} /> {teoriMaterial.eyebrow}</div>
+          <h1>Teori <span>Ekonomi</span></h1>
+          <div className="divider" />
+          <p>{teoriMaterial.summary}</p>
+        </div>
       </div>
 
       <div className="sec-header">

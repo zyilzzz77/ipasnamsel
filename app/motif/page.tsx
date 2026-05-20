@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { Info, Layers, Lightbulb } from 'lucide-react'
 import { DEFAULT_SUBMATERI, MATERIALS } from '@/lib/catalog'
 
@@ -10,11 +11,21 @@ const motifSections = DEFAULT_SUBMATERI.motif
 export default function MotifPage() {
   return (
     <div>
-      <div className="hero">
-        <div className="hero-eyebrow"><Lightbulb size={12} /> {motifMaterial.eyebrow}</div>
-        <h1>Motif <span>Ekonomi</span></h1>
-        <div className="divider" />
-        <p>{motifMaterial.summary}</p>
+      <div className="hero motif-hero-header">
+        <Image
+          src="/images/header-utama/motif-ekonomi.jpeg"
+          alt="Header motif ekonomi"
+          fill
+          priority
+          className="motif-hero-image"
+        />
+        <div className="motif-hero-overlay" />
+        <div className="motif-hero-content">
+          <div className="hero-eyebrow"><Lightbulb size={12} /> {motifMaterial.eyebrow}</div>
+          <h1>Motif <span>Ekonomi</span></h1>
+          <div className="divider" />
+          <p>{motifMaterial.summary}</p>
+        </div>
       </div>
 
       <div className="sec-header">
