@@ -193,6 +193,10 @@ export default function QuizBuilderClient() {
           <div className="divider" />
           <p>Buat quiz baru atau lihat riwayat quiz sebelumnya.</p>
         </div>
+        <div className="hero-gif-wrap">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/header-utama/GIF by MINI Italia.gif" alt="Mini animation" />
+        </div>
       </div>
 
       <div className="quiz-tabs">

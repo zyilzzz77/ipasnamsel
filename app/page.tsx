@@ -59,6 +59,10 @@ export default function BerandaPage() {
           <div className="divider" />
           <p>Mulai dari halaman ini untuk membaca materi, membuka submateri, menambah konten lewat admin, lalu menjalankan kuis yang dibagikan lewat link khusus.</p>
         </div>
+        <div className="hero-gif-wrap">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/header-utama/GIF by MINI Italia.gif" alt="Mini animation" />
+        </div>
       </div>
 
       <div className="stats-bar">

@@ -43,6 +43,10 @@ export default async function MateriIndexPage() {
           <div className="divider" />
           <p>Pilih materi utama lalu buka submateri yang ingin dipelajari. Dashboard konten di halaman /admin bisa dipakai langsung untuk menambah submateri dan hasilnya langsung muncul di sini.</p>
         </div>
+        <div className="hero-gif-wrap">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/header-utama/GIF by MINI Italia.gif" alt="Mini animation" />
+        </div>
       </div>
 
       <div className="info-box">

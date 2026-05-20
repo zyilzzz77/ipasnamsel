@@ -26,6 +26,10 @@ export default function PrinsipPage() {
           <div className="divider" />
           <p>{prinsipMaterial.summary}</p>
         </div>
+        <div className="hero-gif-wrap">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/header-utama/GIF by MINI Italia.gif" alt="Mini animation" />
+        </div>
       </div>
 
       <div className="sec-header">
