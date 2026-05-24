@@ -99,9 +99,15 @@ export default function BerandaPage() {
           <BookOpen size={12} />
           Materi unggulan
         </div>
-        <h1>Tersusun dalam empat jalur belajar yang saling terhubung</h1>
-        <div className="divider" />
-        <p>Teori, motif, prinsip, dan contoh nyata semuanya bisa dibuka dari menu yang sama. Dashboard konten bisa dipakai langsung untuk menambah submateri tanpa langkah login tambahan.</p>
+        <div className="hero-bottom-row">
+          <div className="hero-bottom-text">
+            <h1>Tersusun dalam empat jalur belajar yang saling terhubung</h1>
+            <div className="divider" />
+            <p>Teori, motif, prinsip, dan contoh nyata semuanya bisa dibuka dari menu yang sama. Dashboard konten bisa dipakai langsung untuk menambah submateri tanpa langkah login tambahan.</p>
+          </div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="https://cdn.archivejkt48.app/snoopy.jpeg" alt="Snoopy" className="snoopy-sticker" />
+        </div>
       </div>
     </div>
   )

@@ -31,9 +31,9 @@
   --gray-50: #f8fafc;
   --gray-100: #f1f5f9;
   --gray-200: #e2e8f0;
-  --gray-400: #94a3b8;
-  --gray-500: #64748b;
-  --gray-700: #334155;
+  --gray-400: #2d3748;
+  --gray-500: #1e293b;
+  --gray-700: #1e293b;
   --gray-900: #0f172a;
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
   --shadow: 0 4px 16px rgba(112,150,209,0.10), 0 1px 4px rgba(0,0,0,0.05);
@@ -55,6 +55,7 @@ body {
     linear-gradient(180deg, #f5f8ff 0%, #f8fafc 100%);
   color: var(--gray-700);
   font-family: var(--font-serif);
+  font-weight: 500;
   min-height: 100vh;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -154,7 +155,7 @@ button, input, textarea, select {
 /* ── Page Shell ── */
 .page-shell {
   min-height: 100vh;
-  padding: 28px 24px 60px 80px;
+  padding: 14px 24px 60px 80px;
   max-width: 1160px;
   margin: 0 auto;
 }
@@ -167,7 +168,7 @@ button, input, textarea, select {
   line-height: 1.7;
 }
 @media (max-width: 640px) {
-  .page-shell { padding: 72px 16px 60px; }
+  .page-shell { padding: 60px 16px 60px; }
   .site-credit { padding: 0 16px 22px; }
 }
 
@@ -197,7 +198,7 @@ button, input, textarea, select {
 }
 
 /* ── Hero ── */
-.hero { padding: 28px 0 24px; }
+.hero { padding: 10px 0 12px; }
 
 /* Full-width landscape GIF background in hero */
 .hero-gif-wrap {
@@ -269,15 +270,16 @@ button, input, textarea, select {
   display: inline-flex; align-items: center; gap: 6px;
   background: var(--primary-50); border: 1px solid var(--primary-100);
   color: var(--primary); font-size: 0.7rem; font-weight: 700;
+
   letter-spacing: 0.1em; text-transform: uppercase;
-  padding: 4px 12px; border-radius: 50px; margin-bottom: 16px;
+  padding: 4px 12px; border-radius: 50px; margin-bottom: 10px;
 }
 
 .hero h1 {
   font-family: 'Keep On Truckin', cursive;
-  font-size: clamp(2rem, 5.5vw, 3rem);
-  font-weight: normal; line-height: 1.25;
-  color: var(--gray-900); margin-bottom: 12px; letter-spacing: 0.01em;
+  font-size: clamp(1.7rem, 4.6vw, 2.4rem);
+  font-weight: normal; line-height: 1.2;
+  color: var(--gray-900); margin-bottom: 8px; letter-spacing: 0.01em;
 }
 .hero h1 span { color: var(--primary); }
 .hero p { font-size: 0.93rem; color: var(--gray-500); max-width: 500px; line-height: 1.75; }
@@ -285,7 +287,7 @@ button, input, textarea, select {
 .divider {
   width: 40px; height: 3px;
   background: linear-gradient(90deg, var(--primary), var(--primary-light));
-  border-radius: 3px; margin: 16px 0;
+  border-radius: 3px; margin: 6px 0 10px;
 }
 
 /* ── Cards ── */
@@ -532,7 +534,7 @@ button, input, textarea, select {
 /* ── Materi detail ── */
 .breadcrumb-row {
   display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
-  margin: 14px 0 18px; font-size: 0.78rem;
+  margin: 8px 0 10px; font-size: 0.78rem;
 }
 .breadcrumb-link {
   display: inline-flex; align-items: center; gap: 6px; text-decoration: none;
@@ -543,7 +545,7 @@ button, input, textarea, select {
 .breadcrumb-sep { color: var(--gray-400); }
 .detail-card {
   background: var(--white); border: 1px solid var(--gray-100); border-radius: var(--radius);
-  padding: 24px; box-shadow: var(--shadow);
+  padding: 18px; box-shadow: var(--shadow);
 }
 .detail-card-head.with-media {
   display: grid; grid-template-columns: minmax(0, 320px) minmax(0, 1fr); gap: 18px; align-items: start;
@@ -960,6 +962,30 @@ button, input, textarea, select {
   .detail-nav { grid-template-columns: 1fr; }
   .podium-grid { grid-template-columns: 1fr; }
   .meme-card { grid-template-columns: 1fr; }
+}
+
+/* ── Snoopy Sticker ── */
+.hero-bottom-row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background: #fff;
+  border-radius: var(--radius);
+  padding: 32px 28px 32px 32px;
+  min-height: 280px;
+}
+.hero-bottom-text {
+  flex: 1;
+  min-width: 0;
+}
+.hero-bottom-text p {
+  font-weight: 600;
+}
+.snoopy-sticker {
+  width: 230px;
+  flex-shrink: 0;
+  pointer-events: none;
+  mix-blend-mode: multiply;
 }
 
 @media (max-width: 640px) {

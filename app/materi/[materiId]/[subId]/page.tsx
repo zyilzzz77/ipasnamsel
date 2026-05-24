@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { ArrowLeft, ArrowRight, BadgeCheck, BookOpen, Library } from 'lucide-react'
-import { isMaterialId } from '@/lib/catalog'
+import { isMaterialId, MATERIALS } from '@/lib/catalog'
 import { getMaterial, getSubmateri } from '@/lib/store'
 
 
@@ -48,6 +48,11 @@ export default async function MateriDetailPage({ params }: MateriDetailProps) {
   const index = material.submateri.findIndex((item) => item.id === subId)
   const previous = index > 0 ? material.submateri[index - 1] : undefined
   const next = index >= 0 && index < material.submateri.length - 1 ? material.submateri[index + 1] : undefined
+
+  const materialIndex = MATERIALS.findIndex((item) => item.id === materiId)
+  const nextMaterialSeed = materialIndex >= 0 && materialIndex < MATERIALS.length - 1 ? MATERIALS[materialIndex + 1] : undefined
+  const nextMaterial = nextMaterialSeed ? await getMaterial(nextMaterialSeed.id) : undefined
+  const nextMaterialFirstSub = nextMaterial?.submateri[0]
 
   const imageSrc = submateri.imageSrc
   const imageAlt = submateri.imageAlt ?? submateri.title
@@ -95,10 +100,24 @@ export default async function MateriDetailPage({ params }: MateriDetailProps) {
             </div>
             <h2><strong>{submateri.title}</strong></h2>
             <p><strong>{submateri.body}</strong></p>
+
+            {!isTokoh && submateri.points.length > 0 && (
+              <div className="detail-points">
+                <h3>
+                  <BookOpen size={16} />
+                  Poin penting
+                </h3>
+                <ul>
+                  {submateri.points.map((point) => (
+                    <li key={point}>{point}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
 
-        {isTokoh ? (
+        {isTokoh && (
           <div className="detail-points">
             <h3>
               <BookOpen size={16} />
@@ -129,20 +148,6 @@ export default async function MateriDetailPage({ params }: MateriDetailProps) {
               })}
             </div>
           </div>
-        ) : (
-          submateri.points.length > 0 && (
-            <div className="detail-points">
-              <h3>
-                <BookOpen size={16} />
-                Poin penting
-              </h3>
-              <ul>
-                {submateri.points.map((point) => (
-                  <li key={point}>{point}</li>
-                ))}
-              </ul>
-            </div>
-          )
         )}
 
         <div className="detail-nav">
@@ -166,8 +171,16 @@ export default async function MateriDetailPage({ params }: MateriDetailProps) {
               </span>
               <ArrowRight size={16} />
             </Link>
+          ) : nextMaterial && nextMaterialFirstSub ? (
+            <Link href={`/materi/${nextMaterial.id}/${nextMaterialFirstSub.id}`} prefetch={false} className="detail-nav-link next">
+              <span>
+                <strong>Materi selanjutnya</strong>
+                {nextMaterial.title}
+              </span>
+              <ArrowRight size={16} />
+            </Link>
           ) : (
-            <div className="detail-nav-empty">Semua submateri untuk materi ini sudah terbuka.</div>
+            <div className="detail-nav-empty">Semua materi sudah selesai.</div>
           )}
         </div>
       </article>
