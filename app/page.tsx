@@ -106,7 +106,7 @@ export default function BerandaPage() {
             <p>Teori, motif, prinsip, dan contoh nyata semuanya bisa dibuka dari menu yang sama. Dashboard konten bisa dipakai langsung untuk menambah submateri tanpa langkah login tambahan.</p>
           </div>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="https://cdn.archivejkt48.app/snoopy.jpeg" alt="Snoopy" className="snoopy-sticker" />
+          <img src="/images/snoopy.jpeg" alt="Snoopy" className="snoopy-sticker" />
         </div>
       </div>
     </div>
